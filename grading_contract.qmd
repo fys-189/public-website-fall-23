@@ -1,0 +1,78 @@
+---
+title: "Grading Contract"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r imports, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(bsplus)
+library(htmltools)
+```
+
+::: callout-note
+Grading contracts have been theorized and implemented in the research of Dr. Peter Elbow and Dr. Asao Inoue. This grading contract is adapted from their work, along with the contracts of Dr. Kate Navickas and Dr. Kati Ahern.
+:::
+
+This course will be using a grading contract. This means that the grade you ultimately receive for this course is primarily based on the labor that you perform rather than a subjective evaluation of the quality of your work and writing in relation to your colleagues. Your grade will be determined by the extent of your engagement in class, your timely completion of assignments, and how you support the course community. You will still attend to and work to improve the quality of your writing and thinking in this course. You will receive extensive feedback on all of your submissions (from me and from your colleagues), and you will have opportunities to revise. However, you will not receive points or an A, B, C, D, etc. on assignments.
+
+I've experimented with a few alternative grading systems, and I'm particularly excited to continue engaging this system this semester as I believe it aligns with my overarching goals for the course. In this course I am less concerned with your ability to come to a specific answer, to master certain procedures, or to produce standardized deliverables. I'm more concerned with the extent to which this course enables you become more perceptive to data environments, to deepen your critical thinking about data's cultural meanings, to experiment with your thinking and writing, and to grapple with ethical dilemmas. There's always room for strengthening these thinking modes further; in fact, every time I teach this course, I find that my own ability to think critically about data deepens through classroom discussions and my reading of student work.
+
+There are many benefits to contract grading. Here are there reasons why I’ve opted for a grading contract in this course:
+
+- I want you to feel as though you can experiment with your writing in this course. Rather than focusing on what you think I want out of your assignments or "writing to the rubric," grading contracts empower you to take more risks.
+- Grading contracts value the time and effort you put into the course and reward students who invest extra time in their learning.
+- Grading contracts make it easier for you to anticipate the grade you will receive and plan for achieving that grade.
+- Grading contracts promote equity. With grades based entirely on labor, students aren’t penalized for not entering the course with the same experience or background knowledge as their colleagues.
+
+## Grade Breakdown
+
+Each row indicates what labor you need to complete in the course to earn the grade indicated in the first column of that row. Note that to earn a particular grade *all* minimum labor criteria in the corresponding row must be met.
+
+| Grade | Completed Journal Entries (out of 5) | Completed Mini-projects | Completed Checkpoints for Final Project | Completed Reading Annotations | Community Labor Points | Enrichment
+|:--:|:---:|:----:|:------:|:---:|:---:|:--:|
+| A | 3 or more | 2 + 1 substantive revision | 1 group contract + 1 draft + 1 final project | 10 or more | 8 or more | 3 |
+| B | 3 or more | 2 + 1 substantive revision | 1 group contract + 1 draft + 1 final project | 10 or more | 8 or more | 0 |
+| C | 2 or more | 1 + 1 substantive revision | 1 group contract + 1 draft + 1 final project | 8 or more  | 6 or more | 0 |
+| D | 1 or more | 1, no revision             | 1 group contract + 1 draft + 1 final project | 6 or more  | 4 or more | 0 |
+| E | 0 | 0                          | 0                         | 5 or fewer | 3 or fewer| 0 |
+
+Descriptions of all written and project assignments are available [here](assignments.html). For an assignment to be considered complete, it must meet the minimum criteria outlined in the assignment description. It also must be completed "in good faith" - meaning in a way that demonstrates integrity to the spirit of the assignment. 
+
+## FAQ
+
+### What do I need to do to earn an A in this course?
+
+'A' grades will be assigned to students that meet the requirements to earn a 'B' in the course and enrich those assignments by completing three additional reflective assignments. Prompts for these assignments will be included in the GitHub repository for your learning portfolio. The deadline for completion of enrichment assignments is the last day class meets. It will be the students' responsibility to stay on top of completion of these assignments. Furthermore, enrichment assignments completed prior to the last two weeks of class will receive more substantive feedback from me than assignments completed in the last two weeks. 
+
+### What kind of feedback will I receive regarding my work?
+
+You will receive extensive feedback on all of your submissions (from me and from your colleagues), and you will have opportunities to revise. I will also provide rubrics for most assignments to indicate how I will evaluate your work. However, you will not receive points or an A, B, C, D, etc. on individual assignments.
+
+### There appear to be a significant number of assignments and deadlines in this course. Why is this the case?
+
+I've been very deliberate in pacing your assignments for two reasons - first, because developing the critical thinking skills required of ethnography demands building and consistently practicing observational habits, and second, to ensure there is plenty of time for you to revise work based on my feedback. If you are struggling with this course's workload, I recommend coming to talk with me in office hours.
+
+### How can I best keep track of my labor in this course?
+
+Throughout the semester, you will be asked to keep track of your labor via a log that will be available in your GitHub portfolio. I will reference this log to calculate certain aspects of your final grade. Instructions for using the labor log will be provided in the second week of the course.
+
+### Can I earn +/- grades in this course?
+
++/- will be assigned to final grades at my discretion in cases where a student's work consistently exceeds the expectations (+) of their contracted grade or is in some way insufficient (-). Students can track their progress towards a grade modifier in feedback that I provide throughout the semester. Your grade may also be reduced by a grade modifier for each missed class beyond three absences.
+
+### What if I need an extension on an assignment?
+
+There is a 24-hour grace period on all written assignments, except for reading annotations. There will be no penalties for submitting the written assignment within this 24-hour period, and you do not need to inform me that you intend to take the extra time. You can also request up to a 72-hour extension on any written assignment, as long *as you make that request at least 48 hours before the original assignment due date*. You can request an extension by filling out the Extension Request form on Moodle, and I will confirm your extension on Slack. Beyond this, late assignments will not be accepted.
+   
+### Can I ask for extensions or use the grade period for reading annotations?
+
+Reading assignments/Perusall annotations prepare you to participate in class discussions. For this reason, they need to be completed by the due date for credit. I've provided considerable leeway to miss a reading annotation assignment from time-to-time in order to accommodate flexibility in this regard.
+
+### An assignment deadline is approaching, and I'm unhappy with the quality of my work. What should I do?
+
+While I always encourage students to strive to submit the best work they can, this course's grading contract, coupled with the course's revision assignments, permits you to submit work that you know you want to continue to improve upon without penalty. Not submitting assignments at all has the potentially to significantly lower your grade in this course, whereas submitting an assignment that could benefit from more revision will not be detrminental to your grade as long as the minimum submission requirements are met.
+
+
