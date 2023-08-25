@@ -1,12 +1,14 @@
-# SDS-237-public-website
+# FYS-189-public-website
 
 ## About
 
-This repo organizes public-facing content for the Spring 2022 course SDS 237: Data Ethnography at Smith College (instructor: [Lindsay Poirier](https://www.smith.edu/academics/faculty/lindsay-poirier)).
+This repo organizes public-facing content for the Fall 2023 course FYS 189: Data and Social Justice at Smith College (instructor: [Lindsay Poirier](https://www.smith.edu/academics/faculty/lindsay-poirier)).
 
 ### Course Description
 
-Without rich documentation, quantitative data can strip away critical context needed to interpret values responsibly. This course introduces students to the theory and practice of data ethnography, demonstrating how qualitative data collection and analysis can be brought to bear on the study of data settings and artifacts. Through experiential exercises, students will learn techniques in field-note writing, participant observation, in-depth interviewing, documentary analysis, and archival research and how they may be used to contextualize the cultural underpinnings of datasets. Students will learn how to visualize datasets in ways that foreground their socio-political provenance in R. Students will also learn how ethnographic methods can be leveraged to improve data documentation and communication. The course will introduce debates regarding the politics of techno- scientific fieldwork.
+Data is a powerful tool for making claims - claims that can advance equity and social justice, as well as claims that can misrepresent civic issues and marginalize communities. This course examines how power operates in and through the production, analysis, and presentation of data, while helping students develop skill in approaching data science work in more ethical and equitable ways.
+
+In this course, students will examine the socio-political forces that impact the availability, structure, and governance of data regarding various social justice issues. Students will also learn techniques for presenting data in ways that foreground the contexts of data production and remain accountable to diverse communities. Datasets about health equity, housing justice, environmental justice, and carceral justice will be studied, analyzed, and visualized. In doing so, students will learn to identify the diverse institutions and stakeholders involved in data production, unpack the cultural histories and vested interests animating data semantics, consider what people and problems gets erased in data structuring, and evaluate the ethical tradeoffs that data scientists grapple with as they plan for the presentation of data.
 
 ## License
 
