@@ -5,16 +5,12 @@ project:
 website:
   navbar:
     background: primary
-    title: "SDS 237: Data Ethnography"
+    title: "FYS 189: Data and Social Justice"
     right:
       - text: "Syllabus"
         href: index.html
       - text: "Grading Contract"
         href: grading_contract.html
-      - text: "Assignments"
-        href: assignments.html
-      - text: "Learning Dimensions"
-        href: learning_dimensions.html        
       - text: "Schedule"
         href: schedule.html
 

@@ -16,9 +16,8 @@ library(htmltools)
 Grading contracts have been theorized and implemented in the research of Dr. Peter Elbow and Dr. Asao Inoue. This grading contract is adapted from their work, along with the contracts of Dr. Kate Navickas and Dr. Kati Ahern.
 :::
 
-This course will be using a grading contract. This means that the grade you ultimately receive for this course is primarily based on the labor that you perform rather than a subjective evaluation of the quality of your work and writing in relation to your colleagues. Your grade will be determined by the extent of your engagement in class, your timely completion of assignments, and how you support the course community. You will still attend to and work to improve the quality of your writing and thinking in this course. You will receive extensive feedback on all of your submissions (from me and from your colleagues), and you will have opportunities to revise. However, you will not receive points or an A, B, C, D, etc. on assignments.
+This course will be using a grading contract. This means that the grade you ultimately receive for this course is primarily based on the labor that you perform rather than a subjective evaluation of the quality of your work and writing in relation to your peers. Your grade will be determined by the extent of your engagement in class, your timely completion of assignments, and how you support the course community. You will still attend to and work to improve the quality of your writing and thinking in this course. You will receive extensive feedback on all of your submissions (from me and from your peers), and you will have opportunities to revise. However, you will not receive points or an A, B, C, D, etc. on assignments.
 
-I've experimented with a few alternative grading systems, and I'm particularly excited to continue engaging this system this semester as I believe it aligns with my overarching goals for the course. In this course I am less concerned with your ability to come to a specific answer, to master certain procedures, or to produce standardized deliverables. I'm more concerned with the extent to which this course enables you become more perceptive to data environments, to deepen your critical thinking about data's cultural meanings, to experiment with your thinking and writing, and to grapple with ethical dilemmas. There's always room for strengthening these thinking modes further; in fact, every time I teach this course, I find that my own ability to think critically about data deepens through classroom discussions and my reading of student work.
 
 There are many benefits to contract grading. Here are there reasons why I’ve opted for a grading contract in this course:
 
@@ -27,19 +26,84 @@ There are many benefits to contract grading. Here are there reasons why I’ve o
 - Grading contracts make it easier for you to anticipate the grade you will receive and plan for achieving that grade.
 - Grading contracts promote equity. With grades based entirely on labor, students aren’t penalized for not entering the course with the same experience or background knowledge as their colleagues.
 
+## Why a grading contract?
+
+There are many benefits to contract grading. Here are there reasons why I've opted for a grading contract in this course:
+
+-   I want you to feel as though you can experiment with your writing in this course. Rather than focusing on what you think I want out of your assignments or "writing to the rubric," grading contracts empower you to take more risks.
+-   Grading contracts value the time and effort you put into the course and reward students who invest extra time in their learning.
+-   Grading contracts make it easier for you to anticipate the grade you will receive and plan for achieving that grade.
+-   Grading contracts promote equity. With grades based entirely on labor, students aren't penalized for not entering the course with the same experience or background knowledge as their peers.
+
 ## Grade Breakdown
 
 Each row indicates what labor you need to complete in the course to earn the grade indicated in the first column of that row. Note that to earn a particular grade *all* minimum labor criteria in the corresponding row must be met.
 
-| Grade | Completed Journal Entries (out of 5) | Completed Mini-projects | Completed Checkpoints for Final Project | Completed Reading Annotations | Community Labor Points | Enrichment
-|:--:|:---:|:----:|:------:|:---:|:---:|:--:|
-| A | 3 or more | 2 + 1 substantive revision | 1 group contract + 1 draft + 1 final project | 10 or more | 8 or more | 3 |
-| B | 3 or more | 2 + 1 substantive revision | 1 group contract + 1 draft + 1 final project | 10 or more | 8 or more | 0 |
-| C | 2 or more | 1 + 1 substantive revision | 1 group contract + 1 draft + 1 final project | 8 or more  | 6 or more | 0 |
-| D | 1 or more | 1, no revision             | 1 group contract + 1 draft + 1 final project | 6 or more  | 4 or more | 0 |
-| E | 0 | 0                          | 0                         | 5 or fewer | 3 or fewer| 0 |
+| Grade | Blog Posts                 | Blog Post Peer Review | Missed Checkpoints for Final Project^1^ | Incomplete Reading Annotations | Community Labor Points | Enrichment |
+|------:|----------------------------|-----------------------|-----------------------------------------|--------------------------------|------------------------|------------|
+|     A | 2 + 1 substantive revision | 2                     | 1 or fewer                              | 1 or fewer                     | 8 or more              | 3          |
+|     B | 2 + 1 substantive revision | 2                     | 1 or fewer                              | 1 or fewer                     | 8 or more              | 0          |
+|     C | 1 + 1 substantive revision | 1                     | 3 or fewer                              | 3 or fewer                     | 6 or more              | 0          |
+|     D | 1, no revision             | 1                     | 5 or fewer                              | 5 or fewer                     | 4 or more              | 0          |
+|     E | 0                          | 0                     | 6 or more                               | 6 or more                      | 3 or fewer             | 0          |
 
-Descriptions of all written and project assignments are available [here](assignments.html). For an assignment to be considered complete, it must meet the minimum criteria outlined in the assignment description. It also must be completed "in good faith" - meaning in a way that demonstrates integrity to the spirit of the assignment. 
+::: callout-important
+Note that while you can miss final project checkpoints, a first and final draft must be submitted on time and a final presentation must be delivered in order to pass the course.
+:::
+
+## Assignment completion
+
+For an assignment to be considered complete (i.e. not *missed*), it must meet the minimum criteria outlined in Moodle. It also must be completed "in good faith" - meaning in a way that demonstrates integrity to the spirit of the assignment. Note that you have at least one "gimme" for each assignment in this course. This means that if for some reason there was a misunderstanding of the expectations for completion, in most cases, you will have an opportunity to try again as long as you haven't already missed other assignments in the same category.
+
+## Assignments
+
+### Blog Posts
+
+For each blog post, you will use data we study in the course to produce a compelling data visualization in Tableau documenting an issue you believe warrants public concern. Referencing case study materials and the data documentation, you will write an 800-word blog post that presents your data visualization and helps the audience responsibly interpret the visualization by describing "what counts" in the data, providing some context on the social contexts of the data's production, and detailing what people and issues have been erased from the data and why. You will reflect on the decisions you made in producing the visualization, summarize some conclusions we can draw it, and conclude with a call to action outlining something that should be done based on these conclusions.
+
+### Final Project
+
+For the final project, you will choose a dataset on a social justice topic of interest to you and evaluate how data analysis techniques could be applied to the dataset to support diverse, and sometimes conflicting claims. There are 4 components to the final paper: 
+
+  1. You will study various sources to unpack the cultural history of the dataset and the contexts of its production. 
+  2. You will produce two compelling visualizations of the dataset in Tableau to support a particular claim. 
+  3. You will then produce two visualizations of the same dataset in Tableau that refute that claim. 
+  4. You will then be expected to write a 1500-word argumentative paper that makes a claim, provides data-based evidence to support that claim, presents counter-arguments with the same data, and finally discusses why these arguments fail to refute the claim. 
+  
+Throughout this paper, you will be expected to present the evidence in ways that foreground the cultural contexts of the data's production and reflect on the choices made in data visualization. You will complete checkpoints towards this final project each week of the semester to ensure that there is plenty of time to incorporate feedback provided by me and your peers into the final product.
+
+### Reading Annotations
+
+Each week a selection of course readings will be posted on Perusall. For each selection, you will be expected to post 3 quality annotations. A quality annotation is one in which you synthesize concepts, ask thought-provoking questions, or connect ideas to external issues. I have found that students get the most out of Perusall when they respond to each other's annotations. Annotations must be completed before class to receive credit.
+
+### Community Labor Points
+
+It's important to me that we establish a collaborative learning environment in this course. Work to build and sustain communities is often an invisible form of labor. In an effort to foreground and reward that labor, I've built opportunities to contribute to the course community into our grading contract. To earn a 'B' or higher in the course, you will need to earn at least 8 community labor points. Note that there are certain forms of labor that you can perform more than once, but there are max points that you can earn in each category.
+
+| Points | Labor  | Max Points |
+|-------:|---------------------------------------------------------------------------------------------------------------------------------------------|-----------:|
+|     +1 | Start a discussion thread on course-relevant topic in the #fys-189-discussions channel on Slack.^1^ | None |
+|   +1 | Respond to a discussion thread on Slack. | None |
+|     +1 | Lead an opening check-in.^2^   |  1 |
+|     +2 | Contribute class notes^3^   |  2 |
+|   +3 | Record a Tableau "skill share" and post it on Slack. | None |
+
+> ^1^Note that this is separate from asking a question about the course administration or assignments in the `#fys-189-questions` channel.
+
+> ^2^Each class we will start out by participating in a collaborative poll to check-in with where our heads are. If you sign up to lead an opening check-in, you will create this opening poll by adding a slide to a deck I will make available on Moodle. Instructions for doing so will be available on the Slide. Then at the start of class, you will be called upon to launch/lead your check-in poll. You can sign-up to lead this opening session via a Scheduler on Moodle.
+
+> ^3^ Following a class period, up to two students may type up a 1-page outline of what was covered in that class period and post a link to that outline in `#fys-189-class-notes`. You can sign-up to serve as the notetaker for a certain class [here](https://moodle.smith.edu/mod/scheduler/view.php?id=1071340). These notes should be a full, single-space page, and should make sense to someone that was not present in class. 
+
+Note that throughout the semester, I may offer additional opportunities to earn community labor points as unexpected forms of course labor arise.
+
+## Enrichment
+
+'A' grades will be assigned to students that meet the requirements to earn a 'B' in the course and enrich those assignments by doing three of the following. Timelines for completing enrichment must be coordinated with me in student consultation hours *by the end of the third week of the semester.*
+
+1.  Write a 500 to 750-word memo reflecting on your standpoint in relation to the arguments made in your first blog post. What gives you unique insight on the topic? What limits your knowledge on the topic? You should consider how your background, culture, education, and experiences have shaped the knowledge you have on the topic. Conclude your memo by outlining ideas that you have for transforming the blog post assignment to ensure that the data work pursues a "stronger objectivity." Be sure to cite and define standpoint theory and strong objectivity in your response.
+2.  Visceralize the dataset you are studying for your final project. Your visceralization should represent information derived from all of the observations in at least one variable in the dataset. It should also evoke at least one of the five senses. You can submit the visceralization in any format, but it should include a 250-word caption describing what you are intending to convey. Read more about data visceralization [here](https://data-feminism.mitpress.mit.edu/pub/5evfe9yd/release/3) and [here](https://www.theatlantic.com/technology/archive/2014/05/data-visceralization/370899/).
+3.  Earn the maximum (16) community labor points.
+4.  Create a concept map for our course. To create a concept map, you can begin by listing out ideas, concepts, datasets, people, institutions, and events that we've covered in this course. Begin organizing components of your lists into a series of nodes. When creating nodes, be sure to distinguish between topical details and course concepts. Organize the nodes into a meaningful visual representation of what we've been covering in the course. Use lines and arrows to indicate connections. You can also use varying colors and shapes to draw out differences. You can be as creative as you wish in designing the map, but it must include at least 25 nodes interconnected with lines and arrows. In a 250-word accompanying memo, describe your rationale for the organization of concepts in your map.
 
 ## FAQ
 
@@ -51,10 +115,6 @@ Descriptions of all written and project assignments are available [here](assignm
 
 You will receive extensive feedback on all of your submissions (from me and from your colleagues), and you will have opportunities to revise. I will also provide rubrics for most assignments to indicate how I will evaluate your work. However, you will not receive points or an A, B, C, D, etc. on individual assignments.
 
-### There appear to be a significant number of assignments and deadlines in this course. Why is this the case?
-
-I've been very deliberate in pacing your assignments for two reasons - first, because developing the critical thinking skills required of ethnography demands building and consistently practicing observational habits, and second, to ensure there is plenty of time for you to revise work based on my feedback. If you are struggling with this course's workload, I recommend coming to talk with me in office hours.
-
 ### How can I best keep track of my labor in this course?
 
 Throughout the semester, you will be asked to keep track of your labor via a log that will be available in your GitHub portfolio. I will reference this log to calculate certain aspects of your final grade. Instructions for using the labor log will be provided in the second week of the course.
@@ -65,7 +125,7 @@ Throughout the semester, you will be asked to keep track of your labor via a log
 
 ### What if I need an extension on an assignment?
 
-There is a 24-hour grace period on all written assignments, except for reading annotations. There will be no penalties for submitting the written assignment within this 24-hour period, and you do not need to inform me that you intend to take the extra time. You can also request up to a 72-hour extension on any written assignment, as long *as you make that request at least 48 hours before the original assignment due date*. You can request an extension by filling out the Extension Request form on Moodle, and I will confirm your extension on Slack. Beyond this, late assignments will not be accepted.
+There is a 24-hour grace period on all written assignments, except for reading annotations. There will be no penalties for submitting the written assignment within this 24-hour period, and you do not need to inform me that you intend to take the extra time. You can also request up to a 72-hour extension on any written assignment, as long *as you make that request at least 48 hours before the original assignment due date*. You can request an extension by filling out the [Extension Request form](https://moodle.smith.edu/mod/questionnaire/view.php?id=1071253) on Moodle, and I will confirm your extension on Slack. Beyond this, late assignments will not be accepted.
    
 ### Can I ask for extensions or use the grade period for reading annotations?
 

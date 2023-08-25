@@ -1,5 +1,5 @@
 ---
-title: "SDS 237: Data Ethnography"
+title: "SDS 189; Data and Social Justice"
 author: "Lindsay Poirier"
 date: "Last updated on `r Sys.Date()`"
 ---
@@ -14,21 +14,21 @@ library(bsplus)
 library(htmltools)
 ```
 
-::: float_image_right
-```{r, out.width = "200px", fig.cap='Course logo designed by Zoe Scheffler, Fall \'21'}
-knitr::include_graphics("img/sds237logo.png")
-```
 
-:::
+## What is this course about?
 
-Without rich documentation, quantitative data can strip away critical context needed to interpret values responsibly. This course introduces students to the theory and practice of data ethnography, demonstrating how qualitative data collection and analysis can be brought to bear on the study of data settings and artifacts. Through experiential exercises, students will learn techniques in field-note writing, participant observation, in-depth interviewing, documentary analysis, and archival research and how they may be used to contextualize the cultural underpinnings of datasets. Students will learn how to visualize datasets in ways that foreground their socio-political provenance in R. Students will also learn how ethnographic methods can be leveraged to improve data documentation and communication. The course will introduce debates regarding the politics of techno-scientific fieldwork. Upon completion of this course, you should be able to:
+Data is a powerful tool for making claims - claims that can advance equity and social justice, as well as claims that can misrepresent civic issues and marginalize communities. This course examines how power operates in and through the production, analysis, and presentation of data, while helping students develop skill in approaching data science work in more ethical and equitable ways.
 
-1. Recognize, interpret, and communicate the cultural underpinnings of data resources, infrastructures, and practices
-2. Define and engage principal methods of ethnography and communicate when and how they may be used in the study of data
-3. Strategically apply relevant ethnographic methods to the study of a data setting or artifact
-4. Produce data documentation and visualizations that account for the cultural contexts of data production, categorization, measurement, and use
+In this course, students will examine the socio-political forces that impact the availability, structure, and governance of data regarding various social justice issues. Students will also learn techniques for presenting data in ways that foreground the contexts of data production and remain accountable to diverse communities. Datasets about health equity, housing justice, environmental justice, and carceral justice will be studied, analyzed, and visualized. In doing so, students will learn to identify the diverse institutions and stakeholders involved in data production, unpack the cultural histories and vested interests animating data semantics, consider what people and problems gets erased in data structuring, and evaluate the ethical tradeoffs that data scientists grapple with as they plan for the presentation of data.
 
-Classes will be held on Tuesdays and Thursdays from 9:25 PM to 10:40 PM. 
+## What should I be able to do by the end of the course?
+
+1. Communicate how cultural, political, and technical forces shape the collection, categorization, presentation, and publication of data
+2. Examine data semantics and the power-laden semiotic systems from which they emerge
+3. Recognize how diverse data manipulation and visualization techniques applied to the same dataset can produce competing claims and evaluate which techniques best align with advancing social justice and equity
+4. Produce data visualizations that foreground the contexts of data production and demonstrate accountability to the people represented by the numbers
+
+Classes will be held on Tuesdays and Thursdays from 1:20 PM to 2:35 PM. 
 
 ## Course Instructor
 
@@ -49,7 +49,7 @@ I am a cultural anthropologist that studies how civic data gets produced, how co
 
 #### Slack
 
-I can best support students in this course when I can readily keep tabs on our course-related communication. Because of this, I ask that you please don't email me regarding course-related questions or issues. The best way to get in touch with me is via our course Slack. If you have course-related questions, I encourage you to ask them in the `#sds-237-questions` channel. When discretion is needed, feel free to DM. Please reserve more formal concerns like grades or accommodation requests for an in-person (or in-person virtual) conversation.
+I can best support students in this course when I can readily keep tabs on our course-related communication. Because of this, I ask that you please don't email me regarding course-related questions or issues. The best way to get in touch with me is via our course Slack. If you have course-related questions, I encourage you to ask them in the `#fys-189-questions` channel. When discretion is needed, feel free to DM. Please reserve more formal concerns like grades or accommodation requests for an in-person (or in-person virtual) conversation.
 
 *During the week, I will try my best to answer all Slack messages within 24 hours of receiving them. Please note that to maintain my own work-life balance, I often don't answer Slack messages late in the evenings or on the weekends. It's important that you plan when you start your assignments accordingly.*
 
@@ -57,11 +57,10 @@ I can best support students in this course when I can readily keep tabs on our c
 
 Meeting with me outside of class is a great opportunity for us to chat about what you're learning in the course, clarify expectations on assignments, and review work in progress. I also love when students drop in to office hours to request book recommendations, discuss career or research paths, or just to say hi! 
 
-There are two ways to meet with me. If you would like to have a one-on-one private conversation, I ask that you schedule an appointment with me via the [booking form on Moodle](https://moodle.smith.edu/mod/url/view.php?id=1060025). For support on class topics, you may drop-in during my regularly scheduled office hours.
+There are two ways to meet with me. If you would like to have a one-on-one private conversation, I ask that you schedule an appointment with me via the [booking form on Moodle](https://moodle.smith.edu/mod/url/view.php?id=1071263). For support on class topics, you may drop-in during my regularly scheduled office hours.
 
--   Monday, 11-12, Sabin-Reed 331
--   Tuesday, 11-12, Sabin-Reed 331
--   Thursday, 11-12, Sabin-Reed 331
+-   Monday, 11-12, McConnell 214
+-   Tuesday, 11-12, McConnell 214
 
 :::
 
@@ -90,7 +89,7 @@ This is a 4-credit course with 3 hours per week of in-classroom instructions. Sm
 
 Attending class is not only important for your learning but also an act of community. Many course assignments will be completed in-class, and many critical thinking skills will be honed in class. 
 
-Attendance will be taken in the first 10 minutes of each class. You may miss three classes with no penalty. You do not need to inform me that you will be absent in these cases, but you should let your group members know. After the third unexcused absence, your grade may drop by a modifier for each class missed. Students arriving more than 10 minutes late for class without having informed me ahead of time will be marked as absent.
+Attendance will be taken in the first 10 minutes of each class. You may miss three classes with no penalty. You do not need to inform me that you will be absent in these cases. After the third unexcused absence, your grade may drop by a modifier for each class missed. Students arriving more than 10 minutes late for class without having informed me ahead of time will be marked as absent.
 
 If you must miss a class entirely, you should contact a peer to discuss what was missed. Please note that the [SDS Program](https://www.smith.edu/academics/statistics) has adopted a shared policy regarding in-person attendance this semester:
 
@@ -98,12 +97,7 @@ If you must miss a class entirely, you should contact a peer to discuss what was
 
 ### Extensions
 
-I understand that you will sometimes need to prioritize other things over meeting assignment deadlines (e.g. your health, wellness, families, communities, jobs, other coursework). However, there are a number of reasons that I find enforcing deadlines to be supportive of student learning in this course:
-
-1. First, one of the key aims of assignments in this course is to support you in learning to become more perceptive to data environments surrounding you. Because of this I've deliberately spread course assignments out over the semester in order to help you gain practice in consistently paying attention to these environments. This critical mode of thinking can't be cultivated effectively if the work is being crammed into later parts of the semester. 
-2. Second, because this course emphasizes student growth over achievement, I also want to ensure that I can provide feedback on your writing in time for you to incorporate it into future assignments. 
-
-There is a 24-hour grace period on all written assignments. There will be no penalties for submitting the written assignment within this 24-hour period, and you do not need to inform me that you intend to take the extra time. You can also request up to a 72-hour extension on any written assignment, as long *as you make that request at least 48 hours before the original assignment due date*. You can request an extension by filling out the [Extension Request form](https://moodle.smith.edu/mod/questionnaire/view.php?id=1060015) on Moodle, and I will confirm your extension on Slack. Beyond this, late assignments will not be accepted. 
+I understand that you will sometimes need to prioritize other things over meeting assignment deadlines (e.g. your health, wellness, families, communities, jobs, other coursework). There is a 24-hour grace period on all written assignments. There will be no penalties for submitting the written assignment within this 24-hour period, and you do not need to inform me that you intend to take the extra time. You can also request up to a 72-hour extension on any written assignment, as long *as you make that request at least 48 hours before the original assignment due date*. You can request an extension by filling out the [Extension Request form](https://moodle.smith.edu/mod/questionnaire/view.php?id=1071253) on Moodle, and I will confirm your extension on Slack. Beyond this, late assignments will not be accepted. 
   
 Note that this policy does not apply to reading assignments/Perusall annotations. *Reading assignments/Perusall annotations need to be completed by the due date for credit.*
 
@@ -152,7 +146,7 @@ I hope that we can foster a collaborative and caring environment in this classro
 -   Consider when to step up and when to step back in class discussions, creating space for others to contribute. Listening is just as important to community-building as speaking.
 -   Acknowledge that there is much we don't know about how our colleagues experience the world. ...but don't ask colleagues to speak on behalf of a social group you perceive them to be a part of.
 -   Cheer on colleagues as they give presentations or try something out for the first time.
--   Ask questions often in our `#sds-237-questions` channel. Help each other out by answering questions when you can.
+-   Ask questions often in our `#fys-189-questions` channel. Help each other out by answering questions when you can.
 -   Mistakes happen. I will certainly make mistakes in class. Admit mistakes, and then move on.
 
 ### Pronouns
@@ -191,17 +185,9 @@ All course readings and recorded lectures will be available on Perusall. You can
 ### Slack
 
 -   `#general`: Course announcements (only I can post)
--   `#sds-237-discussions`: Share news articles and relevant opportunities
--   `#sds-237-questions`: Ask and answer questions about our course
--   You can also create private Slack channels with your project group members.
+-   `#fys-189-discussions`: Share news articles and relevant opportunities
+-   `#fys-189-questions`: Ask and answer questions about our course
 
-### GitHub
-
-I will be using GitHub Classroom to distribute several course assignments, and you will submit assignments by pushing changes to template documents to a private GitHub repository. I will provide guidance on how to do this early in the semester.
 :::
 
-::: callout-note
-## RStudio/RStudio Server
 
-This class will use the R statistical software package. In the first week of the course, I will help you install and configure R and RStudio. If you are using a laptop, you will install both on that computer. If you are using a Chromebook or Tablet, an account will be created for you on the [Smith College RStudio Server](http://rstudio.smith.edu) so that you can access a cloud-based version of RStudio. You should let me know in the first week of the course if you are using a Chromebook or tablet.
-:::
