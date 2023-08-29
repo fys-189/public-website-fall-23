@@ -1,0 +1,28 @@
+---
+title: "Lab 1: Fundamentals of Data"
+editor: source
+---
+
+## Overview
+
+In today's activity, you are going to generate two rectangular datasets documenting information about the values held by students in our classroom. Your first dataset will be an individual dataset, and your second should be an aggregate dataset based on summarized information from the first.
+
+## Instructions
+
+1. As a group discuss questions you would like to ask your classmates as part of a survey. (Please consider questions you would be comfortable answering). 
+   - You should have at least four questions, such that your final dataset will have at least one nominal categorical variable, one ordinal categorical variable, one discrete numeric variable, and one continuous numeric variable. 
+   - Think about whether you will restrict survey-takers to particular responses. 
+2. Give each of your questions a variable name. Variable names should be concise but descriptive and contain no spaces. You can use underscores for separating words  (e.g. shirt_color)
+3. Create a [Google Form](https://docs.google.com/forms/u/0/?tgif=d) for collecting survey responses. When you are done, share the link to a Preview of the form in the `random` channel in Slack. 
+4. Data Collection: 
+  - Group 1: Respond to Groups 2 and 3
+  - Group 2: Respond to Groups 3 and 4
+  - Group 3: Respond to Groups 4 and 1
+  - Group 4: Respond to Groups 1 and 2
+5. Back in your original groups, open the spreadsheet of survey responses. Discuss how a rectangular dataset was created from the individual survey responses.
+6. Be prepared to share your dataset with the class, characterizing 1) What is the unit of observation? 2) What are the variables/what types of variables are they?
+7. We will discuss as a class how each dataset could be transformed into aggregate data. 
+
+
+
+

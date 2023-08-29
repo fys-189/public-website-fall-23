@@ -1,5 +1,5 @@
 ---
-title: "SDS 189; Data and Social Justice"
+title: "SDS 189: Data and Social Justice"
 author: "Lindsay Poirier"
 date: "Last updated on `r Sys.Date()`"
 ---

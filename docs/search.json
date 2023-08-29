@@ -1958,5 +1958,19 @@
     "title": "Blog Post 2",
     "section": "Suggested Blog Post Structure",
     "text": "Suggested Blog Post Structure\n\nIntroduction and Main Argument (100)\n\nBlog posts often open with a catchy quote, story, or statement\nThey also provide guidance on where your writing is taking a reader\nYour thesis statement should be clear from your introduction. Be sure that you are making a claim of fact.\n\n\n\nBackground on the issue your blog is addressing (100)\n\nWhy should we care about what’s in your data visualization?\nWhat is at stake here? Be sure to consider your rhetorical positioning.\nBe sure to cite sources.\n\n\n\nBackground on the Dataset and your Subset (150)\n\nWho produced this data?\nHow was it collected? When and where?\nWhat counts in this data? How is it categorized?\nWhat subset of the data are you working with, and how did you prepare it for analysis/visualization?\n\n\n\nExplanation (200)\n\nWhat steps did you take to produce this visualization? Make sure these steps are described for a general audience that may not have experience working in Tableau. Avoid using Tableau-specific language.\nWhat does your plot show?\nWhat are some quantitative facts that we can summarize from the plot?\n\n\n\nExplication (150)\n\nHow should we interpret this plot?\nWhat are some issues that go unaddressed in the plot?\nHow might the insights we derive from the plot be improved if different variables or modes of categorization were available?\n\n\n\nConclusion and call to action (100)\n\nRestate what you learned\nOffer a normative suggestion for what should happen based on your analysis"
+  },
+  {
+    "objectID": "labs/lab1.html",
+    "href": "labs/lab1.html",
+    "title": "Lab 1: Fundamentals of Data",
+    "section": "",
+    "text": "In today’s activity, you are going to generate two rectangular datasets documenting information about the values held by students in our classroom. Your first dataset will be an individual dataset, and your second should be an aggregate dataset based on summarized information from the first."
+  },
+  {
+    "objectID": "labs/lab1.html#instructions",
+    "href": "labs/lab1.html#instructions",
+    "title": "Lab 1: Fundamentals of Data",
+    "section": "Instructions",
+    "text": "Instructions\n\nAs a group discuss questions you would like to ask your classmates as part of a survey. (Please consider questions you would be comfortable answering).\n\nYou should have at least four questions, such that your final dataset will have at least one nominal categorical variable, one ordinal categorical variable, one discrete numeric variable, and one continuous numeric variable.\nThink about whether you will restrict survey-takers to particular responses.\n\nGive each of your questions a variable name. Variable names should be concise but descriptive and contain no spaces. You can use underscores for separating words (e.g. shirt_color)\nCreate a Google Form for collecting survey responses. When you are done, share the link to a Preview of the form in the random channel in Slack.\nData Collection:\n\n\nGroup 1: Respond to Groups 2 and 3\nGroup 2: Respond to Groups 3 and 4\nGroup 3: Respond to Groups 4 and 1\nGroup 4: Respond to Groups 1 and 2\n\n\nBack in your original groups, open the spreadsheet of survey responses. Discuss how a rectangular dataset was created from the individual survey responses.\nBe prepared to share your dataset with the class, characterizing 1) What is the unit of observation? 2) What are the variables/what types of variables are they?\nWe will discuss as a class how each dataset could be transformed into aggregate data."
   }
 ]
