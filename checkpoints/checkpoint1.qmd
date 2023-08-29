@@ -17,7 +17,7 @@ You may run into issues with install that I have not foreseen. If that happens, 
 
 1.  The latest version of Tableau Desktop can be found [here](https://www.tableau.com/products/desktop/download).
 2.  Click on the link above and select "Download Tableau Desktop." On the form, enter your school email address for Business E-mail and enter the name of your school for Organization.
-3.  Activate with your product key:
+3.  Activate with your product key: [Find key here](https://moodle.smith.edu/mod/page/view.php?id=1076729)
 4.  Already have a copy of Tableau Desktop installed? Update your license in the application: Help menu → Manage Product Keys
 
 ### Part 2: Get Acquainted with Tableau
