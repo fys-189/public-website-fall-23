@@ -1,0 +1,77 @@
+---
+title: "Checkpoint 3 Worksheet - ADD NAME HERE"
+subtitle: "FYS 189: Data and Social Justice"
+format: docx
+editor: source
+---
+
+## Visualization 1
+
+### Claim
+
+\
+\
+
+### Evidence
+
+\<Copy an image of your visualization here\>
+
+\
+\
+
+\<Describe the visualization. What kind of plot is it, and what variables are displayed on it? What filters were applied to produce it? You can use personal pronouns to describe your process here, but be careful to address your process to a general audience. Avoid overly technical language or reference to Tableau-specific jargon.\>
+
+\
+\
+
+\<Summarize at least two quantitative facts from the visualization that supports your claim. (e.g. x is greater than y; c is five times as much as b; z is x%)\>
+
+\
+\
+
+### Reasoning
+
+\<Analyze/interpret this fact, offering reasoning as to how this plot supports your claim.\>
+
+\
+\
+
+## Visualization 2
+
+### Claim
+
+\<Fill claim here; should be same as claim above.\>
+
+\
+\
+
+### Evidence
+
+\<Copy an image of your visualization here\>
+
+\
+\
+
+\<Describe the visualization. What kind of plot is it, and what variables are displayed on it? What filters were applied to produce it? You can use personal pronouns to describe your process here, but be careful to address your process to a general audience. Avoid overly technical language or reference to Tableau-specific jargon.\>
+
+\
+\
+
+\<Summarize at least two quantitative facts from the visualization that supports your claim. (e.g. x is greater than y; c is five times as much as b; z is x%)\>
+
+\
+\
+
+### Reasoning
+
+\<Analyze/interpret this fact, offering reasoning as to how this plot supports your claim.\>
+
+\
+\
+
+## Synthesize
+
+\<Copy and paste the text from both Evidence and Reasoning sections above and craft the text into 1-2 paragraphs here. Be sure to use transitions to move between your descriptions of the two visualizations. Don't worry about describing the source of your data here. That will happen earlier in the final project write-up. Simply focus on providing evidence to support your claim, and explaining how that evidence supports your claim. \>
+
+\
+\

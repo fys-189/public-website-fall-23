@@ -1,0 +1,20 @@
+---
+title: "Checkpoint 2: Getting to Know Your Dataset"
+editor: source
+---
+
+## Introduction
+
+The goal of this assignment is to  help you historicize and familiarize yourself with the dataset you will be examining in the final project. 
+
+## Instructions
+
+1. Navigate to the data dictionary and data documentation for your dataset. 
+2. Read through these documents carefully. Be sure to note the types of variables present in the data and the definitions provided throughout the documentation. Pay close attention to how categories are divided and how quantities are calculated.
+3. Fill out [this worksheet](checkpoint2-form.docx). 
+4. Once you are finished, upload the worksheet to Moodle in the checkpoint 2 assignment.
+
+::: callout-tip
+Your dataset may not have any categorical variables, or it may not have any numeric variables. If this is the case, just indicate so in the worksheet and then leave the remainder of that section blank. You will not lose credit if this is the case. 
+:::
+

@@ -1,0 +1,101 @@
+---
+title: "Checkpoint 2 Worksheet - ADD NAME HERE"
+subtitle: "FYS 189: Data and Social Justice"
+format: docx
+editor: source
+---
+
+## Dataset Administrative Metadata
+
+Title of the dataset:
+
+Link to the dataset:
+
+Tell me as much as you can gather from the documentation about how this dataset came to be. How was the dataset collected? Who published the dataset?
+
+\
+\
+\
+\
+\
+\
+
+When was the dataset last updated?
+
+\
+\
+
+How often is the dataset updated?
+
+\
+\
+
+What geography does this dataset cover? (I don't mean what geographic units the dataset is segmented into, but instead the geographic scope of the whole dataset)
+
+\
+\
+
+## Dataset Descriptive Metadata
+
+Is this dataset individual or aggregated?
+
+Each row in this dataset represents a...
+
+The column(s) that can uniquely identify each observation (row) is:
+
+Three categorical variables in the dataset include (indicate if they are nominal or ordinal):
+
+| Variable Name | Definition from Dictionary | Nominal or Ordinal? |
+|---------------|----------------------------|-------------------------|
+|               |                            |                         |
+|               |                            |                         |
+|               |                            |                         |
+
+Three numeric variables in the dataset include (indicate if they are discrete or continuous):
+
+| Variable Name | Definition from Dictionary | Discrete or Continuous? |
+|---------------|----------------------------|-------------------------|
+|               |                            |                         |
+|               |                            |                         |
+|               |                            |                         |
+
+Are there geographic variables in the dataset? If so, which?
+
+\
+\
+
+Are there date/time variables in the dataset? If so, which?
+
+\
+\
+
+Which variables in this dataset are of most interest to you, and why (briefly)?
+
+\
+\
+\
+\
+
+
+
+## Numero-Politics
+
+Select one numeric variable in the dataset. If discrete, according to what definition is that value counted? If continuous, according to what definition is that value measured? Characterize the numero-politics here. Why might that definition matter for how things in your dataset get counted? What decisions have to be made about what to include/exclude in the count?
+
+\
+\
+\
+\
+\
+
+
+## Categorical Politics
+
+Select one classification system in the dataset you will be exploring this semester. In at least 100 words, tell me how the categories in this classification system have been divided. What has been made residual through this classification system? What are the benefits to classifying things in this way, and what are the harms? Who gets silenced through this system of classification?
+
+\
+\
+\
+\
+\
+

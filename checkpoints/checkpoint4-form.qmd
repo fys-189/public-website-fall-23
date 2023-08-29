@@ -1,0 +1,103 @@
+---
+title: "Checkpoint 4 Worksheet - ADD NAME HERE"
+subtitle: "FYS 189: Data and Social Justice"
+format: docx
+editor: source
+---
+
+## Counter-Visualization
+
+### Claim
+
+\<Copy your original claim here.\>
+
+\
+\
+
+### Evidence
+
+\<Copy an image of your counter-visualization here\>
+
+\
+\
+
+\<Describe the visualization in general terms. What kind of plot is it, and what variables are displayed on it? What filters were applied to produce it? You can use personal pronouns to describe your process here, but be careful to address your process to a general audience. Avoid overly technical language or reference to Tableau-specific jargon.\>
+
+\
+\
+\
+
+\<Summarize at least one quantitative fact from the visualization that counters your claim.\>
+
+\
+\
+\
+
+### Reasoning
+
+\<Analyze/interpret this fact, offering reasoning as to how this plot counters your claim.\>
+
+\
+\
+\
+
+## Develop a Refutation
+
+\<Identify and explain which of the data fallacies the argument relies on.\>
+
+\
+\
+\
+
+\<Summarize evidence from at least two external sources to demonstrate why this argument doesn't hold.\>
+
+\
+\
+\
+\
+
+## Synthesize and Respond
+
+### Claim
+
+In this paper, I have argued that \<Restate your original claim here.\>.
+
+\
+
+### Opposing Claim
+
+Some may argue that \<Restate your original opponent's claim here. It should be the opposite of your original claim.\>
+
+\
+
+### Present Counter-Evidence
+
+\<Synthesize the text you produced under the Visualization 1 heading in order to present the counter-evidence.\>
+
+\
+\
+\
+
+
+### Write your Refutation
+
+\<Synthesize the text you produced under the Develop a Refutation heading in order to describe why the evidence presented fails to counter your original claim.\>
+
+\
+\
+\
+
+
+::: callout-tip
+You might consider the following templates to support your writing:
+
+-   However, this argument fails to consider that \_\_\_\_\_.
+
+-   This argument makes the mistake of assuming that \_\_\_\_\_.
+
+-   It may be true that \_\_\_\_\_, but \_\_\_\_\_.
+
+-   This argument fails to stand when we consider that \_\_\_\_\_.
+
+-   However, the evidence presented to counter this claim is deceptive/invalid/insufficient because\_\_\_\_\_\_.
+:::

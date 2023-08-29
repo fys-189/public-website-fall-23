@@ -1,0 +1,51 @@
+---
+title: "Blog Post 2"
+editor: source
+---
+
+## Assignment Overview
+
+Using either the Eviction Lab data, NYC Stop and Frisk data, or the EPA's Toxic Release Inventory data, produce a compelling data visualization in Tableau. Referencing case study materials and the data documentation, write an 800-word blog post that presents a [**claim of fact**](https://lsa.umich.edu/content/dam/sweetland-assets/sweetland-documents/teachingresources/TeachingArgumentation/Supplement2_%20SixCommonTypesofClaim.pdf) by leveraging your data visualization as evidence. Help the audience responsibly interpret the visualization by describing "what counts" in the data, providing some context on the social contexts of the data's production, and detailing what people and issues have been erased from the data and why. When finished, submit your blog post and visualization on Moodle.
+
+::: callout-important
+I need to be able to see your data visualization when I review your blog post. It is easier for me to review all submissions when the blog post is directly embedded in the document. Be sure to export the visualization as a .PNG file from Tableau and include it in the document that you submit on Moodle.
+:::
+
+## Suggested Blog Post Structure
+
+### Introduction and Main Argument (100)
+
+-   Blog posts often open with a catchy quote, story, or statement
+-   They also provide guidance on where your writing is taking a reader
+-   Your thesis statement should be clear from your introduction. Be sure that you are making a **claim of fact**.
+
+### Background on the issue your blog is addressing (100)
+
+-   Why should we care about what's in your data visualization?
+-   What is at stake here? Be sure to consider your **rhetorical positioning**.
+-   Be sure to cite sources.
+
+### Background on the Dataset and your Subset (150)
+
+-   Who produced this data?
+-   How was it collected? When and where?
+-   What counts in this data? How is it categorized?
+-   What subset of the data are you working with, and how did you prepare it for analysis/visualization?
+
+### Explanation (200)
+
+-   What steps did you take to produce this visualization? Make sure these steps are described for a general audience that may not have experience working in Tableau. Avoid using Tableau-specific language.
+-   What does your plot show?
+-   What are some quantitative facts that we can summarize from the plot?
+
+### Explication (150)
+
+-   How should we interpret this plot?
+-   What are some issues that go unaddressed in the plot?
+-   How might the insights we derive from the plot be improved if different variables or modes of categorization were available?
+
+### Conclusion and call to action (100)
+
+-   Restate what you learned
+-   Offer a normative suggestion for what should happen based on your analysis
+

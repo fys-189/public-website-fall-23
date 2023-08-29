@@ -1,0 +1,60 @@
+---
+title: "Checkpoint 5: Full Draft"
+editor: source
+---
+
+## Introduction
+
+In this assignment, you will submit a full draft of your final essay. In addition to aggregating text that you wrote in other checkpoints, you will write an Introduction, Background, and Conclusion section. Keep in mind that this is a draft. Not everything has to be perfectly polished at this point. However, your document should contain at least 1500 words (not including citations); it must include text covering all sections listed below, and all sources need to be cited. Please embed the data visualizations you created as images directly in the document. Do not submit them as separate files. Once you are finished, upload the draft to Moodle in the checkpoint 5 assignment.
+
+## Full Draft Outline
+
+Your full draft should follow the attached outline:
+
+### Introduction (\~200 words)
+
+-   Introduce the topic you are investigating, providing background information critical to understanding the significance of the thesis statement/claim
+-   Indicate your thesis statement/claim
+
+### Overview of the dataset (\~300 words)
+
+> Suggested language: To support this claim, I examined a dataset produced by \_\_\_\_\_ that documents \_\_\_\_\_.
+
+-   This section should include at least the following:
+    -   What the data represents
+    -   Who produced it
+    -   Its observational unit
+    -   Some variables that describe that observational unit
+    -   A bit of its history/context of the dataset from earlier labs
+    -   A few data limitations
+
+::: callout-note
+## Example Paragraph
+
+To examine this claim, I studied a dataset published by the EPA \[\<\-- who produced it\] that documents the environmental compliance and enforcement history of every EPA-regulated facility in the US, including prisons \[\<\-- what it represents\]. For every EPA-regulated facility in the US in a given year \[\<\-- observational unit\], the dataset reports information such as the permits the facility has been awarded, enforcement actions taken against the facility, and penalties it has assessed \[\<\-- variables\]. The EPA has been integrating this data from a number of different compliance databases for major federal regulations (such as the Clean Air Act and the Safe Drinking Water Act) for over ten years \[\<\-- history/context\]. The data tends to be more comprehensive for larger facilities than for smaller facilities and does not include information about compliance with all environmental laws \[\<\--limitations\].
+:::
+
+### Evidence supporting your claim, including plots (\~400 words)
+
+-   For now, copy from a previous checkpoint
+
+### Counter-evidence, including plots (\~300 words)
+
+-   For now, copy from a previous checkpoint
+
+### Refutation of the counter-evidence (\~200 words)
+
+-   For now, copy from a previous checkpoint
+
+### Conclusion (\~200 words)
+
+-   Restate what you've shown in your essay
+-   Offer a normative evaluation of your research. In other words, tell us how we should think about this topic or what should be done based on your findings. This section should not outline your personal opinion on what should be done. **Be sure you can back up all of your suggestions with evidence - either through your data or through external research.**
+
+::: callout-note
+## Example Normative Evaluation
+My analysis shows how important critical access hospitals are for ensuring that rural populations have access to adequate hospital care. Since critical access hospitals are often the only providers of health care in their communities, there is critical need for federal funding to be allocated towards supporting this healthcare infrastructure. Research by McFayden et al (2023) has shown how the operating profitability of critical access hospitals increased significantly during Covid-19 as a result of government-issued Public Health Emergency Funding. In the absence of this funding, profitability was much lower, and there were more hospitals with negative margins. McFayden et al (2023) thus argue that federal funding is a particularly important source of revenue for supporting the financial well-being of critical access hospitals. Ensuring critical access hospitals have the resources they need to operate is essential for providing equitable access to healthcare.
+
+McFayden, Laura B., George H. Ping, Susie Gurzenda, Kristie Thompson, and Kristin L. Reiter. "The Impact of COVID-19 Funding on Profitability of Critical Access Hospitals." Flex Monitoring Team (2023). https://www.flexmonitoring.org/sites/flexmonitoring.umn.edu/files/media/Impact_of_COVID19_funding_on_Profitability_of_CAHs.pdf
+:::
+

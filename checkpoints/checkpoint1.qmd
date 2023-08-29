@@ -1,0 +1,29 @@
+---
+title: "Checkpoint 1: Tableau Basics"
+editor: source
+---
+
+## Introduction
+
+The goal of this assignment is to get you started with Tableau. This data analysis in this assignment is admittedly pretty boring at least for me it is). ...but it's necessary to get some basic terminology and exposure to Tableau before we can do more interesting things with it.
+
+::: callout-tip
+You may run into issues with install that I have not foreseen. If that happens, reach out to me on Slack as soon as possible, and we will see what we can do to address those issues.
+:::
+
+## Instructions
+
+### Part 1: Install Tableau
+
+1.  The latest version of Tableau Desktop can be found [here](https://www.tableau.com/products/desktop/download).
+2.  Click on the link above and select "Download Tableau Desktop." On the form, enter your school email address for Business E-mail and enter the name of your school for Organization.
+3.  Activate with your product key:
+4.  Already have a copy of Tableau Desktop installed? Update your license in the application: Help menu → Manage Product Keys
+
+### Part 2: Get Acquainted with Tableau
+
+1.  Navigate to Tableau's [Getting Started](https://www.tableau.com/learn/tutorials/on-demand/getting-started?playlist=509087) Video Playlist.
+2.  Enter information about Smith College in order to access the videos. You do not need to leave a personal phone number. Feel free to list my office phone number.
+3.  Download `Sample - Superstore.xls` - an Excel file listed at the bottom of the page.
+4.  Watch all videos (about 20 minutes), and follow along in Tableau Desktop. Note that you are working with the Desktop version of Tableau, not the Cloud version. The differences will be very minor, but just keep it in mind.
+5.  Once you are finished creating the example workbook, export it from Tableau Desktop, and upload it to Moodle in the checkpoint 1 assignment.

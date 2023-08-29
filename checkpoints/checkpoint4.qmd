@@ -1,0 +1,31 @@
+---
+title: "Checkpoint 4: Anticipating Counter-Arguments"
+editor: source
+---
+
+## Introduction
+
+The goal of this assignment is to help you anticipate how an opponent of your claim may develop data-based evidence in refutation of your claim. This assignment will give you an opportunity to think through strategies of data wrangling and visualization that can produce distorted depictions of social phenomena. Further, you will produce text that anticipates and responds to potential counter-arguments, showing how they may be invalid, irrelevant, or insufficient. In this checkpoint, you will be writing about one-third of the text that will appear in your final project essay.
+
+## Instructions
+
+1. Consider some of the counter-arguments wielded against your claim. Search for articles (i.e. newspaper, blog post, journal articles) where an individual either directly or indirectly opposes your claim. Note how they frame their arguments. What kind of evidence do they use?
+2. Load your dataset into Tableau. 
+3. Create at least three visualizations with your dataset that engage one of the following data distortion strategies:
+  - Select: How might someone cherry-pick variables to produce a competing claim? 
+  - Filter: How might someone subset the data to produce a competing claim? 
+  - Not filter: How, in not filtering the data to a certain subset, might someone gloss over issues that we can only see when the data is zoomed in? 
+  - Group-by: How might someone aggregate the data into groups in order to hide details we can only see at individual record levels? 
+  - Ungroup: How might someone divide grouped portions of the data into individual records to hide issues that we can only see when the data is aggregated?
+  - Plot Selection or Aesthetics: How might someone use specific plotting techniques to produce a data visualization that would refute your claim? 
+4. Write captions for each that include the following:
+  - Description: What is this a visualization of? How did you create it? Reference the source, the selected variables, the geographic and temporal scope, and the plot type. If you applied filters, explain that.
+  - Summary: What is one fact we can derive from the visualization?
+  - Interpretation: How we can interpret that fact? What claim might it support?
+5. Select *one* of the visualizations that you created that an opponent might leverage to refute your claim. 
+  - For this visualization, add clear labels, a title, and a caption. Ensure that the visualization is self-explanatory, meaning that a reader shouldn't have to look up values to interpret it. Export the visualization as an image.
+6. Conduct research to further your understanding of why this evidence may be invalid, irrelevant, or insufficient. Be sure to record citations for each source you encounter.
+7. Complete [this worksheet](checkpoint4-form.docx).
+8. Once you are finished, upload the worksheet to Moodle in the checkpoint 4 assignment. 
+
+

@@ -1,0 +1,15 @@
+---
+title: "Blog Post 1 Revision"
+editor: source
+---
+
+## Assignment Overview
+
+For this assignment, you will submit two things: 1) a revision plan, and 2) a revised blog post. First, you should read [this document](https://lsa.umich.edu/content/dam/sweetland-assets/sweetland-documents/teachingresources/SequencingandScaffoldingAssignments/Supplement3_HowtoWriteaRevisionPlan.pdf) on how to create a revision plan. Then you should begin writing your revision plan. Your revision plan can be submitted as a Word document that follows the guidelines below: 
+
+- Summarize in your own words the most recurring comments you received from me and from your peers as a series of bullet points. You should list at least three bullet points, and they should be written in complete, descriptive sentences.
+- Highlight the comments you plan to address. Add a sub-bullet point below each comment you plan to address, indicating specifically how you will address that comment in your revision. For comments you don’t plan to address, include a sub-bullet point indicating why you don’t plan to address it. You should be able to provide appropriate rationale for why you don't plan to address certain feedback. It's not enough to say that you can't fit something within the word limit. 
+
+Finally, revise your blog post following your revision plan. Remember that grammar, spelling, and punctuation concerns should not be included in a revision plan. Those concerns are addressed in a proofreading stage, not a revising stage.
+
+When finished, submit your revised blog post and revision plan on Moodle.

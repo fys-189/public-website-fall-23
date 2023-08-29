@@ -1,0 +1,25 @@
+---
+title: "Checkpoint 3: Supporting a Claim with Evidence"
+editor: source
+---
+
+## Introduction
+
+The goal of this assignment is to help you formalize a claim for your final project and to develop data-based evidence in support of that claim. In this checkpoint, you will be writing about one-third of the text that will appear in your final project essay.
+
+A claim is a statement that something is a certain way or happened a certain way. A claim needs to be proven or disproven with evidence. It's a suggestion for what is true, even though not everyone might agree that that thing is true. A claim is different than empirical evidence. When we report what a visualization empirically shows us (more people in the US died of x than y in 2020), this is evidence. The claim that you record should not be a summary of what we see in any visualization; it should be a more debatable statement that the visualization would serve as evidence of (Populations that have been historically marginalized by the medical community continue to be underserved when it comes to x). 
+
+## Instructions
+
+1. Load your dataset into Tableau. 
+2. Create at least four visualizations with your dataset.
+3. Write captions for each that include the following:
+  - Description: What is this a visualization of? How did you create it? Reference the source, the selected variables, the geographic and temporal scope, and the plot type. If you applied filters, explain that.
+  - Summary: What is one fact we can derive from the visualization?
+  - Interpretation: How we can interpret that fact? What claim might it support?
+4. Select *two* of the visualizations that you created in order to develop a claim about your final project topic. Make sure you are making a [**claim of fact**](https://lsa.umich.edu/content/dam/sweetland-assets/sweetland-documents/teachingresources/TeachingArgumentation/Supplement2_%20SixCommonTypesofClaim.pdf). Also make sure that your visualizations directly support that claim. 
+  - For these two visualizations, add clear labels, titles, and captions. Ensure that the visualizations are self-explanatory, meaning that a reader shouldn't have to look up values to interpret them. Ensure that the visualizations follow visual analytics fundamentals. Export these visualizations as images.
+5. Complete [this worksheet](checkpoint3-form.docx).
+6. Once you are finished, upload the worksheet to Moodle in the checkpoint 3 assignment. You don't need to submit all of the visualizations you created in earlier steps. 
+
+
