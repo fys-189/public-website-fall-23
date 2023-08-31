@@ -25,5 +25,14 @@ You may run into issues with install that I have not foreseen. If that happens, 
 1.  Navigate to Tableau's [Getting Started](https://www.tableau.com/learn/tutorials/on-demand/getting-started?playlist=509087) Video Playlist.
 2.  Enter information about Smith College in order to access the videos. You do not need to leave a personal phone number. Feel free to list my office phone number.
 3.  Download `Sample - Superstore.xls` - an Excel file listed at the bottom of the page.
-4.  Watch all videos (about 20 minutes), and follow along in Tableau Desktop. Note that you are working with the Desktop version of Tableau, not the Cloud version. The differences will be very minor, but just keep it in mind.
-5.  Once you are finished creating the example workbook, export it from Tableau Desktop, and upload it to Moodle in the checkpoint 1 assignment.
+4.  Watch all videos (about 20 minutes), and follow along by recreating the dashboard shown in the video in Tableau Desktop. Note that you are working with the Desktop version of Tableau, not the Cloud version. The differences will be very minor, but just keep it in mind. Save the workbook.
+5.  Once you are finished with both workbooks, export them from Tableau Desktop, and upload them to Moodle in the checkpoint 1 assignment.
+
+## Other Helpful Tableau Resources
+
+[Tableau Workspace](https://help.tableau.com/current/pro/desktop/en-us/environment_workspace.htm)
+
+[Tableau Starter Kit](https://www.tableau.com/learn/starter-kits)
+
+[Which Chart or Graph is Right for You?](https://www.tableau.com/sites/default/files/2022-03/which_chart_or_graph_is_right_for_youwp.pdf)
+

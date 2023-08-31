@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Lab 2: Data Semiotics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">FYS 189: Data and Social Justice</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Syllabus</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../grading_contract.html">Grading Contract</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html">Schedule</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a>
+  <ul class="collapse">
+  <li><a href="#part-1-denotative-reading" id="toc-part-1-denotative-reading" class="nav-link" data-scroll-target="#part-1-denotative-reading">Part 1: Denotative Reading</a></li>
+  <li><a href="#part-2-connotative-reading" id="toc-part-2-connotative-reading" class="nav-link" data-scroll-target="#part-2-connotative-reading">Part 2: Connotative Reading</a></li>
+  <li><a href="#part-3-deconstructive-reading" id="toc-part-3-deconstructive-reading" class="nav-link" data-scroll-target="#part-3-deconstructive-reading">Part 3: Deconstructive Reading</a></li>
+  <li><a href="#part-4-analyzing-categories" id="toc-part-4-analyzing-categories" class="nav-link" data-scroll-target="#part-4-analyzing-categories">Part 4: Analyzing Categories</a></li>
+  </ul></li>
+  <li><a href="#other-contested-data-definitions" id="toc-other-contested-data-definitions" class="nav-link" data-scroll-target="#other-contested-data-definitions">Other contested data definitions:</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lab 2: Data Semiotics</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Definitions are operating in the background of every statistic. When I report the number or percentage of people that play sports, I have to first define what counts as a sport and what it means for someone to be a sports player (i.e.&nbsp;how often they play? how long they’ve been playing?) When I report the number or percentage of green spaces in a city, I have to first define what counts as a green space.</p>
+<p>We often don’t take the time to critically examine definitions. We’re pretty used to seeing definitions reported in dictionaries or reference documents - documents that we don’t tend to classify as persuasive, rhetorical, or political. …but in fact, definitions are often a site of intense social and political debate. What counts as a life in the context of abortion politics? What counts as a terrorist in the context of domestic security? These terms may have formal definitions in laws and/or dictionaries, but those definitions are rarely stable and are continuously subject to contestation. They create boundaries of inclusion/exclusion, while necessarily leaving certain issues unaddressed.</p>
+<p>In today’s activity, you are going to analyze the definitions a dataset denotatively, connotatively, and deconstructively:</p>
+<ul>
+<li><p>Denotatively, we are going to reference data documentation to examine the official/encoded definitions underpinning a dataset. You are going to reflect upon how these definitions set the boundaries of what counts.</p></li>
+<li><p>Connotatively, we are going to examine the provenance of that definition. When has the definition changed? Who or what prompted the definition to change, and with what social consequences? How did the numbers change as a result?</p></li>
+<li><p>Deconstructively, we are going to consider what the definition eclipses. What social groups or social issues get overshadowed as a result of this definition?</p></li>
+<li><p>We’re also going to look at the categorizations of a dataset to determine which individuals may be categorically excluded, and which groups of people are rendered residual through the data.</p></li>
+</ul>
+</section>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<p>Last week, you worked with a dataset that offered two different definitions of poverty - the official poverty measure, and the supplemental poverty measure.</p>
+<section id="part-1-denotative-reading" class="level3">
+<h3 class="anchored" data-anchor-id="part-1-denotative-reading">Part 1: Denotative Reading</h3>
+<p>In your group find documentation of the official differences between these two definitions. Fill out the following table based on what you learn:</p>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 39%">
+<col style="width: 39%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Official Poverty Measure</th>
+<th>Supplemental Poverty Measure</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>In Poverty</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Not In Poverty</strong></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="part-2-connotative-reading" class="level3">
+<h3 class="anchored" data-anchor-id="part-2-connotative-reading">Part 2: Connotative Reading</h3>
+<p>In 2019, the U.S. Office of Management and Budgeting's Chief Statistician established an Interagency Technical Working Group on Evaluating Alternative Measures of Poverty. It had been almost 25 years since the establishment of the Supplemental Poverty Measure and 50 years since the establishment of the Official Poverty Measure. The goal of the working group was to address growing concerns about the quality of survey-based data (e.g.&nbsp;the accuracy of what individuals report in surveys). The Committee came up with a number of ideas on how an alternative measure of poverty might be determined. The video following summarizes some of the recommendations they came up with. (We will watch just a few clips in class).</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LM_Bt9DFYAo?si=PIonw3r7AdccV8gS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+<p>Regulations.gov is a website where the public can review and comment upon proposed changes to federal agency regulations. On February 14, 2020, a “Request for Comment on Considerations for Additional Measures of Poverty” was posted on Regulations.gov. 193 comments were submitted in response to the recommendation.</p>
+<p>In your groups, click through a number of these public comments. Take notes on the following for each:</p>
+<ul>
+<li><p>Who is making the comment, and what stakeholder group are they a part of?</p></li>
+<li><p>What stakes do they have in the way poverty gets defined?</p></li>
+<li><p>Where do they stand in relation to these recommendations?</p></li>
+<li><p>How do they justify their stance?</p></li>
+</ul>
+<p>As a group, we will compare your findings in order to consider the role of social advocacy in shaping the definitions underpinning this data. We will also consider stakeholder groups that might not be represented on Regulations.gov.</p>
+</section>
+<section id="part-3-deconstructive-reading" class="level3">
+<h3 class="anchored" data-anchor-id="part-3-deconstructive-reading">Part 3: Deconstructive Reading</h3>
+<p>Create a hypothetical “profiles” for two individuals that this dataset eclipses. Try and bring these individuals to life, telling us about them. Why is it that those individuals go uncounted? Indicate <em>specific</em> consequences that may result from be uncounted. Also indicate some benefits to uncounted in this data.</p>
+</section>
+<section id="part-4-analyzing-categories" class="level3">
+<h3 class="anchored" data-anchor-id="part-4-analyzing-categories">Part 4: Analyzing Categories</h3>
+<p>When working with this dataset last week, you may have been surprised regarding how race and ethnicity were subdivided in the dataset. Demographic categories used in most federal government data collection programs in the U.S. are <a href="https://www.federalregister.gov/documents/2016/09/30/2016-23672/standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity">standardized</a> by the Office of Management and Budget. These standards were last revised in 1997, but proposals to change them were made in 2016 and generated a great deal of public commentary on <a href="https://www.regulations.gov/document/OMB-2016-0002-0001">Regulations.gov</a>.</p>
+<p>In your groups, check out <a href="https://www.pewresearch.org/interactives/what-census-calls-us/">this site</a>, which documents how racial categorization has changed in the census since 1790. Note what surprises you the most.</p>
+<p>After this, check out what was proposed in 2016 regarding standards for collecting data on race and ethnicity, and read through some of the public comments. What were some rationales for changing the standards, and what were some rationales for maintaining the current standards? What social groups had stakes in these decisions, and how did they advocate?</p>
+</section>
+</section>
+<section id="other-contested-data-definitions" class="level2">
+<h2 class="anchored" data-anchor-id="other-contested-data-definitions">Other contested data definitions:</h2>
+<ul>
+<li>Unemployment</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uPRQnQxsL3E?si=B5wKBL2w9Xv6TH4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+<ul>
+<li>Hurricane Deaths</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wiM-5P2zPsE?si=zBXECe9bpRvD9pAl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+<ul>
+<li>Disability</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z_14sM6Oni8?si=Bbwq8-lTqnG1TRTj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+<ul>
+<li>Homelessness</li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NxzPMX-Dwac?si=GwsWlts81FOkO9sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

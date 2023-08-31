@@ -1,0 +1,91 @@
+---
+title: "Lab 2: Data Semiotics"
+editor: source
+---
+
+## Overview
+
+Definitions are operating in the background of every statistic. When I report the number or percentage of people that play sports, I have to first define what counts as a sport and what it means for someone to be a sports player (i.e. how often they play? how long they've been playing?) When I report the number or percentage of green spaces in a city, I have to first define what counts as a green space.
+
+We often don't take the time to critically examine definitions. We're pretty used to seeing definitions reported in dictionaries or reference documents - documents that we don't tend to classify as persuasive, rhetorical, or political. ...but in fact, definitions are often a site of intense social and political debate. What counts as a life in the context of abortion politics? What counts as a terrorist in the context of domestic security? These terms may have formal definitions in laws and/or dictionaries, but those definitions are rarely stable and are continuously subject to contestation. They create boundaries of inclusion/exclusion, while necessarily leaving certain issues unaddressed.
+
+In today's activity, you are going to analyze the definitions a dataset denotatively, connotatively, and deconstructively:
+
+-   Denotatively, we are going to reference data documentation to examine the official/encoded definitions underpinning a dataset. You are going to reflect upon how these definitions set the boundaries of what counts.
+
+-   Connotatively, we are going to examine the provenance of that definition. When has the definition changed? Who or what prompted the definition to change, and with what social consequences? How did the numbers change as a result?
+
+-   Deconstructively, we are going to consider what the definition eclipses. What social groups or social issues get overshadowed as a result of this definition?
+
+-   We're also going to look at the categorizations of a dataset to determine which individuals may be categorically excluded, and which groups of people are rendered residual through the data.
+
+## Instructions
+
+Last week, you worked with a dataset that offered two different definitions of poverty - the official poverty measure, and the supplemental poverty measure.
+
+### Part 1: Denotative Reading
+
+In your group find documentation of the official differences between these two definitions. Fill out the following table based on what you learn:
+
+|                    | Official Poverty Measure | Supplemental Poverty Measure |
+|---------------|-----------------------------|-----------------------------|
+| **In Poverty**     |                          |                              |
+| **Not In Poverty** |                          |                              |
+
+### Part 2: Connotative Reading
+
+In 2019, the U.S. Office of Management and Budgeting\'s Chief Statistician established an Interagency Technical Working Group on Evaluating Alternative Measures of Poverty. It had been almost 25 years since the establishment of the Supplemental Poverty Measure and 50 years since the establishment of the Official Poverty Measure. The goal of the working group was to address growing concerns about the quality of survey-based data (e.g. the accuracy of what individuals report in surveys). The Committee came up with a number of ideas on how an alternative measure of poverty might be determined. The video following summarizes some of the recommendations they came up with. (We will watch just a few clips in class).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LM_Bt9DFYAo?si=PIonw3r7AdccV8gS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Regulations.gov is a website where the public can review and comment upon proposed changes to federal agency regulations. On February 14, 2020, a "Request for Comment on Considerations for Additional Measures of Poverty" was posted on Regulations.gov. 193 comments were submitted in response to the recommendation.
+
+In your groups, click through a number of these public comments. Take notes on the following for each:
+
+-   Who is making the comment, and what stakeholder group are they a part of?
+
+-   What stakes do they have in the way poverty gets defined?
+
+-   Where do they stand in relation to these recommendations?
+
+-   How do they justify their stance?
+
+As a group, we will compare your findings in order to consider the role of social advocacy in shaping the definitions underpinning this data. We will also consider stakeholder groups that might not be represented on Regulations.gov.
+
+### Part 3: Deconstructive Reading
+
+Create a hypothetical "profiles" for two individuals that this dataset eclipses. Try and bring these individuals to life, telling us about them. Why is it that those individuals go uncounted? Indicate *specific* consequences that may result from be uncounted. Also indicate some benefits to uncounted in this data.
+
+### Part 4: Analyzing Categories
+
+When working with this dataset last week, you may have been surprised regarding how race and ethnicity were subdivided in the dataset. Demographic categories used in most federal government data collection programs in the U.S. are [standardized](https://www.federalregister.gov/documents/2016/09/30/2016-23672/standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity) by the Office of Management and Budget. These standards were last revised in 1997, but proposals to change them were made in 2016 and generated a great deal of public commentary on [Regulations.gov](https://www.regulations.gov/document/OMB-2016-0002-0001). 
+
+In your groups, check out [this site](https://www.pewresearch.org/interactives/what-census-calls-us/), which documents how racial categorization has changed in the census since 1790. Note what surprises you the most. 
+
+After this, check out what was proposed in 2016 regarding standards for collecting data on race and ethnicity, and read through some of the public comments. What were some rationales for changing the standards, and what were some rationales for maintaining the current standards? What social groups had stakes in these decisions, and how did they advocate?
+
+## Other contested data definitions:
+
+-   Unemployment
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uPRQnQxsL3E?si=B5wKBL2w9Xv6TH4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+-   Hurricane Deaths
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wiM-5P2zPsE?si=zBXECe9bpRvD9pAl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+-   Disability
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z_14sM6Oni8?si=Bbwq8-lTqnG1TRTj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+-   Homelessness
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NxzPMX-Dwac?si=GwsWlts81FOkO9sw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
