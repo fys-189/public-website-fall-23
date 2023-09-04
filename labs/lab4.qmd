@@ -21,7 +21,9 @@ Today, we are going to analyze 2011 stop and frisk data.
 
 Download the data dictionary [here](https://www.nyc.gov/assets/nypd/downloads/zip/analysis_and_planning/stop-question-frisk/SQF-File-Documentation.zip). After downloading the zip file, open the Excel file for the 2011 SQF File Spec. Check out both tabs of the spreadsheet: the first defines variables in the dataset, and the second lists the values that might appear in those variables. Note how each variable maps onto a field on the UF-250 form.
 
-![](http://blog.danwin.com/files/images/uf250-2011-side-1.png) \> Image from Dan Nguyen: <http://blog.danwin.com/request-nypd-form-uf250/>
+![](http://blog.danwin.com/files/images/uf250-2011-side-1.png) 
+
+> Image from Dan Nguyen: <http://blog.danwin.com/request-nypd-form-uf250/>
 
 ### Part 2: Download the 2011 SQF Data
 
