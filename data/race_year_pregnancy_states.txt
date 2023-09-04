@@ -1,0 +1,420 @@
+"Notes"	"Year"	"Year Code"	"Race"	"Race Code"	"State"	"State Code"	Deaths	Population	Crude Rate
+	"1999"	"1999"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	21483	Unreliable
+	"1999"	"1999"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	113722	Unreliable
+	"1999"	"1999"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	135363	Unreliable
+	"1999"	"1999"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	2525	Unreliable
+	"1999"	"1999"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	0	177250	Unreliable
+	"1999"	"1999"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1122472	Suppressed
+	"1999"	"1999"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	602951	Suppressed
+	"1999"	"1999"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	9403	Unreliable
+	"1999"	"1999"	"Black or African American"	"2054-5"	"Georgia"	"13"	15	2343624	Unreliable
+	"1999"	"1999"	"Black or African American"	"2054-5"	"New York"	"36"	19	3410768	Unreliable
+	"1999"	"1999"	"Black or African American"	"2054-5"	"Texas"	"48"	10	2461293	Unreliable
+	"1999"	"1999"	"Black or African American"	"2054-5"	"West Virginia"	"54"	Suppressed	59775	Suppressed
+	"1999"	"1999"	"White"	"2106-3"	"Georgia"	"13"	11	5503608	Unreliable
+	"1999"	"1999"	"White"	"2106-3"	"New York"	"36"	16	14235763	Unreliable
+	"1999"	"1999"	"White"	"2106-3"	"Texas"	"48"	21	17358613	0.12
+	"1999"	"1999"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1740096	Suppressed
+	"2000"	"2000"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	26783	Unreliable
+	"2000"	"2000"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	120355	Unreliable
+	"2000"	"2000"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	152111	Unreliable
+	"2000"	"2000"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	3927	Unreliable
+	"2000"	"2000"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	192400	Suppressed
+	"2000"	"2000"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1157977	Suppressed
+	"2000"	"2000"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	0	634472	Unreliable
+	"2000"	"2000"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	10619	Unreliable
+	"2000"	"2000"	"Black or African American"	"2054-5"	"Georgia"	"13"	10	2395234	Unreliable
+	"2000"	"2000"	"Black or African American"	"2054-5"	"New York"	"36"	13	3434584	Unreliable
+	"2000"	"2000"	"Black or African American"	"2054-5"	"Texas"	"48"	Suppressed	2489759	Suppressed
+	"2000"	"2000"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	60889	Unreliable
+	"2000"	"2000"	"White"	"2106-3"	"Georgia"	"13"	10	5572036	Unreliable
+	"2000"	"2000"	"White"	"2106-3"	"New York"	"36"	Suppressed	14263541	Suppressed
+	"2000"	"2000"	"White"	"2106-3"	"Texas"	"48"	23	17575478	0.13
+	"2000"	"2000"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1732909	Suppressed
+	"2001"	"2001"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	29086	Unreliable
+	"2001"	"2001"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	130396	Unreliable
+	"2001"	"2001"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	161234	Unreliable
+	"2001"	"2001"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	3775	Unreliable
+	"2001"	"2001"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	211322	Suppressed
+	"2001"	"2001"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	0	1213384	Unreliable
+	"2001"	"2001"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	684712	Suppressed
+	"2001"	"2001"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	11057	Unreliable
+	"2001"	"2001"	"Black or African American"	"2054-5"	"Georgia"	"13"	26	2468186	1.05
+	"2001"	"2001"	"Black or African American"	"2054-5"	"New York"	"36"	22	3457658	0.64
+	"2001"	"2001"	"Black or African American"	"2054-5"	"Texas"	"48"	11	2551645	Unreliable
+	"2001"	"2001"	"Black or African American"	"2054-5"	"West Virginia"	"54"	Suppressed	61171	Suppressed
+	"2001"	"2001"	"White"	"2106-3"	"Georgia"	"13"	13	5668444	Unreliable
+	"2001"	"2001"	"White"	"2106-3"	"New York"	"36"	19	14281400	Unreliable
+	"2001"	"2001"	"White"	"2106-3"	"Texas"	"48"	27	17922031	0.15
+	"2001"	"2001"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1725478	Suppressed
+	"2002"	"2002"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	31629	Unreliable
+	"2002"	"2002"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	139242	Unreliable
+	"2002"	"2002"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	169564	Unreliable
+	"2002"	"2002"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	3820	Unreliable
+	"2002"	"2002"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	0	226700	Unreliable
+	"2002"	"2002"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	0	1255048	Unreliable
+	"2002"	"2002"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	726265	Suppressed
+	"2002"	"2002"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	11346	Unreliable
+	"2002"	"2002"	"Black or African American"	"2054-5"	"Georgia"	"13"	15	2522522	Unreliable
+	"2002"	"2002"	"Black or African American"	"2054-5"	"New York"	"36"	13	3467250	Unreliable
+	"2002"	"2002"	"Black or African American"	"2054-5"	"Texas"	"48"	12	2602237	Unreliable
+	"2002"	"2002"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	61832	Unreliable
+	"2002"	"2002"	"White"	"2106-3"	"Georgia"	"13"	10	5727405	Unreliable
+	"2002"	"2002"	"White"	"2106-3"	"New York"	"36"	13	14276260	Unreliable
+	"2002"	"2002"	"White"	"2106-3"	"Texas"	"48"	21	18192259	0.12
+	"2002"	"2002"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1728416	Suppressed
+	"2003"	"2003"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	Suppressed	33967	Suppressed
+	"2003"	"2003"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	147941	Unreliable
+	"2003"	"2003"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	Suppressed	178367	Suppressed
+	"2003"	"2003"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	3818	Unreliable
+	"2003"	"2003"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	240749	Suppressed
+	"2003"	"2003"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1293519	Suppressed
+	"2003"	"2003"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	764885	Suppressed
+	"2003"	"2003"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	11827	Unreliable
+	"2003"	"2003"	"Black or African American"	"2054-5"	"Georgia"	"13"	21	2571491	0.82
+	"2003"	"2003"	"Black or African American"	"2054-5"	"New York"	"36"	28	3471007	0.81
+	"2003"	"2003"	"Black or African American"	"2054-5"	"Texas"	"48"	14	2646739	Unreliable
+	"2003"	"2003"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	62866	Unreliable
+	"2003"	"2003"	"White"	"2106-3"	"Georgia"	"13"	14	5776586	Unreliable
+	"2003"	"2003"	"White"	"2106-3"	"New York"	"36"	26	14263472	0.18
+	"2003"	"2003"	"White"	"2106-3"	"Texas"	"48"	41	18440940	0.22
+	"2003"	"2003"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1733784	Suppressed
+	"2004"	"2004"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	36528	Unreliable
+	"2004"	"2004"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	156677	Unreliable
+	"2004"	"2004"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	188400	Unreliable
+	"2004"	"2004"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	3887	Unreliable
+	"2004"	"2004"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	256011	Suppressed
+	"2004"	"2004"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1327853	Suppressed
+	"2004"	"2004"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	0	802430	Unreliable
+	"2004"	"2004"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	12299	Unreliable
+	"2004"	"2004"	"Black or African American"	"2054-5"	"Georgia"	"13"	14	2635336	Unreliable
+	"2004"	"2004"	"Black or African American"	"2054-5"	"New York"	"36"	30	3464246	0.87
+	"2004"	"2004"	"Black or African American"	"2054-5"	"Texas"	"48"	16	2697339	Unreliable
+	"2004"	"2004"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	63682	Unreliable
+	"2004"	"2004"	"White"	"2106-3"	"Georgia"	"13"	Suppressed	5841377	Suppressed
+	"2004"	"2004"	"White"	"2106-3"	"New York"	"36"	44	14222791	0.31
+	"2004"	"2004"	"White"	"2106-3"	"Texas"	"48"	32	18705854	0.17
+	"2004"	"2004"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1736570	Suppressed
+	"2005"	"2005"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	39047	Unreliable
+	"2005"	"2005"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	165480	Unreliable
+	"2005"	"2005"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	199396	Unreliable
+	"2005"	"2005"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	3961	Unreliable
+	"2005"	"2005"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	273073	Suppressed
+	"2005"	"2005"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1362726	Suppressed
+	"2005"	"2005"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	844072	Suppressed
+	"2005"	"2005"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	12486	Unreliable
+	"2005"	"2005"	"Black or African American"	"2054-5"	"Georgia"	"13"	24	2702396	0.89
+	"2005"	"2005"	"Black or African American"	"2054-5"	"New York"	"36"	30	3457681	0.87
+	"2005"	"2005"	"Black or African American"	"2054-5"	"Texas"	"48"	19	2753898	Unreliable
+	"2005"	"2005"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	64664	Unreliable
+	"2005"	"2005"	"White"	"2106-3"	"Georgia"	"13"	Suppressed	5911406	Suppressed
+	"2005"	"2005"	"White"	"2106-3"	"New York"	"36"	23	14146723	0.16
+	"2005"	"2005"	"White"	"2106-3"	"Texas"	"48"	50	18980757	0.26
+	"2005"	"2005"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1739381	Suppressed
+	"2006"	"2006"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	42276	Unreliable
+	"2006"	"2006"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	174575	Unreliable
+	"2006"	"2006"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	Suppressed	212915	Suppressed
+	"2006"	"2006"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4013	Unreliable
+	"2006"	"2006"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	0	293130	Unreliable
+	"2006"	"2006"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	12	1398778	Unreliable
+	"2006"	"2006"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	895701	Suppressed
+	"2006"	"2006"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	13028	Unreliable
+	"2006"	"2006"	"Black or African American"	"2054-5"	"Georgia"	"13"	18	2805927	Unreliable
+	"2006"	"2006"	"Black or African American"	"2054-5"	"New York"	"36"	31	3453892	0.90
+	"2006"	"2006"	"Black or African American"	"2054-5"	"Texas"	"48"	30	2904002	1.03
+	"2006"	"2006"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	66217	Unreliable
+	"2006"	"2006"	"White"	"2106-3"	"Georgia"	"13"	Suppressed	6014480	Suppressed
+	"2006"	"2006"	"White"	"2106-3"	"New York"	"36"	25	14077386	0.18
+	"2006"	"2006"	"White"	"2106-3"	"Texas"	"48"	58	19346962	0.30
+	"2006"	"2006"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1744654	Suppressed
+	"2007"	"2007"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	45109	Unreliable
+	"2007"	"2007"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	184130	Unreliable
+	"2007"	"2007"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	227411	Unreliable
+	"2007"	"2007"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4090	Unreliable
+	"2007"	"2007"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	310982	Suppressed
+	"2007"	"2007"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1439779	Suppressed
+	"2007"	"2007"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	948153	Suppressed
+	"2007"	"2007"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	13354	Unreliable
+	"2007"	"2007"	"Black or African American"	"2054-5"	"Georgia"	"13"	14	2891925	Unreliable
+	"2007"	"2007"	"Black or African American"	"2054-5"	"New York"	"36"	28	3456802	0.81
+	"2007"	"2007"	"Black or African American"	"2054-5"	"Texas"	"48"	12	2962118	Unreliable
+	"2007"	"2007"	"Black or African American"	"2054-5"	"West Virginia"	"54"	Suppressed	67505	Suppressed
+	"2007"	"2007"	"White"	"2106-3"	"Georgia"	"13"	Suppressed	6101972	Suppressed
+	"2007"	"2007"	"White"	"2106-3"	"New York"	"36"	18	14051624	Unreliable
+	"2007"	"2007"	"White"	"2106-3"	"Texas"	"48"	66	19694301	0.34
+	"2007"	"2007"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1749103	Suppressed
+	"2008"	"2008"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	48540	Unreliable
+	"2008"	"2008"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	Suppressed	195000	Suppressed
+	"2008"	"2008"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	243884	Unreliable
+	"2008"	"2008"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4211	Unreliable
+	"2008"	"2008"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	0	327759	Unreliable
+	"2008"	"2008"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1485783	Suppressed
+	"2008"	"2008"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1000104	Suppressed
+	"2008"	"2008"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	13671	Unreliable
+	"2008"	"2008"	"Black or African American"	"2054-5"	"Georgia"	"13"	16	2962628	Unreliable
+	"2008"	"2008"	"Black or African American"	"2054-5"	"New York"	"36"	33	3473867	0.95
+	"2008"	"2008"	"Black or African American"	"2054-5"	"Texas"	"48"	21	3027152	0.69
+	"2008"	"2008"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	68836	Unreliable
+	"2008"	"2008"	"White"	"2106-3"	"Georgia"	"13"	Suppressed	6165916	Suppressed
+	"2008"	"2008"	"White"	"2106-3"	"New York"	"36"	33	14057786	0.23
+	"2008"	"2008"	"White"	"2106-3"	"Texas"	"48"	73	20037899	0.36
+	"2008"	"2008"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1753592	Suppressed
+	"2009"	"2009"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	51638	Unreliable
+	"2009"	"2009"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	206557	Unreliable
+	"2009"	"2009"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	Suppressed	261852	Suppressed
+	"2009"	"2009"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4260	Unreliable
+	"2009"	"2009"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	342019	Suppressed
+	"2009"	"2009"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1529520	Suppressed
+	"2009"	"2009"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1051726	Suppressed
+	"2009"	"2009"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	14146	Unreliable
+	"2009"	"2009"	"Black or African American"	"2054-5"	"Georgia"	"13"	26	3023009	0.86
+	"2009"	"2009"	"Black or African American"	"2054-5"	"New York"	"36"	35	3498751	1.00
+	"2009"	"2009"	"Black or African American"	"2054-5"	"Texas"	"48"	36	3101293	1.16
+	"2009"	"2009"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	70465	Unreliable
+	"2009"	"2009"	"White"	"2106-3"	"Georgia"	"13"	Suppressed	6204180	Suppressed
+	"2009"	"2009"	"White"	"2106-3"	"New York"	"36"	31	14072238	0.22
+	"2009"	"2009"	"White"	"2106-3"	"Texas"	"48"	86	20386890	0.42
+	"2009"	"2009"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1758904	Suppressed
+	"2010"	"2010"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	Suppressed	54033	Suppressed
+	"2010"	"2010"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	214629	Unreliable
+	"2010"	"2010"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	275981	Unreliable
+	"2010"	"2010"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4162	Unreliable
+	"2010"	"2010"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	352249	Suppressed
+	"2010"	"2010"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1561960	Suppressed
+	"2010"	"2010"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1088578	Suppressed
+	"2010"	"2010"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	14282	Unreliable
+	"2010"	"2010"	"Black or African American"	"2054-5"	"Georgia"	"13"	23	3057817	0.75
+	"2010"	"2010"	"Black or African American"	"2054-5"	"New York"	"36"	30	3523196	0.85
+	"2010"	"2010"	"Black or African American"	"2054-5"	"Texas"	"48"	25	3156011	0.79
+	"2010"	"2010"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	71260	Unreliable
+	"2010"	"2010"	"White"	"2106-3"	"Georgia"	"13"	13	6223554	Unreliable
+	"2010"	"2010"	"White"	"2106-3"	"New York"	"36"	33	14078317	0.23
+	"2010"	"2010"	"White"	"2106-3"	"Texas"	"48"	74	20624991	0.36
+	"2010"	"2010"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1763290	Suppressed
+	"2011"	"2011"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	55612	Unreliable
+	"2011"	"2011"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	216771	Unreliable
+	"2011"	"2011"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	289314	Unreliable
+	"2011"	"2011"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4269	Unreliable
+	"2011"	"2011"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	365731	Suppressed
+	"2011"	"2011"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1599823	Suppressed
+	"2011"	"2011"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1133209	Suppressed
+	"2011"	"2011"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	15195	Unreliable
+	"2011"	"2011"	"Black or African American"	"2054-5"	"Georgia"	"13"	28	3113361	0.90
+	"2011"	"2011"	"Black or African American"	"2054-5"	"New York"	"36"	22	3556174	0.62
+	"2011"	"2011"	"Black or African American"	"2054-5"	"Texas"	"48"	42	3231968	1.30
+	"2011"	"2011"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	73596	Unreliable
+	"2011"	"2011"	"White"	"2106-3"	"Georgia"	"13"	18	6280506	Unreliable
+	"2011"	"2011"	"White"	"2106-3"	"New York"	"36"	38	14092429	0.27
+	"2011"	"2011"	"White"	"2106-3"	"Texas"	"48"	85	21020190	0.40
+	"2011"	"2011"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1762304	Suppressed
+	"2012"	"2012"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	56183	Unreliable
+	"2012"	"2012"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	218646	Unreliable
+	"2012"	"2012"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	Suppressed	292064	Suppressed
+	"2012"	"2012"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4279	Unreliable
+	"2012"	"2012"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	0	383205	Unreliable
+	"2012"	"2012"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1650175	Suppressed
+	"2012"	"2012"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1192519	Suppressed
+	"2012"	"2012"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	15608	Unreliable
+	"2012"	"2012"	"Black or African American"	"2054-5"	"Georgia"	"13"	24	3163293	0.76
+	"2012"	"2012"	"Black or African American"	"2054-5"	"New York"	"36"	25	3583475	0.70
+	"2012"	"2012"	"Black or African American"	"2054-5"	"Texas"	"48"	50	3313287	1.51
+	"2012"	"2012"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	73967	Unreliable
+	"2012"	"2012"	"White"	"2106-3"	"Georgia"	"13"	16	6317264	Unreliable
+	"2012"	"2012"	"White"	"2106-3"	"New York"	"36"	30	14117965	0.21
+	"2012"	"2012"	"White"	"2106-3"	"Texas"	"48"	104	21261333	0.49
+	"2012"	"2012"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1761559	Suppressed
+	"2013"	"2013"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	56461	Unreliable
+	"2013"	"2013"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	220582	Unreliable
+	"2013"	"2013"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	296644	Unreliable
+	"2013"	"2013"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4471	Unreliable
+	"2013"	"2013"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	399271	Suppressed
+	"2013"	"2013"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1697670	Suppressed
+	"2013"	"2013"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1252181	Suppressed
+	"2013"	"2013"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	16238	Unreliable
+	"2013"	"2013"	"Black or African American"	"2054-5"	"Georgia"	"13"	38	3206522	1.19
+	"2013"	"2013"	"Black or African American"	"2054-5"	"New York"	"36"	24	3606924	0.67
+	"2013"	"2013"	"Black or African American"	"2054-5"	"Texas"	"48"	42	3386416	1.24
+	"2013"	"2013"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	75151	Unreliable
+	"2013"	"2013"	"White"	"2106-3"	"Georgia"	"13"	43	6329913	0.68
+	"2013"	"2013"	"White"	"2106-3"	"New York"	"36"	35	14125951	0.25
+	"2013"	"2013"	"White"	"2106-3"	"Texas"	"48"	120	21512952	0.56
+	"2013"	"2013"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1758444	Suppressed
+	"2014"	"2014"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	56875	Unreliable
+	"2014"	"2014"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	223126	Unreliable
+	"2014"	"2014"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	302757	Unreliable
+	"2014"	"2014"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4608	Unreliable
+	"2014"	"2014"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	421265	Suppressed
+	"2014"	"2014"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1767565	Suppressed
+	"2014"	"2014"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1331159	Suppressed
+	"2014"	"2014"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	16860	Unreliable
+	"2014"	"2014"	"Black or African American"	"2054-5"	"Georgia"	"13"	47	3260440	1.44
+	"2014"	"2014"	"Black or African American"	"2054-5"	"New York"	"36"	29	3648167	0.79
+	"2014"	"2014"	"Black or African American"	"2054-5"	"Texas"	"48"	37	3471829	1.07
+	"2014"	"2014"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	75917	Unreliable
+	"2014"	"2014"	"White"	"2106-3"	"Georgia"	"13"	55	6358763	0.86
+	"2014"	"2014"	"White"	"2106-3"	"New York"	"36"	30	14107369	0.21
+	"2014"	"2014"	"White"	"2106-3"	"Texas"	"48"	108	21851213	0.49
+	"2014"	"2014"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1752941	Suppressed
+	"2015"	"2015"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	57450	Unreliable
+	"2015"	"2015"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	224341	Unreliable
+	"2015"	"2015"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	309742	Unreliable
+	"2015"	"2015"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4654	Unreliable
+	"2015"	"2015"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	444592	Suppressed
+	"2015"	"2015"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1826093	Suppressed
+	"2015"	"2015"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1412908	Suppressed
+	"2015"	"2015"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	17474	Unreliable
+	"2015"	"2015"	"Black or African American"	"2054-5"	"Georgia"	"13"	48	3320419	1.45
+	"2015"	"2015"	"Black or African American"	"2054-5"	"New York"	"36"	27	3665284	0.74
+	"2015"	"2015"	"Black or African American"	"2054-5"	"Texas"	"48"	54	3557565	1.52
+	"2015"	"2015"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	76375	Unreliable
+	"2015"	"2015"	"White"	"2106-3"	"Georgia"	"13"	47	6392399	0.74
+	"2015"	"2015"	"White"	"2106-3"	"New York"	"36"	30	14080073	0.21
+	"2015"	"2015"	"White"	"2106-3"	"Texas"	"48"	99	22188899	0.45
+	"2015"	"2015"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1745625	Suppressed
+	"2016"	"2016"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	58544	Unreliable
+	"2016"	"2016"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	225659	Unreliable
+	"2016"	"2016"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	313507	Unreliable
+	"2016"	"2016"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4685	Unreliable
+	"2016"	"2016"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	456404	Suppressed
+	"2016"	"2016"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1844346	Suppressed
+	"2016"	"2016"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1467555	Suppressed
+	"2016"	"2016"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	17463	Unreliable
+	"2016"	"2016"	"Black or African American"	"2054-5"	"Georgia"	"13"	41	3384642	1.21
+	"2016"	"2016"	"Black or African American"	"2054-5"	"New York"	"36"	22	3667316	0.60
+	"2016"	"2016"	"Black or African American"	"2054-5"	"Texas"	"48"	49	3634085	1.35
+	"2016"	"2016"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	75405	Unreliable
+	"2016"	"2016"	"White"	"2106-3"	"Georgia"	"13"	27	6410781	0.42
+	"2016"	"2016"	"White"	"2106-3"	"New York"	"36"	38	14007968	0.27
+	"2016"	"2016"	"White"	"2106-3"	"Texas"	"48"	100	22447449	0.45
+	"2016"	"2016"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1733549	Suppressed
+	"2017"	"2017"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	59961	Unreliable
+	"2017"	"2017"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	227929	Unreliable
+	"2017"	"2017"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	318447	Unreliable
+	"2017"	"2017"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4640	Unreliable
+	"2017"	"2017"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	477375	Suppressed
+	"2017"	"2017"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	0	1902407	Unreliable
+	"2017"	"2017"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1540052	Suppressed
+	"2017"	"2017"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	17127	Unreliable
+	"2017"	"2017"	"Black or African American"	"2054-5"	"Georgia"	"13"	44	3447386	1.28
+	"2017"	"2017"	"Black or African American"	"2054-5"	"New York"	"36"	23	3695842	0.62
+	"2017"	"2017"	"Black or African American"	"2054-5"	"Texas"	"48"	44	3717259	1.18
+	"2017"	"2017"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	74674	Unreliable
+	"2017"	"2017"	"White"	"2106-3"	"Georgia"	"13"	26	6444657	0.40
+	"2017"	"2017"	"White"	"2106-3"	"New York"	"36"	24	14023221	0.17
+	"2017"	"2017"	"White"	"2106-3"	"Texas"	"48"	101	22728838	0.44
+	"2017"	"2017"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1719416	Suppressed
+	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	61333	Unreliable
+	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	224542	Unreliable
+	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	322926	Unreliable
+	"2018"	"2018"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4681	Unreliable
+	"2018"	"2018"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	491893	Suppressed
+	"2018"	"2018"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1846015	Suppressed
+	"2018"	"2018"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1614008	Suppressed
+	"2018"	"2018"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	17410	Unreliable
+	"2018"	"2018"	"Black or African American"	"2054-5"	"Georgia"	"13"	35	3499496	1.00
+	"2018"	"2018"	"Black or African American"	"2054-5"	"New York"	"36"	30	3634305	0.83
+	"2018"	"2018"	"Black or African American"	"2054-5"	"Texas"	"48"	25	3803248	0.66
+	"2018"	"2018"	"Black or African American"	"2054-5"	"West Virginia"	"54"	0	75210	Unreliable
+	"2018"	"2018"	"White"	"2106-3"	"Georgia"	"13"	26	6466753	0.40
+	"2018"	"2018"	"White"	"2106-3"	"New York"	"36"	32	13837347	0.23
+	"2018"	"2018"	"White"	"2106-3"	"Texas"	"48"	67	22961663	0.29
+	"2018"	"2018"	"White"	"2106-3"	"West Virginia"	"54"	10	1708531	Unreliable
+	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	62594	Unreliable
+	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	223855	Unreliable
+	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	327573	Unreliable
+	"2019"	"2019"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4751	Unreliable
+	"2019"	"2019"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	503548	Suppressed
+	"2019"	"2019"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1850616	Suppressed
+	"2019"	"2019"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	Suppressed	1642328	Suppressed
+	"2019"	"2019"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	16858	Unreliable
+	"2019"	"2019"	"Black or African American"	"2054-5"	"Georgia"	"13"	44	3549778	1.24
+	"2019"	"2019"	"Black or African American"	"2054-5"	"New York"	"36"	35	3611420	0.97
+	"2019"	"2019"	"Black or African American"	"2054-5"	"Texas"	"48"	22	3873093	0.57
+	"2019"	"2019"	"Black or African American"	"2054-5"	"West Virginia"	"54"	Suppressed	74683	Suppressed
+	"2019"	"2019"	"White"	"2106-3"	"Georgia"	"13"	18	6501503	Unreliable
+	"2019"	"2019"	"White"	"2106-3"	"New York"	"36"	40	13767670	0.29
+	"2019"	"2019"	"White"	"2106-3"	"Texas"	"48"	64	23152887	0.28
+	"2019"	"2019"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1695855	Suppressed
+	"2020 "	"2020"	"American Indian or Alaska Native"	"1002-5"	"Georgia"	"13"	0	64282	Unreliable
+	"2020 "	"2020"	"American Indian or Alaska Native"	"1002-5"	"New York"	"36"	0	230299	Unreliable
+	"2020 "	"2020"	"American Indian or Alaska Native"	"1002-5"	"Texas"	"48"	0	340004	Unreliable
+	"2020 "	"2020"	"American Indian or Alaska Native"	"1002-5"	"West Virginia"	"54"	0	4797	Unreliable
+	"2020 "	"2020"	"Asian or Pacific Islander"	"A-PI"	"Georgia"	"13"	Suppressed	524915	Suppressed
+	"2020 "	"2020"	"Asian or Pacific Islander"	"A-PI"	"New York"	"36"	Suppressed	1881911	Suppressed
+	"2020 "	"2020"	"Asian or Pacific Islander"	"A-PI"	"Texas"	"48"	11	1721732	Unreliable
+	"2020 "	"2020"	"Asian or Pacific Islander"	"A-PI"	"West Virginia"	"54"	0	17696	Unreliable
+	"2020 "	"2020"	"Black or African American"	"2054-5"	"Georgia"	"13"	28	3606257	0.78
+	"2020 "	"2020"	"Black or African American"	"2054-5"	"New York"	"36"	28	3604597	0.78
+	"2020 "	"2020"	"Black or African American"	"2054-5"	"Texas"	"48"	38	3984144	0.95
+	"2020 "	"2020"	"Black or African American"	"2054-5"	"West Virginia"	"54"	Suppressed	75782	Suppressed
+	"2020 "	"2020"	"White"	"2106-3"	"Georgia"	"13"	19	6514563	Unreliable
+	"2020 "	"2020"	"White"	"2106-3"	"New York"	"36"	39	13619969	0.29
+	"2020 "	"2020"	"White"	"2106-3"	"Texas"	"48"	106	23314879	0.45
+	"2020 "	"2020"	"White"	"2106-3"	"West Virginia"	"54"	Suppressed	1686512	Suppressed
+"---"
+"Dataset: Underlying Cause of Death, 1999-2020"
+"Query Parameters:"
+"Title: race_year_pregnancy_states"
+"ICD-10 Codes: O00-O99 (Pregnancy, childbirth and the puerperium)"
+"States: Georgia (13); New York (36); Texas (48); West Virginia (54)"
+"Group By: Year; Race; State"
+"Show Totals: Disabled"
+"Show Zero Values: True"
+"Show Suppressed: True"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information."
+"---"
+"Query Date: Sep 1, 2023 7:22:37 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 1999-2020 on CDC WONDER Online Database, released in 2021. Data are from the Multiple Cause of Death Files,"
+"1999-2020, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/ucd-icd10.html on Sep 1, 2023 7:22:37 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"---"
+Caveats:
+"1. As of April 3, 2017, the underlying cause of death has been revised for 125 deaths in 2014. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#2014-Revision."
+"2. Circumstances in Georgia for the years 2008 and 2009 have resulted in unusually high death counts for the ICD-10 cause of"
+"death code R99, ""Other ill-defined and unspecified causes of mortality."" Caution should be used in interpreting these data."
+"More information: http://wonder.cdc.gov/wonder/help/ucd.html#Georgia-Reporting-Anomalies."
+"3. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Assurance of Confidentiality."
+"4. Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Unreliable."
+"5. Information included on the death certificate about the race and Hispanic ethnicity of the decedent is reported by the"
+"funeral director as provided by an informant, often the surviving next of kin, or, in the absence of an informant, on the basis"
+"of observation. Race and ethnicity information from the census is by self-report. To the extent that race and Hispanic origin"
+"are inconsistent between these two data sources, death rates will be biased. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd.html#Racial Differences."
+"6. The population figures for year 2020 are bridged-race estimates of the July 1 resident population, from the Vintage 2020"
+"postcensal series released by NCHS on September 22, 2021. The population figures for year 2019 are bridged-race estimates of the"
+"July 1 resident population, from the Vintage 2019 postcensal series released by NCHS on July 9, 2020. The population figures for"
+"year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series released by NCHS"
+"on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July 1 resident population, from the"
+"Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for year 2016 are bridged-race"
+"estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS on June 26, 2017. The"
+"population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015 postcensal"
+"series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race estimates of the July 1 resident"
+"population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The population figures for year 2013 are"
+"bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal series released by NCHS on June 26,"
+"2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident population, from the Vintage 2012"
+"postcensal series released by NCHS on June 13, 2013. The population figures for year 2011 are bridged-race estimates of the July"
+"1 resident population, from the Vintage 2011 postcensal series released by NCHS on July 18, 2012. Population figures for 2010"
+"are April 1 Census counts. The population figures for years 2001 - 2009 are bridged-race estimates of the July 1 resident"
+"population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on October 26, 2012. Population"
+"figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999 intercensal series of July 1"
+"estimates. Population figures for the infant age groups are the number of live births. <br/><b>Note:</b> Rates and population"
+"figures for years 2001 - 2009 differ slightly from previously published reports, due to use of the population estimates which"
+"were available at the time of release."
+"7. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group."
+"8. Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99"
+"compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences"
+"in information available to individual states and probable errors. Caution should be used in interpreting these data. More"
+"information can be found at: https://www.cdc.gov/nchs/maternal-mortality/."

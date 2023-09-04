@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Lab 4: Policing Justice</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">FYS 189: Data and Social Justice</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Syllabus</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../grading_contract.html">Grading Contract</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html">Schedule</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#the-dataset" id="toc-the-dataset" class="nav-link" data-scroll-target="#the-dataset">The Dataset</a></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a>
+  <ul class="collapse">
+  <li><a href="#part-1-explore-the-data-dictionary" id="toc-part-1-explore-the-data-dictionary" class="nav-link" data-scroll-target="#part-1-explore-the-data-dictionary">Part 1: Explore the data dictionary</a></li>
+  <li><a href="#part-2-download-the-2011-sqf-data" id="toc-part-2-download-the-2011-sqf-data" class="nav-link" data-scroll-target="#part-2-download-the-2011-sqf-data">Part 2: Download the 2011 SQF Data</a></li>
+  <li><a href="#part-3-data-analysis" id="toc-part-3-data-analysis" class="nav-link" data-scroll-target="#part-3-data-analysis">Part 3: Data Analysis</a></li>
+  <li><a href="#part-5-reflection" id="toc-part-5-reflection" class="nav-link" data-scroll-target="#part-5-reflection">Part 5: Reflection</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lab 4: Policing Justice</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>In this lab, you will work through a series of exercises to visualize data regarding discriminatory policing practices in New York City in the early 2011 - the height of stop and frisk. Specifically, you will learn how to create various bar plots that aggregate individual level data by various categories.</p>
+</section>
+<section id="the-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="the-dataset">The Dataset</h2>
+<p>Every time an NYPD officer stops an individual based on “reasonable suspicion” that they committed or were about to commit a crime, the officer is required to fill out a form documenting information about the stop, including the reason for the stop, the demographics of the individual stopped, any actions taken during the stop, and any contraband found on the individual stopped. These reports get aggregated into a database that became available for public download in 2008 as a result of considerable advocacy efforts by the New York Civil Liberties Union in the wake of high-profile police shootings.</p>
+<p>In the 1990s, crime reduction strategies implemented in major cities across the country demanded the production of statistics to generate evidence of policing effectiveness. With certain consequences tied to failures to demonstrate reductions in crime, the policies institutionally incentivized data manipulation - an issue colloquially referred to as “juking the stats.” Despite these data quality issues, the publication of the data in 2008 showed an incredible increase in the number of police stops over a 5-year period, and by 2011, the number of stops had increased 700% from when data collection began in 2002. 88% of the time the individuals stopped were found innocent. In the following years, the data became integral in the New York District Court case Floyd, et al.&nbsp;v. City of New York, et al., which ultimately ruled that stop and frisk was being carried out unconstitutionally in New York City and led to a considerable scaling back of the practice. The New York Civil Liberties Union continues to publish annual reports leveraging the data to assess the current state of discriminatory policing in NYC.</p>
+<p>Today, we are going to analyze 2011 stop and frisk data.</p>
+</section>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<section id="part-1-explore-the-data-dictionary" class="level3">
+<h3 class="anchored" data-anchor-id="part-1-explore-the-data-dictionary">Part 1: Explore the data dictionary</h3>
+<p>Download the data dictionary <a href="https://www.nyc.gov/assets/nypd/downloads/zip/analysis_and_planning/stop-question-frisk/SQF-File-Documentation.zip">here</a>. After downloading the zip file, open the Excel file for the 2011 SQF File Spec. Check out both tabs of the spreadsheet: the first defines variables in the dataset, and the second lists the values that might appear in those variables. Note how each variable maps onto a field on the UF-250 form.</p>
+<p><img src="http://blog.danwin.com/files/images/uf250-2011-side-1.png" class="img-fluid"> &gt; Image from Dan Nguyen: <a href="http://blog.danwin.com/request-nypd-form-uf250/" class="uri">http://blog.danwin.com/request-nypd-form-uf250/</a></p>
+</section>
+<section id="part-2-download-the-2011-sqf-data" class="level3">
+<h3 class="anchored" data-anchor-id="part-2-download-the-2011-sqf-data">Part 2: Download the 2011 SQF Data</h3>
+<p>Download the 2011 SQF Data <a href="https://www.nyc.gov/assets/nypd/downloads/zip/analysis_and_planning/stop-question-frisk/sqf-2011-csv.zip">here</a>.</p>
+</section>
+<section id="part-3-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="part-3-data-analysis">Part 3: Data Analysis</h3>
+<p>Open Tableau, and create a new workbook called <code>sqf_2011</code>. Click “Connect to Data” and the <code>2011.csv</code> file. Note that this is the largest dataset we will work with this semester, and it may take time to load in Tableau.</p>
+<p>In the last lab, we created a series of column plots. In that lab, we supplied a categorical variable for one axis and a numeric variable to set the height of the bar to on another axis. In that lab, we could do so because we were working with data that had already been aggregated. Each row wasn’t a death; it was a count of deaths for a particular demographic group or year.</p>
+<p>In this lab, we don’t have numeric variables to set the height of the bar to. This is because we have unaggregated individual data; each row represents one stop. In this case, we want to do the aggregating. If each row represents one stop, we want to count the number rows (or stops) along a number of different categories.</p>
+<p>To do so, we are going to create bar plots. With bar plots, we don’t supply the height of the bar. Instead, the height of the bar gets set to a count of each observation in a category.</p>
+<section id="question" class="level6">
+<h6 class="anchored" data-anchor-id="question">Question</h6>
+<div class="question">
+<p>Create a new worksheet called “NYPD Stops per Race, 2011”. Name the tab “by_race”.</p>
+<p>Drag the <code>Race</code> pill to Rows. Edit the aliases based on the values in the data dictionary. After this, drag the <code>2011.csv (Count)</code> pill to Columns. Recall from a previous lab that this variable is a count of the all rows in the dataset. Since each row in this dataset is one stop, using this variable counts the numbers of stops per category.</p>
+<p>Sort the bars from largest to smallest, and edit the axis labels to something more meaningful.</p>
+<ul>
+<li>How can we summarize what we see in this plot quantitatively?</li>
+<li>How might we interpret what we see in this plot?</li>
+<li>What might it be evidence of?</li>
+</ul>
+</div>
+</section>
+<section id="question-1" class="level6">
+<h6 class="anchored" data-anchor-id="question-1">Question</h6>
+<div class="question">
+<p>Create a new worksheet called “Percent NYPD Stops Resulting in Arrest or Summons per Race, 2011”. Name the tab “per_guilty”.</p>
+<p>Drag the <code>Race</code> pill to Rows. After this, drag the <code>2011.csv (Count)</code> pill to Columns.</p>
+<p>Now we need to drag over a variable that indicates whether the individual was found guilty. …but there are actually two variables for this: <code>Arstmade</code> and <code>Sumissue</code>, and each have possible values of ‘Y’ or ‘N’. We want to combine this into one variable that return ‘Y’ if either <code>Arstmade</code> and <code>Sumissue</code> are ‘Y’ and ‘N’ otherwise. Highlight both <code>Arstmade</code> and <code>Sumissue</code> with the Cmd/Cntl key, and then click on one pill &gt; Create &gt; Combined Field.</p>
+<p>Click on the newly created Combined Field &gt; Create Group. Change the name of the field to “Guilty”, add a group for the “N,N” value called “No”, and change the name of the remaining group to “Yes”.</p>
+<p><img src="img/create_group.png" class="img-fluid"></p>
+<p>Drag <code>Guilty</code> onto the Rows field behind <code>Race</code>.</p>
+</div>
+<section id="section" class="level7">
+<p class="heading"></p>
+<p>This tells us the total number of stops that resulted in an arrest or summons per race, but since we know that certain races are disproportionately stopped, we really want to see the percentage of stops that result in an arrest or summons per race.</p>
+<p>To do this, we are going to add a Table Calculation to these plots such that each bar displays a “Percent of Total”. Adding this calculation does not change anything about the underlying data; it only changes how the data gets displayed.</p>
+</section>
+</section>
+<section id="question-2" class="level6">
+<h6 class="anchored" data-anchor-id="question-2">Question</h6>
+<div class="question">
+<p>Click on <code>2011.csv (Count)</code> in the Column field &gt; Table Calculation &gt; Percent of Total. Note that, since we are displaying a few different values on this plot, there are a number of different values that can serve as a denominator for the calculated percentage. We want to know the percentage deemed guilty out of all stops, so we are going to click on <code>2011.csv (Count)</code> again &gt; Compute Using &gt; Guilty.</p>
+<p>Finally, right click on “No” in the plot, and then select “Hide”. Note that this locally filters the data, keeping the original data source the same.</p>
+<p>Sort the bars from largest to smallest, and edit the axis labels to something more meaningful.</p>
+<ul>
+<li>How can we summarize what we see in this plot quantitatively?</li>
+<li>How might we interpret what we see in this plot?</li>
+<li>What might it be evidence of?</li>
+</ul>
+</div>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In the last exercise, we created a <em>local filter</em> on the data. When applying local filters, the data remains the same in the original Data Source, but we hide certain variables from view in our visualizations. This is different from applying a <em>global filter</em>. With a global filter, we filter the original Data Source such that only a subset of rows get considered in our analysis/visualizations.</p>
+<p>Why does this difference matter? It mostly matters when we create table calculations on our data that include a denominator (e.g.&nbsp;Percent of Total). If we apply a global filter to such data, the denominator changes - it becomes only the data remaining after the original data source is filtered. …but if we apply a local filter to such data, the denominator remains the same because the original data source doesn’t change. The only thing that changes is our view of that data.</p>
+</div>
+</div>
+</section>
+<section id="question-3" class="level6">
+<h6 class="anchored" data-anchor-id="question-3">Question</h6>
+<div class="question">
+<p>Create a new worksheet called “Percent NYPD Stops Resulting in Frisk per Race, 2011”. Name the tab “per_frisked”.</p>
+<p>Repeat the steps above to create a bar plot that shows the percentage of stops that resulted in a frisk per race. Note that you do not have to create a grouped variable this time around because you have all of the information you need about frisks in the variable <code>Frisked</code>.</p>
+<ul>
+<li>How can we summarize what we see in this plot quantitatively?</li>
+<li>How might we interpret what we see in this plot?</li>
+<li>What might it be evidence of?</li>
+</ul>
+</div>
+</section>
+<section id="question-4" class="level6">
+<h6 class="anchored" data-anchor-id="question-4">Question</h6>
+<div class="question">
+<p>Create a new worksheet called “Percent NYPD Frisks Resulting in a Weapon Found per Race, 2011”. Name the tab “per_wpn”. Drag <code>Frisked</code> to the filters panel, and filter to ‘Y’ so that we are only considering stops that resulted in a frisk. Note, unlike the local filters we applied to the earlier plots by hiding certain values, this is a <em>global</em> filter that filters the original data source.</p>
+<p>Repeat the steps above to create a bar plot that shows the percentage of frisks that resulted in a weapon found per race. Note that you do have to create a grouped variable this time around as there is no existing variable for “Weapon found”. You will need to combine the variables: <code>Pistol</code>, <code>Riflshot</code>, <code>Asltweap</code>, <code>Knifcuti</code>, <code>Machgun</code>, <code>Othrweap</code> such that if any are ‘Y’ the data returns ‘Y’ and otherwise the data returns ‘N’.</p>
+<ul>
+<li>How can we summarize what we see in this plot quantitatively?</li>
+<li>How might we interpret what we see in this plot?</li>
+<li>What might it be evidence of?</li>
+</ul>
+</div>
+<section id="section-1" class="level8">
+<p class="heading"></p>
+</section>
+</section>
+<section id="question-5" class="level6">
+<h6 class="anchored" data-anchor-id="question-5">Question</h6>
+<div class="question">
+<p>Create a new worksheet called “NYPD Precincts with the Most Stops, 2011”. Name the tab “top_5_pct”. Convert <code>Pct</code> from a Measure to a Dimension. Drag <code>Pct</code> to Rows and <code>2011.csv (Count)</code> columns. Drag <code>Pct</code> to Filters and select ‘Top’. Configure the filter to display the top 5 according to 2011.csv Count.</p>
+<p><img src="img/top_5.png" class="img-fluid"></p>
+<p>Sort the bars from largest to smallest, and edit the axis labels to something more meaningful.</p>
+</div>
+</section>
+<section id="question-6" class="level6">
+<h6 class="anchored" data-anchor-id="question-6">Question</h6>
+<div class="question">
+<p>Create a new worksheet called “NYPD Precincts with the Highest Percentage of Frisks, 2011”. Name the tab “pct_frisks”. Based on what you’ve learned, create a bar plot that shows the percentage of stops that resulted in a frisk for each precinct.</p>
+<p>Sort the bars from largest to smallest, and edit the axis labels to something more meaningful.</p>
+</div>
+<section id="section-2" class="level7">
+<p class="heading"></p>
+<p>Now let’s say that we want to analyze the documented reasons for a stop. Officers are required to have reasonable suspicion that a crime was committed, so maybe we want to analyze what their reasons for stopping were. You’ll notice that there isn’t one variable that documents the reason for the stop. This is because on that section of the UF-250 form (entitled “What Were Circumstances that Led to Stop?”), the officer is presented with series of checkboxes. The officer can select multiple boxes. Each option is its own variable in this dataset with a ‘Y’ or ‘N’ option.</p>
+<p>We can’t just drag all of these variables onto the plot because Tableau will combine every ‘Y’/‘N’ option across all variables.</p>
+<p><img src="img/unpivoted.png" class="img-fluid"></p>
+<p>Instead, we want to pivot these variables such that the field names will become one variable, and the values associated with them ‘Y’/‘N’ will become another variable.</p>
+<div class="question">
+<p>Create a new worksheet called “NYPD Reason for Stops, 2011”. Name the tab “stop_reason”. Using the Cmd/Cntl button select all variables starting with <code>Cs ...</code> Right click on the select pills &gt; Transform &gt; Pivot.</p>
+<p>Drag <code>Pivot Field Names</code> onto the Rows field and <code>2011.csv (Count)</code> onto the Columns field. Convert the counts to a percent of total, computed using the <code>Pivot Field Values</code>. Locally filter ‘N’ from the plot, using “Hide”.</p>
+<p>Sort the bars from largest to smallest, and edit the axis labels to something more meaningful. Edit the aliases to the values under the “What Were Circumstances that Led to Stop?” on the UF-250 form.</p>
+<ul>
+<li>How can we summarize what we see in this plot quantitatively?</li>
+<li>How might we interpret what we see in this plot?</li>
+<li>What might it be evidence of?</li>
+</ul>
+</div>
+</section>
+</section>
+</section>
+<section id="part-5-reflection" class="level3">
+<h3 class="anchored" data-anchor-id="part-5-reflection">Part 5: Reflection</h3>
+<p>How might we summarize what we just learned into a factual claim?</p>
+<p>Note that this data is often cited as evidence of racial profiling in policing. …but some also counter that stop and frisk policies led to the greatest reduction of crime rates in NYC’s history. They reframe racial profiling as proactive policing. Here’s <a href="https://www.nbcnews.com/think/opinion/crime-dropped-under-stop-frisk-which-worth-remembering-rush-criticize-ncna1151121">one article</a> that makes such a counter-claim.</p>
+<p>In small groups, read through this article and try to identify the arguments that the author uses to counter the claims regarding racial profiling. How would you respond to their counter-arguments? What evidence could you provide in your response?</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
