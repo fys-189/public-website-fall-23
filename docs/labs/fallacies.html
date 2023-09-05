@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data Fallacies</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">FYS 189: Data and Social Justice</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Syllabus</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../grading_contract.html">Grading Contract</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html">Schedule</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#variable-selection" id="toc-variable-selection" class="nav-link" data-scroll-target="#variable-selection">Variable Selection</a></li>
+  <li><a href="#filtering" id="toc-filtering" class="nav-link" data-scroll-target="#filtering">Filtering</a></li>
+  <li><a href="#aggregation" id="toc-aggregation" class="nav-link" data-scroll-target="#aggregation">Aggregation</a></li>
+  <li><a href="#correlation" id="toc-correlation" class="nav-link" data-scroll-target="#correlation">Correlation</a></li>
+  <li><a href="#interpretation" id="toc-interpretation" class="nav-link" data-scroll-target="#interpretation">Interpretation</a></li>
+  </ul></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Fallacies</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>In this lab, we will examine a series of common errors in reasoning that emerge when presenting data-based evidence or when countering data-based evidence. Then you will identify examples of how these errors in reasoning may emerge in your final projects.</p>
+<section id="variable-selection" class="level3">
+<h3 class="anchored" data-anchor-id="variable-selection">Variable Selection</h3>
+<section id="cherry-picking" class="level4">
+<h4 class="anchored" data-anchor-id="cherry-picking">Cherry-picking</h4>
+<p>Cherry-picking is when an analyst only considers variables that support their claims in data analysis, ignoring other relevant variables that might change the outcome.</p>
+<section id="proxy-discrimination" class="level5">
+<h5 class="anchored" data-anchor-id="proxy-discrimination">Proxy Discrimination</h5>
+<p>In some cases, there’s no easy way to measure a certain phenomena, so an analyst relies on a series of proxy variables - or variables that are meant to stand in for that phenomena. For instance, maybe it’s hard to measure happiness (because it’s not necessarily clear what that even means), so an analyst relies on variables like <em>access to public welfare resources</em> and <em>number of working hours in a week</em> as proxies for happiness. Proxy discrimination occurs when an analyst selects variables that are assumed to be representative of what they’re trying to measure, but those variables are actually correlated with other social markers. Relying on those variables in data analysis and decision-making leads to situations where individuals are discriminated against by proxy.</p>
+<p>For example, there’s been excellent critical research into an algorithm used in criminal justice settings called COMPAS. Among other things, this algorithm attempts to predict the likelihood that someone recently released from a carceral institution will commit a crime. While the algorithm does not use race in their calculations it does use variables correlated with race - such as high school drop-out rates and family histories of incarceration. In relying on these proxies, the algorithm produces results that factor in race even without explicitly including the variable. That’s proxy discrimination.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BC3oDyHGSlI?si=SL2JXUicFe_2fh5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</section>
+</section>
+</section>
+<section id="filtering" class="level3">
+<h3 class="anchored" data-anchor-id="filtering">Filtering</h3>
+<section id="sampling-bias" class="level4">
+<h4 class="anchored" data-anchor-id="sampling-bias">Sampling Bias</h4>
+<p>Sampling bias occurs when an analyst subsets their data to a sample that is unrepresentative of the broader population in an attempt to make certain claims about the broader population.</p>
+</section>
+<section id="ecological-fallacy" class="level4">
+<h4 class="anchored" data-anchor-id="ecological-fallacy">Ecological Fallacy</h4>
+<p>The ecological fallacy occurs when an analyst assumes that certain characteristics of a broader population can automatically be attributed to individuals in that population. In other words, this fallacy occurs when an analyst calculates population wide statistics and assumes they apply to everyone, failing to consider outliers. I like to think of this fallacy as a “failure to filter.”</p>
+</section>
+</section>
+<section id="aggregation" class="level3">
+<h3 class="anchored" data-anchor-id="aggregation">Aggregation</h3>
+<section id="base-rate-fallacy" class="level4">
+<h4 class="anchored" data-anchor-id="base-rate-fallacy">Base Rate Fallacy</h4>
+<p>The base rate fallacy occurs when an analyst prioritizes case-specific information over statistics when making certain judgments. It’s when we let individual instances shape our assumptions about what is generally true. I like to think of this fallacy as a “failure to aggregate.”</p>
+</section>
+<section id="flaw-of-averages" class="level4">
+<h4 class="anchored" data-anchor-id="flaw-of-averages">Flaw of Averages</h4>
+<p>The flaw of averages occurs when we rely on averages (medians, means, and modes) to shape our understanding of what is generally always true. The problem is that it fails to account for differences and fluctuations that we can only see by disaggregating the data.</p>
+<p>Here’s a really nice video on the “flaws of averages”:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CYDbNf_Y5D0?si=IbfYGN6uSX70kTpy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</section>
+<section id="simpsons-paradox" class="level4">
+<h4 class="anchored" data-anchor-id="simpsons-paradox">Simpson’s Paradox</h4>
+<p>Simpson’s paradox refers to a phenomenon in which a trend that appears in data reverses when we disaggregate that data.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ebEkn-BiW5k?si=kHRWyrC1fx6roSTz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+<p>I recently came across an example of Simpson’s Paradox in my own research. We were investigating the percentage of carceral facilities that were “proximate”* to sites contaminated by a class of chemicals known as PFAS. We found 48% in the U.S. to be proximate. We then compared this to the percentage of hospitals that were proximate to sites contaminated by PFAS and found 56% of hospitals in the U.S. to be proximate. This suggested that there was a higher percentage of hospitals proximate to these sites than carceral institutions. However, when we disaggregated the data by whether the institution was in an urban or rural setting, the percentages were higher for both rural and urban carceral institutions than for hospitals. How did this happen? I’ll draw this out on the board to explain!</p>
+</section>
+</section>
+<section id="correlation" class="level3">
+<h3 class="anchored" data-anchor-id="correlation">Correlation</h3>
+<section id="false-causality" class="level4">
+<h4 class="anchored" data-anchor-id="false-causality">False Causality</h4>
+<p>False causality occurs when an analyst assumes a causal relationship between variables that they’ve only proven to be correlated. This ignores the possibility that additional <em>confounding</em> variables may be impacting how variables appear to correlate. For instance, let’s say I work for a municipal housing department, and I notice a spike in complaints about lack of heat and hot water in buildings following a November hurricane. At first, I assume that this is due to the hurricane. …but then I zoom out and notice that this same spike occurs every year at that time - because temperatures are dropping. We can’t assume that the hurricance caused the spike in complaints just based on their correlation. Seasonality is the confounding variable here.</p>
+<p>Sometimes correlations are coincidental. Check out this website, which includes a number of <a href="https://www.tylervigen.com/spurious-correlations">spurious correlations</a>.</p>
+</section>
+</section>
+<section id="interpretation" class="level3">
+<h3 class="anchored" data-anchor-id="interpretation">Interpretation</h3>
+<section id="mcnamara-fallacy" class="level4">
+<h4 class="anchored" data-anchor-id="mcnamara-fallacy">McNamara Fallacy</h4>
+<p>The McNamara fallacy refers to instances when an analyst prioritizes numbers and statistics over meaningful and relevant qualitative information. It’s an over-reliance on metrics. The problem with this is that there are many things that can’t easily be measured. We end up only producing knowledge on those things that we can easily measure.</p>
+</section>
+<section id="goodharts-law" class="level4">
+<h4 class="anchored" data-anchor-id="goodharts-law">Goodhart’s Law</h4>
+<p>Goodhart’s Law indicates that as soon as a measure becomes a target, it ceases to be a good measure. This is because treating numbers as targets incentives individuals to “game the system.”</p>
+</section>
+</section>
+</section>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<p>In small groups, select five of the above errors in reasoning and discuss examples of how each might lead to specific errors of reasoning in relation to your data. Narrow your conversation down to the two most compelling examples, and see if you can produce data visualizations in Tableau that are demonstrative of these errors in reasoning.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
