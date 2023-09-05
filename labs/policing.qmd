@@ -1,11 +1,18 @@
 ---
-title: "Lab 4: Policing Justice"
+title: "Policing Justice"
+subtitle: "Responding to claims that the problem is with a few 'bad apples'"
 editor: source
 ---
 
 ## Overview
 
-In this lab, you will work through a series of exercises to visualize data regarding discriminatory policing practices in New York City in the early 2011 - the height of stop and frisk. Specifically, you will learn how to create various bar plots that aggregate individual level data by various categories.
+In this lab, you will work through a series of exercises to visualize data regarding discriminatory policing practices in New York City in the early 2011 - the height of stop and frisk. Specifically, you will learn how to create various bar plots that aggregate individual level data by various categories. You will also practice creating table calculations, combining variables, and pivoting variables. 
+
+## The Counter-Claim
+
+A common response to evidence of racial profiling in policing is that misconduct can be isolated to a few "bad apples." The idea is that the problem is not with biased policies or problematic cultures of policing, but instead with a few rogue individuals not following protocol. With this framing, solutions to policing injustices tend to be focused on reforms such as mandatory implicit bias training and punishments for individual bad actors. Solutions rarely focus on reimagining the structures and policies that underlie policing as an institution. 
+
+Refuting the "bad apples" narrative requires that we produce evidence of structural inequities that extend beyond examples of individual police encounters. Overall, this lab will demonstrate what we can see in the aggregate that we can't necessarily see at an individual level. 
 
 ## The Dataset
 
@@ -163,7 +170,7 @@ Sort the bars from largest to smallest, and edit the axis labels to something mo
 
 ### Part 5: Reflection
 
-How might we summarize what we just learned into a factual claim?
+How might we summarize what we just learned into a factual claim? How does the data respond to the "bad apples" narrative?  What other data or analysis strategies could be engaged to respond to these counter-claims?
 
 Note that this data is often cited as evidence of racial profiling in policing. ...but some also counter that stop and frisk policies led to the greatest reduction of crime rates in NYC's history. They reframe racial profiling as proactive policing. Here's [one article](https://www.nbcnews.com/think/opinion/crime-dropped-under-stop-frisk-which-worth-remembering-rush-criticize-ncna1151121) that makes such a counter-claim.
 

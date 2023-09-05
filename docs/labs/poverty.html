@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Intersections of Poverty</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">FYS 189: Data and Social Justice</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Syllabus</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../grading_contract.html">Grading Contract</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html">Schedule</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#the-counter-claim" id="toc-the-counter-claim" class="nav-link" data-scroll-target="#the-counter-claim">The Counter-Claim</a></li>
+  <li><a href="#the-dataset" id="toc-the-dataset" class="nav-link" data-scroll-target="#the-dataset">The Dataset</a></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a>
+  <ul class="collapse">
+  <li><a href="#part-1-getting-started" id="toc-part-1-getting-started" class="nav-link" data-scroll-target="#part-1-getting-started">Part 1: Getting Started</a></li>
+  <li><a href="#part-2-data-analysis" id="toc-part-2-data-analysis" class="nav-link" data-scroll-target="#part-2-data-analysis">Part 2: Data Analysis</a></li>
+  <li><a href="#table-calculations" id="toc-table-calculations" class="nav-link" data-scroll-target="#table-calculations">Table Calculations</a></li>
+  <li><a href="#sorting" id="toc-sorting" class="nav-link" data-scroll-target="#sorting">Sorting</a></li>
+  <li><a href="#part-3-reformatting-to-do-no-harm" id="toc-part-3-reformatting-to-do-no-harm" class="nav-link" data-scroll-target="#part-3-reformatting-to-do-no-harm">Part 3: Reformatting to Do No Harm</a></li>
+  </ul></li>
+  <li><a href="#first-half-submission" id="toc-first-half-submission" class="nav-link" data-scroll-target="#first-half-submission">First Half Submission</a>
+  <ul class="collapse">
+  <li><a href="#part-4-data-analysis-continued" id="toc-part-4-data-analysis-continued" class="nav-link" data-scroll-target="#part-4-data-analysis-continued">Part 4: Data Analysis Continued</a></li>
+  <li><a href="#part-5-reflection" id="toc-part-5-reflection" class="nav-link" data-scroll-target="#part-5-reflection">Part 5: Reflection</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Intersections of Poverty</h1>
+<p class="subtitle lead">Responding to claims that everyone should be treated ‘equal’</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Today and next week, you are going to work through a series of exercises to get you acquainted with the visualization features in Tableau. You are going to produce a series of worksheets in Tableau that showcase the intersections of poverty and race/ethnicity/gender in the United States, using the 2021 American Community Census Supplemental Poverty Measure public use research extracts. Throughout this exercise, we will refer to the Supplemental Poverty Measure as SPM.</p>
+<p>The primary goal of this exercise is <em>not</em> to memorize a series of Tableau features and workflows. We are going to cover a lot of ground today, and I do not expect you to remember everything. The primary goal is twofold - first, to give you a sense of the expansiveness of Tableau’s capabilities, and second, to give you practice problem-solving in Tableau by following reference material. In most sections of this exercise, I’m not going to explain to you exactly how to complete the step …but I am going to give you the resources that you need to figure it out. This is really important skill-building for this course and for data analysis in general.</p>
+</section>
+<section id="the-counter-claim" class="level2">
+<h2 class="anchored" data-anchor-id="the-counter-claim">The Counter-Claim</h2>
+<p>A common response to campaigns and policies focused on anti-racism and anti-sexism is this: “I believe everyone should be treated equally.” The suggestion is that everyone should have access to the same exact resources and opportunities. The problem with this rhetoric is that it ignores that different people start from different positions. We’ve learned this week that focusing on equity over equality ensures that everyone can achieve the same outcomes because resources and opportunities are directed to communities based on where they are at. As we consider equity-based approaches, it’s important to also recognize that disadvantages can be amplified at the intersections of certain social identities.</p>
+<p>Refuting claims that prioritize equality over equity requires highlighting the disadvantages that groups at the intersection of certain social identities face. Overall, this lab will demonstrate what we can see when we compare data across the intersections of race, ethnicity, class, and gender that we can’t see when examining data along a single axis.</p>
+</section>
+<section id="the-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="the-dataset">The Dataset</h2>
+<p>There are multiple standards that the U.S. federal government uses to assess poverty. The first and most common measure - the official poverty measure (OPM) - has been in use since the 1960s. This measure defines poverty by analyzing a family’s pre-tax income to a certain poverty threshold and adjusting for the size of the family. While this measure has a long history, many stakeholders were concerned that it paints an inadequate picture of poverty. With the support of the U.S. Bureau of Labor Statistics, the SPM was introduced in 2011 to factor in a number of other vectors that mark poverty - access to government programs like food stamps, federal and state taxes, work expenses, food expenses, and geographic location.</p>
+<p>The data that you will see in this lab documents poverty in the U.S according to both measures. It was collected via the U.S. Census Bureau’s Current Population Survey Annual Social and Economic Supplements (CPS ASEC). Each row in the dataset is one surveyed person in a U.S. household, and there are columns to mark the person’s demographics (age, race, ethnicity, gender, marital status), the person’s poverty status, their household’s income and expenses, and the household’s access to various government subsidies. The CPS is directed to the U.S. civilian noninstitutional population, and thus excludes incarcerated individuals, individuals in nursing homes, and the homeless population.</p>
+<p>It’s important to note that this is not a survey of every person in the U.S. There are a number of reasons why it would be difficult to survey everyone in the U.S - it’s expensive, it takes a lot of time, not everyone wants to be surveyed, among other reasons. Instead, a subset of the total population (or, in other words, a <em>sample</em> of households) are surveyed. …but there are reasons why this sample might not be representative of the whole U.S. even if respondents were selected randomly. Certain communities may be under-surveyed if they live in areas that are difficult to reach, if they tend to refuse participation, or if they are more likely to be unavailable for surveying. Sometimes, when we look at the demographics of those that actually participated in a survey, the distributions of age, race, gender, etc do not match those of the US. To account for this, the CPS assigns weights to each survey response. The weight represents the theoretical number of people that a survey response represents within the total population. So if one survey response was assigned a weight of 144, this indicates that the survey collectors estimate that this survey response represents about 144 people in the total population.</p>
+<p>This is a really important concept, so if you had trouble following the paragraph above, check out this video for further explanation:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8iMV7ei61IM?si=UIJbmCObrB8hPqpW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>
+</section>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<section id="part-1-getting-started" class="level3">
+<h3 class="anchored" data-anchor-id="part-1-getting-started">Part 1: Getting Started</h3>
+<p>Open Tableau and create a New Workbook called <code>spm_poverty_2021</code>. Click the Connect to Data in the upper left hand corner of Tableau. Download <a href="https://www2.census.gov/programs-surveys/supplemental-poverty-measure/datasets/spm/spm_pu_2021.sas7bdat">this data file</a> and load it into Tableau, using the Statistical File link on the Connect page. It may take a few moments to load. Open the data dictionary for this dataset <a href="https://www2.census.gov/programs-surveys/supplemental-poverty-measure/datasets/spm/spm-asc-2020.pdf">here</a>, and make sure you have it available to you throughout these exercises. Read through the data dictionary to acquaint yourself with the variables that might appear in this dataset.</p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In the data dictionary, you may notice that beneath field names, there are a list of numbers followed by a series of labels. For example, consider this section:</p>
+<p><img src="img/codes.png" class="img-fluid"></p>
+<p>Under the SEX heading, the dictionary is indicating that whenever you see a 1 in the dataset under the SEX variable, it refers to Male, and whenever you see a 2 in the dataset under the SEX variable, it refers to a Female.</p>
+</div>
+</div>
+<p>Create a new Sheet in your Tableau Workbook called ‘Poverty Counts - Official Poverty Measure’. Rename the worksheet tab at the bottom of the screen to some abbreviated version of this. (I called mine Off-Pov).</p>
+<section id="understanding-pill-types" class="level4">
+<h4 class="anchored" data-anchor-id="understanding-pill-types">Understanding Pill Types</h4>
+<p>Variables are treated differently in Tableau depending on whether they are assumed to be Dimensions or Measures, and whether they are treated as Discrete or Continuous. Pill types impact what kinds of calculations we can perform, what kinds of plots we can create, and what kinds of formulas we can write.</p>
+<p>Watch <a href="https://www.tableau.com/learn/training/pre-2021.1-tableau-free-training-videos#reveal-529700">this video</a>, which explains pill types further.</p>
+<p>There are a number of categorical variables in this dataset that are incorrectly coded as Measures. This is because the dataset uses numbers as labels for the categorical variables (e.g.&nbsp;1 refers to Male in the SEX variable). When Tableau imported our dataset, it defaulted to treating these variables as measures because it saw a series of numbers in the columns. …but we won’t ever add, average, or perform any other numerical calculations with the numbers in these columns because they are actually labels for categorical information, not measures.</p>
+<section id="question" class="level6">
+<h6 class="anchored" data-anchor-id="question">Question</h6>
+<div class="question">
+<p>Based on what you learned in the last video, convert the following categorical variables in the dataset to Dimensions : <code>Education</code>, <code>Hispanic</code>, <code>Mar</code>, <code>OFF Poor</code>, <code>Puma</code>, <code>Race</code>, <code>Sex</code>, <code>SPM Poor</code>, <code>SPM Ten MortStatus</code>, <code>SPM wCohabit</code>, <code>SPM wUI LT15</code>, <code>ST</code>.</p>
+</div>
+<section id="section" class="level7">
+<p class="heading"></p>
+</section>
+</section>
+</section>
+<section id="managing-metadata" class="level4">
+<h4 class="anchored" data-anchor-id="managing-metadata">Managing Metadata</h4>
+<p>There are a whole lot of variables for us to parse through in this dataset, and it would be helpful if we had some way of further organizing them.</p>
+<p>Watch <a href="https://www.tableau.com/learn/training/pre-2021.1-tableau-free-training-videos#reveal-529692">this video</a>, which explains how to manage metadata in Tableau.</p>
+<section id="question-1" class="level6">
+<h6 class="anchored" data-anchor-id="question-1">Question</h6>
+<div class="question">
+<p>Create the following folders in your Worksheet:</p>
+<ul>
+<li>IDs</li>
+<li>Demographics</li>
+<li>Geography</li>
+<li>Housing Status</li>
+<li>Household Properties</li>
+<li>Income</li>
+<li>Expenses</li>
+<li>Financial Resources</li>
+</ul>
+<p>Organize as many of the variables into these folders as you can.</p>
+</div>
+</section>
+</section>
+<section id="aliases" class="level4">
+<h4 class="anchored" data-anchor-id="aliases">Aliases</h4>
+<p>Go ahead and drag the <code>OFF Poor</code> variable onto the Rows field. You’ll notice a table appears, with 0 and 1 listed in the first column and empty text in the next column.</p>
+<p>You’ll remember that you can look up the values corresponding to 0 and 1 in the <code>OFF Poor</code> variable in the Data Dictionary. To make compelling data visualizations, we likely want to swap out these numbers with their actual labels in the visualization. To do this, we can hover over the number 0 in the visualization, right click, and then click ‘Edit Alias’.</p>
+<p><img src="img/alias.png" class="img-fluid"></p>
+<p>Then you can type the label name in the field that appears. This label will appear in place of 0 whenever you use this variable again.</p>
+<section id="question-2" class="level6">
+<h6 class="anchored" data-anchor-id="question-2">Question</h6>
+<div class="question">
+<p>Edit the Aliases for both of the values in <code>OFF Poor</code> according to the labels from the Data Dictionary.</p>
+</div>
+</section>
+</section>
+</section>
+<section id="part-2-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="part-2-data-analysis">Part 2: Data Analysis</h3>
+<section id="working-with-special-pill-types" class="level4">
+<h4 class="anchored" data-anchor-id="working-with-special-pill-types">Working with Special Pill Types</h4>
+<p>Let’s say that we wanted to know the count of individuals in this dataset that were considered to be in poverty according to the <code>OFF Poor</code> variable. To do so, we want to count how many times 1 appeared in the dataset in this column, along with how many times 0 appeared in the dataset in this column. There is a special pill in the Measures section of Tableau that facilitates this. It’s the file name of your dataset followed by the word (Count).</p>
+<p><img src="img/counts.png" class="img-fluid"></p>
+<p>With <code>OFF Poor</code> still in the Rows field of your worksheet, drag <code>spm_pu_2021.sas7bdat (Count)</code> to the Label field. You’ll see a table that looks like this.</p>
+<p><img src="img/off_pov_tabl.png" class="img-fluid"></p>
+<p>This indicates to us how many survey respondents in this dataset were classified as in poverty according to the official poverty measure. …but recall from above that this dataset is a sample not a total count of every person in the U.S. and that certain categories of people might be more represented than others. Certain communities may have been over-surveyed, and others might have been under-surveyed. Zooming out to the entire U.S., we can’t assume that this is a representative ratio of individuals in poverty. To address this, we will need to factor in the survey weights.</p>
+<p>Drag the <code>Wt</code> pill to the Label field. Remember that the <code>Wt</code> field represents how many people in the population that the survey respondent represents. If <code>Wt</code> is 144 for one row in the dataset, it is assumed that there are 144 people in the U.S. that are represented by this survey response. This also means that the response will count more than a survey response that was assigned a weight of 80.</p>
+<p>By default, Tableau sums this number, giving us an estimate of the total population classified as in poverty according to this measure. The table is difficult to read though, right? We can guess, but there are no labels that indicate which number is associated with the survey count vs.&nbsp;which number is associated with the weighted sum.</p>
+<p>Watch <a href="https://www.tableau.com/learn/training/pre-2021.1-tableau-free-training-videos#reveal-529702">this video</a>, which explains how to have different measures appear side-by-side in a plot.</p>
+<section id="question-3" class="level6">
+<h6 class="anchored" data-anchor-id="question-3">Question</h6>
+<div class="question">
+<p>Based on the video, see if you can adjust the table we’ve been creating in these steps to look like this:</p>
+<p><img src="img/off_pov_tabl2.png" class="img-fluid"></p>
+</div>
+<section id="section-1" class="level8">
+<p class="heading"></p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You can <code>Edit Alias</code> of the column names in your table to match my column names above.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="question-4" class="level6">
+<h6 class="anchored" data-anchor-id="question-4">Question</h6>
+<div class="question">
+<p>Create a new worksheet in Tableau called “Poverty Counts - Supplemental Poverty Measure”. Rename the worksheet tab to something similar. Repeat the steps above to create a table that shows both the survey counts and weighted sum for the <code>SPM Poor</code> indicator. With which definition of poverty is the weighted sum greater? Any guesses as to why?</p>
+</div>
+<section id="section-2" class="level7">
+<p class="heading"></p>
+</section>
+</section>
+<section id="question-5" class="level6">
+<h6 class="anchored" data-anchor-id="question-5">Question</h6>
+<div class="question">
+<p>Create a new worksheet in Tableau called “SPM Poverty By Race” and rename the worksheet tab to something similar. Drag the <code>Race</code> variable to the Rows field, the <code>SPM Poor</code> variable to the Columns field, and the <code>Wt</code> variable to the label field. Ensure that the <code>Wt</code> field is being aggregated with SUM. Edit the aliases to display the correct <code>Race</code> labels from the data dictionary.</p>
+</div>
+</section>
+</section>
+</section>
+<section id="table-calculations" class="level3">
+<h3 class="anchored" data-anchor-id="table-calculations">Table Calculations</h3>
+<p>When producing tables like this, we are often not just concerned with the total number of people in poverty in different social groups, but the percentage of people in poverty across different social groups. To adjust our tables to show this, we are going to use the Table Calculation features in Tableau.</p>
+<p>Watch <a href="https://www.tableau.com/learn/training/pre-2021.1-tableau-free-training-videos#reveal-528004">this video</a>, which explains how to create table calculations and <a href="https://www.tableau.com/learn/training/pre-2021.1-tableau-free-training-videos#reveal-528006">this video</a>, which explains how to modify table calculations.</p>
+<section id="question-6" class="level6">
+<h6 class="anchored" data-anchor-id="question-6">Question</h6>
+<div class="question">
+<p>Using the Quick Table Calculation feature, convert the sum in your “SPM Poverty By Race” table to percentages. Experiment with adjusting the value selected in “Compute Using…” What are the differences between the following three tables?</p>
+<p><img src="img/compute_using_race.png" class="img-fluid"> <img src="img/compute_using_table.png" class="img-fluid"> <img src="img/compute_using_spm.png" class="img-fluid"> Which table would I use if I wanted to know which racial group has the highest percentage of individuals in poverty? Set “Compute Using…” accordingly.</p>
+</div>
+</section>
+</section>
+<section id="sorting" class="level3">
+<h3 class="anchored" data-anchor-id="sorting">Sorting</h3>
+<p>Often times, it can help us interpret tables and visualizations when rows, bars, etc. are ordered from largest to smallest. There are number of ways to re-sort your data visualizations in Tableau.</p>
+<p>Watch <a href="https://www.tableau.com/learn/training/pre-2021.1-tableau-free-training-videos#reveal-528023">this video</a> on sorting in Tableau.</p>
+<section id="question-7" class="level6">
+<h6 class="anchored" data-anchor-id="question-7">Question</h6>
+<div class="question">
+<p>Sort the “SPM Poverty By Race” table that you just created such that the racial group with the highest percentage of individuals in poverty appears at the top, and the group with the lowest percentage of individuals in poverty appears at the bottom.</p>
+</div>
+</section>
+</section>
+<section id="part-3-reformatting-to-do-no-harm" class="level3">
+<h3 class="anchored" data-anchor-id="part-3-reformatting-to-do-no-harm">Part 3: Reformatting to Do No Harm</h3>
+<p>This week you read examples of “data harm” curated by the Data Justice Lab. As we start designing tables and visualizations in Tableau, it is important to think about how we can minimize harm in our data design practices.</p>
+<p>Watch <a href="https://www.tableau.com/foundation/data-equity/do-no-harm">this video</a>, which details 10 “do no harm” recommendations from the Urban Institute.</p>
+<p>Following this, watch <a href="https://www.tableau.com/learn/training/pre-2021.1-tableau-free-training-videos#reveal-529723">this video</a> which details some formatting features in Tableau.</p>
+<section id="question-8" class="level6">
+<h6 class="anchored" data-anchor-id="question-8">Question</h6>
+<div class="question">
+<p>In the top right hand corner of the “SPM Poverty By Race” worksheet, click Show Me and select the icon with horizontal bars to convert the table that you just created to a bar chart.</p>
+<p><img src="img/show_me_bar.png" class="img-fluid"> Right click “Not in Poverty” in your table and select “Hide”.</p>
+<p><img src="img/hide_not_pov.png" class="img-fluid"> Using some of the formatting features that you just learned, identify and apply at least two techniques to minimize harm in the plot. You can also use skills that you learned earlier in this workshop.</p>
+</div>
+</section>
+<section id="question-9" class="level6">
+<h6 class="anchored" data-anchor-id="question-9">Question</h6>
+<div class="question">
+<p>Create a new Worksheet called “SPM Poverty by Hispanic”, and rename the worksheet tab to something similar. Recreate “SPM Poverty by Race” but with the Hispanic variable.</p>
+</div>
+</section>
+</section>
+</section>
+<section id="first-half-submission" class="level2">
+<h2 class="anchored" data-anchor-id="first-half-submission">First Half Submission</h2>
+<p>Create a New Dashboard in your workbook, and drag all four of your worksheets onto it in any order. Be sure to revisit checkpoint 1 if you can’t remember how to create a dashboard. In the top menu bar, click on Dashboard &gt; Export Image, and then save an image of your dashboard as a .png file. Upload the image to Moodle under the Tableau Workshop assignment.</p>
+<hr>
+<section id="part-4-data-analysis-continued" class="level3">
+<h3 class="anchored" data-anchor-id="part-4-data-analysis-continued">Part 4: Data Analysis Continued</h3>
+<p>Last week, we examined poverty status along single-axes of identity: race and ethnicity. In part 2, we are going to examine poverty status along multiple-axes of identity in order to demonstrate how individuals with overlapping minority identities can face heightened disadvantages.</p>
+<p>In the following steps, we are going to be determining the average income and average access to government subsidies across different social groups. To do so, we are going to have to take into consideration the survey weights. We’re going to create a <em>calculated field</em> that calculates a weighted average of income. Calculated fields are variables that we create with customized formulas.</p>
+<section id="question-10" class="level6">
+<h6 class="anchored" data-anchor-id="question-10">Question</h6>
+<div class="question">
+<p>Create a new Worksheet called “Average Income for Single Adult (Age 18-65) Households with Children, 2021”, and rename the worksheet tab to income_race_sex.</p>
+<p>In the Data side panel, click on the downward black arrow &gt; Create Calculated Field.</p>
+<p><img src="img/create_calc.png" class="img-fluid"> Name the field Weighted Totalval, and then enter the following formula into the text box:</p>
+<p><code>SUM([Wt] * [SPM Totval]) / SUM([Wt])</code></p>
+<p>As a class, we will talk through what this formula does. Click OK.</p>
+</div>
+</section>
+<section id="question-11" class="level6">
+<h6 class="anchored" data-anchor-id="question-11">Question</h6>
+<div class="question">
+<p>Drag <code>Age</code> onto the Filters panel. Select “All Values,” and set the bounds to 18-65. Drag the <code>SPM NumAdults</code> to the Filters panel, and set the bounds to 1. Drag the <code>SPM NumKids</code> to the Filters panel, and set the bounds to <em>at least</em> 1.</p>
+<p>Drag <code>Race</code> and <code>Sex</code> onto the Columns field, and drag <code>Color</code> onto the Color field. Drag <code>Education</code> and <code>Weighted Totalval</code> onto the Rows field.</p>
+<p>Edit the Aliases for <code>Sex</code> and <code>Education</code>. Adjust the plot labels to something descriptive.</p>
+<p>What do you notice about average income at the intersections of different racial and gender groups for single adult households with children?</p>
+</div>
+<section id="section-3" class="level7">
+<p class="heading"></p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note how when we dragged <code>Weighted Totalval</code> onto the Rows field, the Measure was wrapped in the letters <code>Agg()</code>. This is Tableau’s way of communicating that this data has already been aggregated via the calculation we created. In other words, when we created the calculated field, we determined the weighted average across all the individual values for <code>Totalval</code> in the dataset; we <em>aggregated</em> the data across those values. By wrapping the Measure in <code>Agg()</code>, Tableau is telling us that it is not aggregating the values in the shelf and instead relying on the aggregated values calculated in the field.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="question-12" class="level6">
+<h6 class="anchored" data-anchor-id="question-12">Question</h6>
+<div class="question">
+<p>Duplicate the previous tab and rename it income_ethnicity_sex. Swap <code>Race</code> with <code>Ethnicity</code>.</p>
+<p>What do you notice about average income at the intersections of different ethnic and gender groups for single adult households with children?</p>
+</div>
+</section>
+<section id="question-13" class="level6">
+<h6 class="anchored" data-anchor-id="question-13">Question</h6>
+<div class="question">
+<p>Create a new calculated field called <code>Subsidies</code>. Set this field as follows:</p>
+<p><code>[SPM EngVal] + [SPM CapHouseSub] + [SPM SchLunch] + [SPM SnapSub] + [SPM WICval]</code></p>
+<p>Duplicate the the <code>Weighted Totalval</code> calculated field. Rename the duplicated field to <code>Weighted Subsidies</code>, and set the field as follows:</p>
+<p><code>SUM([Wt] * [Subsidies]) / SUM([Wt])</code></p>
+</div>
+</section>
+<section id="question-14" class="level6">
+<h6 class="anchored" data-anchor-id="question-14">Question</h6>
+<div class="question">
+<p>Duplicate the income_race_sex tab and rename it “Average Subsidies for Single Adult (Age 18-65) Households with Children, 2021” Also rename the tab. Swap <code>Weighted Totalval</code> with <code>Weighted Subsidies</code>.</p>
+<p>Repeat these steps for the income_etc_sex tab.</p>
+<p>What do you notice about average subsidies at the intersections of different ethnic and gender groups for single adult households with children?</p>
+</div>
+</section>
+</section>
+<section id="part-5-reflection" class="level3">
+<h3 class="anchored" data-anchor-id="part-5-reflection">Part 5: Reflection</h3>
+<p>How might we summarize what we just learned into a factual claim? What does this data contribute to narratives that prioritize equality over equity? What do we learn by taking an intersectional approach to data analysis that we can’t see otherwise?</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

@@ -1,11 +1,18 @@
 ---
-title: "Lab 6: Housing Justice"
+title: "Housing Justice"
+subtitle: "Responding to claims centered around meritocracy"
 editor: source
 ---
 
 ## Overview
 
 In this lab, you will work through a series of exercises to visualize data regarding lending practices in Chicago, IL. Through today's exercises, you will be introduced to polygon mapping in Tableau, along with strategies for creatively filtering data. 
+
+## The Counter-Claim
+
+As you read this week, banking organizations across the U.S. have countered claims that high loan denial rates amongst certain sub-populations can serve as evidence of discriminatory lending practices. They note that just looking at denial rates across race and ethnicity fails to take into consideration the reasons for denial - low incomes, high debt, poor credit histories. They argue that it is not bias to reject a loan for these reasons, even if it means rejecting individuals in certain racial and ethnic groups more than others. Their arguments focus on the merit of certain of loan applicants. Doing so ignores the histories of structural segregation that create impact who has access to wealth and credit. 
+
+Refuting counter-claims based in meritocracy requires that we produce evidence of the legacies of structural inequity that shape people's current access to resources and opportunities. Overall, this lab will demonstrate what we can see when we look beyond in-the-moment decision-making. It will also show how meritocracy arguments can fail when we zoom in on certain data points. 
 
 ## The Dataset
 
@@ -140,7 +147,7 @@ What do you notice about the differences in denial rates and origination rates a
 
 #######
 
-Banking organizations across the U.S. have countered claims that this data indicates discriminatory lending practices. They note that just looking at denial rates across race and ethnicity fails to take into consideration legitimate reasons for denial - low incomes, high debt, poor credit histories. They argue that it is not bias to reject a loan for these reasons, even if it means rejecting individuals in certain racial and ethnic groups more than others. We know income and debt to be unequally distributed along racial and ethnic lines due to histories of structural inequality. The redlining maps we recreated at the start of this lab are just one form of structural inequality that reshaped racial wealth in the 1900s. ...but for a moment, for rhetorical purposes, let's set this knowledge aside. Assuming that loan originators are just trying to play by the rules, we could assume that two individuals - one white and one black - with similar incomes, and similar debt would see similar outcomes when applying for a similar loan in the same year. Let's test that out in our data.
+We know income and debt to be unequally distributed along racial and ethnic lines due to histories of structural inequality. The redlining maps we recreated at the start of this lab are just one form of structural inequality that reshaped racial wealth in the 1900s. ...but for a moment, for rhetorical purposes, let's set this knowledge aside. Assuming that loan originators are just trying to play by the rules, we could assume that two individuals - one white and one black - with similar incomes, and similar debt would see similar outcomes when applying for a similar loan in the same year. Let's test that out in our data.
 
 ###### Question
 

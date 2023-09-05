@@ -1,11 +1,18 @@
 ---
-title: "Lab 3: Health Equity"
+title: "Health Equity"
+subtitle: "Responding to claims that efforts to identify discrimination is a 'witch hunt'"
 editor: source
 ---
 
 ## Overview
 
 In this lab, you will work through a series of exercises to visualize data regarding racial inequities in maternal mortality rates in the United States. Specifically, you will practice producing both uni-variate and multi-variate column plots and line plots from aggregate data in Tableau.
+
+## The Counter-Claim
+
+In a "[A Woke Panic on Maternal Mortality](https://www.city-journal.org/article/a-woke-panic-on-maternal-mortality)" Stanley Goldfarb and Benita Cotton-Orr argue that activists and academics have exploited statistics on maternal mortality rates to push a narrative of systemic racism in healthcare. They argue that the data are insufficient for proving discrimination (due to both error-prone reporting and a small sample size) and that "radical activists" and "woke ideologues" are pushing race-based healthcare policies based on ideology and not on science. Their arguments reflect a narrative that efforts to examine disparities are "witch hunts."
+
+Refuting the "witch hunt" narrative requires showing that disparities are not coincidental one-off events but are persistent over time and across place. Overall, this lab will demonstrate what we can see when we historicize and geographically situate statistics that we can't see when only looking at a snapshot of data. 
 
 ## The Dataset
 
@@ -223,8 +230,6 @@ Create a new worksheet in Tableau called "U.S. Maternal Mortality - 1999-2020". 
 
 ### Part 5: Reflection
 
-How might we summarize what we just learned into a factual claim?
-
 Note that this data is often cited as evidence of racial disparities in healthcare. The CDC website includes a webpage titled "[Working Together to Reduce Black Maternal Mortality](https://www.cdc.gov/healthequity/features/maternal-mortality/index.html)," and cites this data as evidence of racial disparities. Here are just a few examples of other articles that also do so:
 
 - [Racial Disparities in Maternal and Infant Health: Current Status and Efforts to Address Them](https://www.kff.org/racial-equity-and-health-policy/issue-brief/racial-disparities-in-maternal-and-infant-health-current-status-and-efforts-to-address-them/)
@@ -234,6 +239,6 @@ Note that this data is often cited as evidence of racial disparities in healthca
 - [Visualizing the stark maternal health inequities in the United States](https://www.cnn.com/2021/08/25/us/visualizing-us-black-maternal-healthcare-inequities/index.html)
 
 
-In my research, I came across one article that countered these claims in spite of the data evidence. "[A Woke Panic on Maternal Mortality](https://www.city-journal.org/article/a-woke-panic-on-maternal-mortality)" argues that activists and academics have exploited the data to push a narrative of systemic racism in healthcare. In small groups, read through this article and try to identify the arguments that the authors use to counter the claims often made from the data. How would you respond to their counter-arguments? What evidence could you provide in your response?
+How might we summarize what we just learned into a factual claim? How does this data respond to the "witch hunt" narrative? What other data or analysis strategies could be engaged to respond to these counter-claims?
 
 

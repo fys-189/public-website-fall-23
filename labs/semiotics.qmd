@@ -1,5 +1,6 @@
 ---
-title: "Lab 2: Data Semiotics"
+title: "Data Semiotics"
+subtitle: "Responding to claims that data is apolitical"
 editor: source
 ---
 

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Health Equity</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">FYS 189: Data and Social Justice</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">Syllabus</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../grading_contract.html">Grading Contract</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../schedule.html">Schedule</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#the-counter-claim" id="toc-the-counter-claim" class="nav-link" data-scroll-target="#the-counter-claim">The Counter-Claim</a></li>
+  <li><a href="#the-dataset" id="toc-the-dataset" class="nav-link" data-scroll-target="#the-dataset">The Dataset</a></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a>
+  <ul class="collapse">
+  <li><a href="#part-1-what-counts-in-this-dataset" id="toc-part-1-what-counts-in-this-dataset" class="nav-link" data-scroll-target="#part-1-what-counts-in-this-dataset">Part 1: What counts in this dataset?</a></li>
+  <li><a href="#part-2-explore-the-wonder-interface" id="toc-part-2-explore-the-wonder-interface" class="nav-link" data-scroll-target="#part-2-explore-the-wonder-interface">Part 2: Explore the WONDER Interface</a></li>
+  <li><a href="#part-3-cleaning-data-files" id="toc-part-3-cleaning-data-files" class="nav-link" data-scroll-target="#part-3-cleaning-data-files">Part 3: Cleaning Data Files</a></li>
+  <li><a href="#part-4-data-analysis" id="toc-part-4-data-analysis" class="nav-link" data-scroll-target="#part-4-data-analysis">Part 4: Data Analysis</a></li>
+  <li><a href="#part-5-reflection" id="toc-part-5-reflection" class="nav-link" data-scroll-target="#part-5-reflection">Part 5: Reflection</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Health Equity</h1>
+<p class="subtitle lead">Responding to claims that efforts to identify discrimination is a ‘witch hunt’</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>In this lab, you will work through a series of exercises to visualize data regarding racial inequities in maternal mortality rates in the United States. Specifically, you will practice producing both uni-variate and multi-variate column plots and line plots from aggregate data in Tableau.</p>
+</section>
+<section id="the-counter-claim" class="level2">
+<h2 class="anchored" data-anchor-id="the-counter-claim">The Counter-Claim</h2>
+<p>In a “<a href="https://www.city-journal.org/article/a-woke-panic-on-maternal-mortality">A Woke Panic on Maternal Mortality</a>” Stanley Goldfarb and Benita Cotton-Orr argue that activists and academics have exploited statistics on maternal mortality rates to push a narrative of systemic racism in healthcare. They argue that the data are insufficient for proving discrimination (due to both error-prone reporting and a small sample size) and that “radical activists” and “woke ideologues” are pushing race-based healthcare policies based on ideology and not on science. Their arguments reflect a narrative that efforts to examine disparities are “witch hunts.”</p>
+<p>Refuting the “witch hunt” narrative requires showing that disparities are not coincidental one-off events but are persistent over time and across place. Overall, this lab will demonstrate what we can see when we historicize and geographically situate statistics that we can’t see when only looking at a snapshot of data.</p>
+</section>
+<section id="the-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="the-dataset">The Dataset</h2>
+<p>Through the National Vital Statistics System, the US National Center for Health Statistics aggregates data about population health (including births, deaths, and pregnancies) from states in order to guide public health policy and decision-making. The Center for Disease Control makes this data available to the public through a series of public use files, along with an online data query interface called WONDER (Wide-ranging OnLine Data for Epidemiologic Research). Navigating to the WONDER interface, an analyst can access and download US mortality and population data, spanning the years from 1999 to 2019, aggregated at national, state, and county levels. With the data gathered from US death certificates, which report an individuals’ underlying cause of death according to the Tenth Revision of the International Classification of Diseases, the death counts can be disaggregated into hundreds of different causes of death. The death counts can also be disaggregated by a series of demographic variables, including gender, age, race, and Hispanic ethnicity.</p>
+<p>By adjusting the query parameters on the WONDER request form to indicate how the CDC’s data should be aggregated and filtered, data analysts can produce a series of different rectangular datasets. For example, an analyst can opt to group the results by Year and Race and filter the Cause of Death to ICD-10 codes O00-O99 (Pregnancy, childbirth and the puerperium) to produce a dataset that tracks the death counts and crude death rate due to pregnancy-related causes for different racial demographics in the US from 1999 to 2021. Alternatively, an analyst could opt to group the results by State and Cause of Death and filter the data to 2021 to determine the leading causes of death in each state in that year.</p>
+</section>
+<section id="instructions" class="level2">
+<h2 class="anchored" data-anchor-id="instructions">Instructions</h2>
+<section id="part-1-what-counts-in-this-dataset" class="level3">
+<h3 class="anchored" data-anchor-id="part-1-what-counts-in-this-dataset">Part 1: What counts in this dataset?</h3>
+<p>Navigate the data documentation <a href="https://wonder.cdc.gov/wonder/help/ucd.html#">here</a> in order to determine when and how a “death” is counted in this dataset.</p>
+</section>
+<section id="part-2-explore-the-wonder-interface" class="level3">
+<h3 class="anchored" data-anchor-id="part-2-explore-the-wonder-interface">Part 2: Explore the WONDER Interface</h3>
+<p>For timing purposes, I’m going to link the datasets that you need for today’s Tableau exercises here. However, I will take some time during class to walk you through the different components of the interface.</p>
+</section>
+<section id="part-3-cleaning-data-files" class="level3">
+<h3 class="anchored" data-anchor-id="part-3-cleaning-data-files">Part 3: Cleaning Data Files</h3>
+<p>Download the following files to your computer:</p>
+<ul>
+<li><a href="../data/race_pregnancy_2020.txt">race_pregnancy_2020.txt</a></li>
+<li><a href="../data/year_pregnancy.txt">year_pregnancy.txt</a></li>
+<li><a href="../data/race_age_pregnancy_2020.txt">race_age_pregnancy_2020.txt</a></li>
+<li><a href="../data/race_year_pregnancy.txt">race_year_pregnancy.txt</a></li>
+</ul>
+<p>Open Tableau, and create a new workbook called <code>cdc_maternal_deaths</code>. Click “Connect to Data” and the <code>race_age_pregnancy_2020.txt</code> file.</p>
+<p>You’re going to notice when you import the file that the table needs some cleaning.</p>
+<p><img src="img/stuff_to_clean.png" class="img-fluid"></p>
+<p>First, there is a column at the start of each table labeled “Notes.” If you scroll down, you will eventually see a series of notes that we need to consider when analyzing the data:</p>
+<div class="callout-warning callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dataset: Underlying Cause of Death, 1999-2020</p>
+<p>Query Parameters:</p>
+<p>Title: race_age_pregnancy_2020</p>
+<p>ICD-10 Codes: O00-O99 (Pregnancy, childbirth and the puerperium)</p>
+<p>Year/Month: 2020</p>
+<p>Group By: Race; Ten-Year Age Groups</p>
+<p>Show Totals: Disabled</p>
+<p>Show Zero Values: True</p>
+<p>Show Suppressed: True</p>
+<p>Calculate Rates Per: 100,000</p>
+<p>Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)</p>
+<p>Help: See http://wonder.cdc.gov/wonder/help/ucd.html for more information.</p>
+<p>Query Date: Sep 1, 2023 5:41:50 PM</p>
+<p>Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics System, Mortality 1999-2020 on CDC WONDER Online Database, released in 2021. Data are from the Multiple Cause of Death Files, 1999-2020, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/ucd-icd10.html on Sep 1, 2023 5:41:50 PM</p>
+<p>Messages:</p>
+<ol type="1">
+<li>Totals are not available for these results due to suppression constraints. More Information: http://wonder.cdc.gov/wonder/help/faq.html#Privacy.</li>
+</ol>
+<p>Caveats:</p>
+<ol type="1">
+<li>Data are Suppressed when the data meet the criteria for confidentiality constraints. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Assurance of Confidentiality.</li>
+<li>Death rates are flagged as Unreliable when the rate is calculated with a numerator of 20 or less. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Unreliable.</li>
+<li>Deaths of persons with Age Not Stated are included in All counts and rates, but are not distributed among age groups, so are not included in age-specific counts, age-specific rates or in any age-adjusted rates. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Not Stated.</li>
+<li>Information included on the death certificate about the race and Hispanic ethnicity of the decedent is reported by the funeral director as provided by an informant, often the surviving next of kin, or, in the absence of an informant, on the basis of observation. Race and ethnicity information from the census is by self-report. To the extent that race and Hispanic origin are inconsistent between these two data sources, death rates will be biased. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Racial Differences.</li>
+<li>The population figures for year 2020 are bridged-race estimates of the July 1 resident population, from the Vintage 2020 postcensal series released by NCHS on September 22, 2021. The population figures for year 2019 are bridged-race estimates of the July 1 resident population, from the Vintage 2019 postcensal series released by NCHS on July 9, 2020. The population figures for year 2018 are bridged-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series released by NCHS on June 25, 2019. The population figures for year 2017 are bridged-race estimates of the July 1 resident population, from the Vintage 2017 postcensal series released by NCHS on June 27, 2018. The population figures for year 2016 are bridged-race estimates of the July 1 resident population, from the Vintage 2016 postcensal series released by NCHS on June 26, 2017. The population figures for year 2015 are bridged-race estimates of the July 1 resident population, from the Vintage 2015 postcensal series released by NCHS on June 28, 2016. The population figures for year 2014 are bridged-race estimates of the July 1 resident population, from the Vintage 2014 postcensal series released by NCHS on June 30, 2015. The population figures for year 2013 are bridged-race estimates of the July 1 resident population, from the Vintage 2013 postcensal series released by NCHS on June 26, 2014. The population figures for year 2012 are bridged-race estimates of the July 1 resident population, from the Vintage 2012 postcensal series released by NCHS on June 13, 2013. The population figures for year 2011 are bridged-race estimates of the July 1 resident population, from the Vintage 2011 postcensal series released by NCHS on July 18, 2012. Population figures for 2010 are April 1 Census counts. The population figures for years 2001 - 2009 are bridged-race estimates of the July 1 resident population, from the revised intercensal county-level 2000 - 2009 series released by NCHS on October 26, 2012. Population figures for 2000 are April 1 Census counts. Population figures for 1999 are from the 1990-1999 intercensal series of July 1 estimates. Population figures for the infant age groups are the number of live births. Note: Rates and population figures for years 2001 - 2009 differ slightly from previously published reports, due to use of the population estimates which were available at the time of release.</li>
+<li>The population figures used in the calculation of death rates for the age group ‘under 1 year’ are the estimates of the resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd.html#Age Group.</li>
+<li>Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99 compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences in information available to individual states and probable errors. Caution should be used in interpreting these data. More information can be found at: https://www.cdc.gov/nchs/maternal-mortality/.</li>
+</ol>
+</div>
+</div>
+<p>This is all important information and we should keep it in mind as we go about our analysis. …but this is metadata, not data for analysis. or the purposes of our data analysis, we are going to Hide that column.</p>
+<section id="question" class="level6">
+<h6 class="anchored" data-anchor-id="question">Question</h6>
+<div class="question">
+<p>Click on the downward triangle on the Notes column and select Hide.</p>
+<p><img src="img/hide_col.png" class="img-fluid"></p>
+</div>
+<p>Now that we have hidden that column, there are a series of empty rows at the bottom of our dataset. We are going to filter those out.</p>
+</section>
+<section id="question-1" class="level6">
+<h6 class="anchored" data-anchor-id="question-1">Question</h6>
+<div class="question">
+<p>Click on the “Add” link next to Filters in the top right corner of Tableau. Click Add, and select Race - a variable that shouldn’t have any missing values in this dataset. Click OK, and then check all boxes, except for “Null” to filter out the null values.</p>
+<p><img src="img/filter_null.png" class="img-fluid"></p>
+</div>
+<p>You will also notice that both the <code>Deaths</code> column and the <code>Crude Rate</code> column were assumed to contain text data, even though those columns are supposed to report numeric quantities. This is because, in certain subsets, the CDC “Suppressed” the data or determined it to be “Unreliable”. Any time fewer than 10 deaths would be reported in a subset of data, the CDC suppressed the death count to protect the privacy of the individuals in that subset. This means that the more specific you make your data request, the more likely it will be that data gets suppressed (because fewer people will be represented in each subset). Any time fewer than 20 deaths are reported, the crude rate is considered to be “Unreliable.” While this is helpful information for us, in order to plot the data, we need those columns to both be numeric.</p>
+</section>
+<section id="question-2" class="level6">
+<h6 class="anchored" data-anchor-id="question-2">Question</h6>
+<div class="question">
+<p>Click on the number ‘Abc’ symbol in both the <code>Deaths</code> column and the <code>Crude Rate</code> column and convert the columns to numeric. Make sure you select the <code>Crude Rate</code> column is displayed in decimals.</p>
+<p><img src="img/change_to_num.png" class="img-fluid"></p>
+</div>
+<p>We need to repeat this for the remainder of files we will use in the lab. However one of the files has some special formatting issues.</p>
+</section>
+<section id="question-3" class="level6">
+<h6 class="anchored" data-anchor-id="question-3">Question</h6>
+<div class="question">
+<p>In the top menu, click Data &gt; New Data Source. Add either <code>year_pregnancy.txt</code> or <code>race_year_pregnancy.txt</code>.</p>
+<p>Repeat the formatting steps for the file you choose, and then repeat this process for the two other text files.</p>
+<p>When you get to <code>race_pregnancy_2020.txt</code>, we need to take one additional step. Tableau does not recognize the delimiters in this file. Add the file to see what I mean. See how the table looks quite off?</p>
+<p><img src="img/failed_delim.png" class="img-fluid"> To fix this, click on the downward arrow next to the file name in your data view, and then select “Text File Properties”. Set the Field Separator to “Tab”.</p>
+<p><img src="img/field_sep.png" class="img-fluid"> After that you should be able to edit the file the same way you did the rest of them.</p>
+</div>
+<p>Finally, we are ready to do some analysis!</p>
+</section>
+</section>
+<section id="part-4-data-analysis" class="level3">
+<h3 class="anchored" data-anchor-id="part-4-data-analysis">Part 4: Data Analysis</h3>
+<section id="column-plots" class="level5">
+<h5 class="anchored" data-anchor-id="column-plots">Column Plots</h5>
+<p>Column plots are particularly useful for comparing the numeric values associated with different categories. They typically involve a categorical variable on the x-axis and a numeric variable on the y-axis. We can make sense of how categories differ by comparing the heights of each bar. In column plots, height serves as a <em>visual aesthetic</em> - some feature of a plot that communicates something about the values in our data.</p>
+<section id="question-4" class="level6">
+<h6 class="anchored" data-anchor-id="question-4">Question</h6>
+<div class="question">
+<p>Create a new worksheet in Tableau called “U.S. Maternal Mortality, 2020”. Name the tab “race_2020”. Click on <code>race_pregnancy_2020</code> in the “Data” tab. Drag <code>Race</code> to the Rows field and <code>Crude Rate</code> to the Columns field. Sort the bars from longest to shortest.</p>
+<ul>
+<li>How can we summarize what we see in this plot quantitatively?</li>
+<li>How might we interpret what we see in this plot?</li>
+<li>What might it be evidence of?</li>
+</ul>
+</div>
+<section id="section" class="level8">
+<p class="heading"></p>
+<div class="callout-tip callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Keep in mind that all of this data has already been aggregated. We do not need to sum, average, or perform any other operation on the reported values because both the <code>Deaths</code> value and the <code>Crude Rate</code> are calculated for a specific subset of people. They are <em>Attributes</em> not <em>Measures</em>. By default, Tableau will SUM the measure when you drag it onto your worksheet. You can keep it this way as long as you are sure that values represented on the plot are specific to one row of data (meaning there’s nothing being aggregated in the worksheet).</p>
+</div>
+</div>
+</section>
+</section>
+<section id="question-5" class="level6">
+<h6 class="anchored" data-anchor-id="question-5">Question</h6>
+<div class="question">
+<p>Duplicate the last plot that you created, and rename the tab “race_2020_tree”. Click on the “Show Me” button and select the treemap. Adjust the title of the legend to “Crude Rate”.</p>
+</div>
+<section id="section-1" class="level7">
+<p class="heading"></p>
+<p>Note how, in this new plot, we are no longer using height to visualize differences across categories. Instead, we are using both area and color to visualize the differences. Area and color are also visual aesthetics.</p>
+<p>Notably, we are visualizing both area and color in a <em>continuous</em> way. Larger boxes are associated with larger values, and smaller boxes are associated with smaller values. Color is displayed on a gradient with darker colors associated with larger values and lighter colors associated with smaller values. The area size is specific to a numeric value, and the shade of color is specific to a numeric value. Indeed, it makes sense to use a color gradient when visualizing numeric data.</p>
+<p>This differs from visualizing color in a <em>discrete</em> way.</p>
+</section>
+</section>
+<section id="question-6" class="level6">
+<h6 class="anchored" data-anchor-id="question-6">Question</h6>
+<div class="question">
+<p>Duplicate the last plot that you created, and rename the tab “race_2020_tree_cat”. Drag <code>Race</code> to the Color field.</p>
+</div>
+<section id="section-2" class="level7">
+<p class="heading"></p>
+<p>Note how in this plot, colors are not displayed on a gradient. Instead, there are discrete colors associated with each race. This is because we differentiating color along a categorical variable, where there are discrete divisions between categories. In general, we want to use discrete color palettes when associating color with a categorical variable and continuous color palettes when associated color with a numeric variable.</p>
+<p>Which of the plots that we just created do you find the most compelling and why?</p>
+</section>
+</section>
+</section>
+<section id="stacked-column-plots" class="level5">
+<h5 class="anchored" data-anchor-id="stacked-column-plots">Stacked Column Plots</h5>
+<p>In the last series of plots, we were only visualizing one categorical variable. …but sometimes, we want to compare numeric values across some intersection of categorical variables. In this case, we will create a stacked column plot, using both height and color as visual aesthetics.</p>
+<div class="question">
+<p>Create a new worksheet in Tableau called “U.S. Maternal Mortality, 2020”. Name the tab “race_2020_age”. Click on <code>race_age_pregnancy_2020</code> in the “Data” tab. Drag <code>Ten-Year Age Groups</code> to the Columns field and <code>Crude Rate</code> to the Rows field. Drag <code>Race</code> to the Color field. Note how a <em>discrete</em> color palette is created.</p>
+<p>Click on the “Show Me” button, and select the side-by-side bars. I personally prefer this type of plot over a stacked bar plot because I find it easier to compare across categories when the bars are side-by-side. Move around the order of the variables to make the most compelling plot. Add a Filter to only show the relevant age groups.</p>
+<ul>
+<li>How can we summarize what we see in this plot quantitatively?</li>
+<li>How might we interpret what we see in this plot?</li>
+<li>What might it be evidence of?</li>
+</ul>
+</div>
+</section>
+<section id="line-plots" class="level5">
+<h5 class="anchored" data-anchor-id="line-plots">Line Plots</h5>
+<p>Line plots are particularly useful for showing change over time. They typically involve a date on the x-axis and a numeric variable on the y-axis. The height of each point tells us something about the time period represented.</p>
+<section id="question-7" class="level6">
+<h6 class="anchored" data-anchor-id="question-7">Question</h6>
+<div class="question">
+<p>Create a new worksheet in Tableau called “U.S. Maternal Mortality - 1999-2020”. Name the tab “by_year”. Click on <code>year_pregnancy</code> in the “Data” tab. Drag <code>Year</code> to the Columns field and <code>Crude Rate</code> to the Rows field.</p>
+<ul>
+<li>How can we summarize what we see in this plot quantitatively?</li>
+<li>How might we interpret what we see in this plot?</li>
+<li>What might it be evidence of?</li>
+</ul>
+</div>
+<p>Sometimes we want to compare the changes across different groups over time. To do so, we can use color to differentiate lines across different groups.</p>
+</section>
+<section id="question-8" class="level6">
+<h6 class="anchored" data-anchor-id="question-8">Question</h6>
+<div class="question">
+<p>Create a new worksheet in Tableau called “U.S. Maternal Mortality - 1999-2020”. Name the tab “by_year_race”. Click on <code>year_race_pregnancy</code> in the “Data” tab. Drag <code>Year</code> to the Columns field and <code>Crude Rate</code> to the Rows field. Convert <code>Crude Rate</code> to an attribute. Drag <code>Race</code> to the Color field.</p>
+<ul>
+<li>What kind of color palette was created here?</li>
+<li>How can we summarize what we see in this plot quantitatively?</li>
+<li>How might we interpret what we see in this plot?</li>
+<li>What might it be evidence of?</li>
+</ul>
+</div>
+</section>
+</section>
+</section>
+<section id="part-5-reflection" class="level3">
+<h3 class="anchored" data-anchor-id="part-5-reflection">Part 5: Reflection</h3>
+<p>Note that this data is often cited as evidence of racial disparities in healthcare. The CDC website includes a webpage titled “<a href="https://www.cdc.gov/healthequity/features/maternal-mortality/index.html">Working Together to Reduce Black Maternal Mortality</a>,” and cites this data as evidence of racial disparities. Here are just a few examples of other articles that also do so:</p>
+<ul>
+<li><a href="https://www.kff.org/racial-equity-and-health-policy/issue-brief/racial-disparities-in-maternal-and-infant-health-current-status-and-efforts-to-address-them/">Racial Disparities in Maternal and Infant Health: Current Status and Efforts to Address Them</a></li>
+<li><a href="https://www.pbs.org/newshour/show/american-black-women-face-disproportionately-high-rates-of-maternal-mortality">American Black women face disproportionately high rates of maternal mortality</a></li>
+<li><a href="https://www.bcbs.com/the-health-of-america/reports/racial-disparities-in-maternal-health">Racial Disparities in Maternal Health</a></li>
+<li><a href="https://www.npr.org/sections/health-shots/2019/05/10/722143121/why-racial-gaps-in-maternal-mortality-persist">Why Racial Gaps In Maternal Mortality Persist</a></li>
+<li><a href="https://www.cnn.com/2021/08/25/us/visualizing-us-black-maternal-healthcare-inequities/index.html">Visualizing the stark maternal health inequities in the United States</a></li>
+</ul>
+<p>How might we summarize what we just learned into a factual claim? How does this data respond to the “witch hunt” narrative? What other data or analysis strategies could be engaged to respond to these counter-claims?</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
