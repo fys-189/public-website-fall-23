@@ -18,14 +18,6 @@ Grading contracts have been theorized and implemented in the research of Dr. Pet
 
 This course will be using a grading contract. This means that the grade you ultimately receive for this course is primarily based on the labor that you perform rather than a subjective evaluation of the quality of your work and writing in relation to your peers. Your grade will be determined by the extent of your engagement in class, your timely completion of assignments, and how you support the course community. You will still attend to and work to improve the quality of your writing and thinking in this course. You will receive extensive feedback on all of your submissions (from me and from your peers), and you will have opportunities to revise. However, you will not receive points or an A, B, C, D, etc. on assignments.
 
-
-There are many benefits to contract grading. Here are there reasons why I’ve opted for a grading contract in this course:
-
-- I want you to feel as though you can experiment with your writing in this course. Rather than focusing on what you think I want out of your assignments or "writing to the rubric," grading contracts empower you to take more risks.
-- Grading contracts value the time and effort you put into the course and reward students who invest extra time in their learning.
-- Grading contracts make it easier for you to anticipate the grade you will receive and plan for achieving that grade.
-- Grading contracts promote equity. With grades based entirely on labor, students aren’t penalized for not entering the course with the same experience or background knowledge as their colleagues.
-
 ## Why a grading contract?
 
 There are many benefits to contract grading. Here are there reasons why I've opted for a grading contract in this course:
@@ -90,7 +82,7 @@ It's important to me that we establish a collaborative learning environment in t
 
 > ^1^Note that this is separate from asking a question about the course administration or assignments in the `#fys-189-questions` channel.
 
-> ^2^Each class we will start out by participating in a collaborative poll to check-in with where our heads are. If you sign up to lead an opening check-in, you will create this opening poll by adding a slide to a deck I will make available on Moodle. Instructions for doing so will be available on the Slide. Then at the start of class, you will be called upon to launch/lead your check-in poll. You can sign-up to lead this opening session via a Scheduler on Moodle.
+> ^2^Each class we will start out by participating in a collaborative poll to check-in with where our heads are. If you sign up to lead an opening check-in, you will create this opening poll by adding a slide to a deck I will make available on Moodle. Instructions for doing so will be available on the Slide. Then at the start of class, you will be called upon to launch/lead your check-in poll. You can sign-up to lead this opening session via [a Scheduler on Moodle](https://moodle.smith.edu/mod/scheduler/view.php?id=1071241).
 
 > ^3^ Following a class period, up to two students may type up a 1-page outline of what was covered in that class period and post a link to that outline in `#fys-189-class-notes`. You can sign-up to serve as the notetaker for a certain class [here](https://moodle.smith.edu/mod/scheduler/view.php?id=1071340). These notes should be a full, single-space page, and should make sense to someone that was not present in class. 
 
