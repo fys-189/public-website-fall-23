@@ -1607,7 +1607,7 @@
     "href": "schedule.html#september-12-2023",
     "title": "Schedule",
     "section": "September 12, 2023",
-    "text": "September 12, 2023\n\nSituating Data\n\nDue TodayFurther Resources\n\n\n D’Ignazio, Catherine and Lauren Klein (2020). “3. On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints”. In: Data Feminism. MIT Press. (Visited on Aug. 24, 2021). Read in Perusall\n TechCrunch (2021). Tackling Deep-Seated Bias in Tech with Haben Girma, Mutale Nkonde and Safiya Noble. (Visited on Sep. 01, 2021). Read in Perusall\n Fill out the Trigger Warnings Questionnaire in Moodle.\n Install Desktop version of Slack and configure notifications for our course.\n Create and Share Labor Log\n Sign up for notetaking or leading a class opening check-in"
+    "text": "September 12, 2023\n\nSituating Data\n\nDue TodayFurther Resources\n\n\n D’Ignazio, Catherine and Lauren Klein (2020). “3. On Rational, Scientific, Objective Viewpoints from Mythical, Imaginary, Impossible Standpoints”. In: Data Feminism. MIT Press. (Visited on Aug. 24, 2021). Read in Perusall\n TechCrunch (2021). Tackling Deep-Seated Bias in Tech with Haben Girma, Mutale Nkonde and Safiya Noble. (Visited on Sep. 01, 2021). Read in Perusall\n Fill out the Trigger Warnings Questionnaire in Moodle.\n Install Desktop version of Slack and configure notifications for our course.\n Create and Share Labor Log\n Sign up for notetaking or leading a class opening check-in\n\n\n Course slides here"
   },
   {
     "objectID": "schedule.html#september-14-2023",
@@ -2350,5 +2350,47 @@
     "title": "Day One: Introductions",
     "section": "Exercise: Imaginary Scenario",
     "text": "Exercise: Imaginary Scenario\n\n\n\nYou just completed your first semester at Smith College and are home for a break. You run into an old peer from high school who proceeds to tell you that they don’t believe women’s colleges should exist because it excludes the male viewpoint and discriminates against men who wish to attend the school.\n\n\n\nWith your neighbor, discuss what data you could present to respond to this individual.\nWhat presumptions are made in the individual’s statement?\nWhy would the data you present offer a compelling response?"
+  },
+  {
+    "objectID": "slides/Day2-Situating.html#a-common-viewpoint",
+    "href": "slides/Day2-Situating.html#a-common-viewpoint",
+    "title": "Day Two: Situating Data",
+    "section": "A Common Viewpoint",
+    "text": "A Common Viewpoint\n\n\n\nThe more plain, the more neutral\nThe less emotional, the more objective\nThe more distance between humans and numbers, the more truthful and factual"
+  },
+  {
+    "objectID": "slides/Day2-Situating.html#situated-knowledge-and-standpoint-theory",
+    "href": "slides/Day2-Situating.html#situated-knowledge-and-standpoint-theory",
+    "title": "Day Two: Situating Data",
+    "section": "Situated Knowledge and Standpoint Theory",
+    "text": "Situated Knowledge and Standpoint Theory\n\nAll knowledge is produced in a particular time, place, context, and from a particular body with particular history\nOur standpoints frame the knowledge that we produce\nWe get closer to “strong objectivity” the more standpoints involved in knowledge production\nObjectivity is not about distancing humans but about diversifying knowledge production and making it more inclusive"
+  },
+  {
+    "objectID": "slides/Day2-Situating.html#a-situated-view",
+    "href": "slides/Day2-Situating.html#a-situated-view",
+    "title": "Day Two: Situating Data",
+    "section": "A Situated View",
+    "text": "A Situated View"
+  },
+  {
+    "objectID": "slides/Day2-Situating.html#exercise",
+    "href": "slides/Day2-Situating.html#exercise",
+    "title": "Day Two: Situating Data",
+    "section": "Exercise",
+    "text": "Exercise\n\nImagine you are tasked with designing a dataset that represents how students in our class have experienced the impacts of Covid-19.\nWrite down three questions that you would present to students in the class.\nWe want to be able to compare and draw summary statistics from responses, so be sure to write multiple choice questions and list the possible responses for those questions."
+  },
+  {
+    "objectID": "slides/Day2-Situating.html#reflect",
+    "href": "slides/Day2-Situating.html#reflect",
+    "title": "Day Two: Situating Data",
+    "section": "Reflect",
+    "text": "Reflect\n\nWhat questions did you write down, and what were the possible options?\nConsider how your social identity (or your standpoint) might impact how you come up with the possible choices for that question."
+  },
+  {
+    "objectID": "slides/Day2-Situating.html#how-would-standpoint-theorists-critique-the-idea-that-data-collected-by-algorithms-produce-more-objectivity-than-data-collected-by-humans",
+    "href": "slides/Day2-Situating.html#how-would-standpoint-theorists-critique-the-idea-that-data-collected-by-algorithms-produce-more-objectivity-than-data-collected-by-humans",
+    "title": "Day Two: Situating Data",
+    "section": "How would standpoint theorists critique the idea that data collected by algorithms produce more objectivity than data collected by humans?",
+    "text": "How would standpoint theorists critique the idea that data collected by algorithms produce more objectivity than data collected by humans?"
   }
 ]

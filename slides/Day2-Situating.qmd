@@ -1,0 +1,101 @@
+---
+title: "Day Two: Situating Data"
+subtitle: "SDS 189: Data and Social Justice"
+author: |
+  Lindsay Poirier<br/>
+  <span style = 'font-size: 70%;'>
+  [Statistical & Data Sciences](http://www.smith.edu/sds), Smith College<br/>
+  </span>
+date: |
+  Fall 2023<br/>
+  `r sds::img_logo(width = 64)`
+format: 
+  revealjs:
+    scrollable: true
+    df-print: paged
+    theme: [default]
+    incremental: true
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 5
+editor: source
+execute:
+  echo: true
+  messages: false
+  warnings: false
+---
+
+## A Common Viewpoint
+
+::: {.columns}
+
+::: {.column width="50%"}
+
+- The more plain, the more neutral
+- The less emotional, the more objective
+- The more distance between humans and numbers, the more truthful and factual
+
+:::
+
+::: {.column width="50%"}
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/bd/Bar_graph.svg)
+:::
+:::
+
+---
+
+# What are some of the things people do to make visualizations appear neutral?
+
+---
+
+# Why do the authors argue that neutral visualizations are actually persuasive?
+
+---
+
+# What does Donna Haraway mean when she refers to this as a 'God Trick'? Why is this feminist?
+
+---
+
+## Situated Knowledge and Standpoint Theory
+
+- All knowledge is produced in a particular time, place, context, and from a particular body with particular history
+- Our standpoints frame the knowledge that we produce
+- We get closer to "strong objectivity" the more standpoints involved in knowledge production
+- Objectivity is not about distancing humans but about diversifying knowledge production and making it more inclusive
+
+---
+
+# We can only see the world from particular standpoints. We can never see everything at once.
+
+---
+
+## A Situated View
+
+<a data-flickr-embed="true" data-footer="true" href="https://www.flickr.com/photos/tojosan/181248771" title="Garden Maze"><img src="https://live.staticflickr.com/45/181248771_5473f694bb_c.jpg" width="800" height="600" alt="Garden Maze"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+---
+
+## How would standpoint theorists critique the idea that data collected by algorithms produce more objectivity than data collected by humans?
+
+---
+
+# How would standpoint theorists critique the idea that we should distance individual human perspectives from data?
+
+---
+
+## Exercise
+
+- Imagine you are tasked with designing a dataset that represents how students in our class have experienced the impacts of Covid-19. 
+- Write down three questions that you would present to students in the class.
+- We want to be able to compare and draw summary statistics from responses, so be sure to write multiple choice questions and list the possible responses for those questions.
+
+--- 
+
+## Reflect
+
+- What questions did you write down, and what were the possible options?
+- Consider how your social identity (or your standpoint) might impact how you come up with the possible choices for that question. 
+
+
+
