@@ -1614,7 +1614,7 @@
     "href": "schedule.html#september-14-2023",
     "title": "Schedule",
     "section": "September 14, 2023",
-    "text": "September 14, 2023\n\nLab: Fundamentals of Data\n\nDue TodayFurther Resources\n\n\n Acknowledge that you’ve read and understand the grading contract by completing the Grading Contract Acknowledgement in Moodle\n Start working on Checkpoint 1\n\n\n Lab: Data Fundamentals"
+    "text": "September 14, 2023\n\nLab: Fundamentals of Data\n\nDue TodayFurther Resources\n\n\n Acknowledge that you’ve read and understand the grading contract by completing the Grading Contract Acknowledgement in Moodle\n Start working on Checkpoint 1\n\n\n Course slides here\n Lab: Data Fundamentals"
   },
   {
     "objectID": "schedule.html#september-19-2023",
@@ -2392,5 +2392,96 @@
     "title": "Day Two: Situating Data",
     "section": "How would standpoint theorists critique the idea that data collected by algorithms produce more objectivity than data collected by humans?",
     "text": "How would standpoint theorists critique the idea that data collected by algorithms produce more objectivity than data collected by humans?"
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#what-is-a-dataset",
+    "href": "slides/Day3-DataFundamentals.html#what-is-a-dataset",
+    "title": "Day Three: Data Fundamentals",
+    "section": "What is a dataset?",
+    "text": "What is a dataset?\n\n\n\nGrolemund, Garrett, and Hadley Wickham. n.d. R for Data Science. Accessed March 31, 2019. https://r4ds.had.co.nz/.\n\n\na collection of data points organized into a structured format\nin this course, we will mainly work with datasets that are structured in a two-dimensional format\nwe will refer to these as rectangular datasets\nrectangular datasets are organized into a series of rows and columns; ideally:\n\nwe refer to rows as observations\nwe refer to columns as variables"
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#observations-vs.-variables-vs.-values",
+    "href": "slides/Day3-DataFundamentals.html#observations-vs.-variables-vs.-values",
+    "title": "Day Three: Data Fundamentals",
+    "section": "Observations vs. Variables vs. Values",
+    "text": "Observations vs. Variables vs. Values\n\n\n\nObservationsVariablesValues\n\n\n\n\nObservations refer to individual units or cases of the data being collected.\n\nIf I was collecting data about each student in this course, one student would be an observation.\nIf I was collecting census data and aggregating it at the county level, one county would be an observation.\n\n\n\n\n\n\n\nVariables describe something about an observation.\n\nIf I was collecting data about each student in this course, ‘major’ might be one variable.\nIf I was collecting county-level census data, ‘population’ might be one variable.\n\n\n\n\n\n\n\nValues refer to the actual value associated with a variable for a given observation.\n\nIf I was collecting data about each student’s major in this course, one value might be SDS.\n\n\n\n\n\n\n\n\nGrolemund, Garrett, and Hadley Wickham. n.d. R for Data Science. Accessed March 31, 2019. https://r4ds.had.co.nz/."
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#key-considerations-for-rectangular-datasets",
+    "href": "slides/Day3-DataFundamentals.html#key-considerations-for-rectangular-datasets",
+    "title": "Day Three: Data Fundamentals",
+    "section": "Key Considerations for Rectangular Datasets",
+    "text": "Key Considerations for Rectangular Datasets\n\n\n\nAll rows in a rectangular dataset are of equal length.\nAll columns in a rectangular dataset are of equal length.\n\n\n\n\n\n\n\nUnderstanding Check\n\n\nLet’s say I have a rectangular dataset documenting student names and majors, and I was missing major information for one student. What would this look like in a rectangular dataset?\n\n\n\n\n\nGrolemund, Garrett, and Hadley Wickham. n.d. R for Data Science. Accessed March 31, 2019. https://r4ds.had.co.nz/."
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#is-this-dataset-rectangular",
+    "href": "slides/Day3-DataFundamentals.html#is-this-dataset-rectangular",
+    "title": "Day Three: Data Fundamentals",
+    "section": "Is this dataset rectangular?",
+    "text": "Is this dataset rectangular?"
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#is-this-a-rectangular-dataset",
+    "href": "slides/Day3-DataFundamentals.html#is-this-a-rectangular-dataset",
+    "title": "Day Three: Data Fundamentals",
+    "section": "Is this a rectangular dataset?",
+    "text": "Is this a rectangular dataset?"
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#how-do-i-find-out-more-information-about-a-dataset",
+    "href": "slides/Day3-DataFundamentals.html#how-do-i-find-out-more-information-about-a-dataset",
+    "title": "Day Three: Data Fundamentals",
+    "section": "How do I find out more information about a dataset?",
+    "text": "How do I find out more information about a dataset?\n\n\nMetadata can be referred to as “data about data”\nMetadata provides important contextual information to help us interpret a dataset.\nThere are two types of metadata associated with datasets:\n\n\n\nAdministrativeDescriptive\n\n\n\n\nAdministrative metadata tells us how a dataset is managed and its provenance, or the history of how it came to be in its current form:\n\nWho created it?\nWhen was it created?\nWhen was it last updated?\nWho is permitted to use it?\n\n\n\n\n\n\n\nDescriptive metadata tells us information about the contents of a dataset:\n\nWhat does each row refer to?\nWhat does each column refer to?\nWhat values might appear in each cell?"
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#where-do-i-find-metadata-for-a-dataset",
+    "href": "slides/Day3-DataFundamentals.html#where-do-i-find-metadata-for-a-dataset",
+    "title": "Day Three: Data Fundamentals",
+    "section": "Where do I find metadata for a dataset?",
+    "text": "Where do I find metadata for a dataset?\n\nOftentimes metadata is recorded in a dataset codebook or data dictionary.\nThese documents provide definitions for the observations and variables in a dataset and tell you the accepted values for each variable.\nLet’s say that I have a dataset of student names, majors, and class years. A codebook or data dictionary might tell me that:\n\nEach row in the dataset refers to one student.\nThe ‘Class Year’ variable refers to “the year the student is expected to graduate.”\nPossible values for the ‘Major’ variable are Political Science, SDS, and Sociology."
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#types-of-variables",
+    "href": "slides/Day3-DataFundamentals.html#types-of-variables",
+    "title": "Day Three: Data Fundamentals",
+    "section": "Types of Variables",
+    "text": "Types of Variables\n\n\n\n\n\n\n\nCategorical Variables (Dimensions)\nNumeric Variables (Measures)\n\n\n\n\nNominal Variables: Named or classified labels (e.g. names, zip codes, hair color)\nDiscrete Variables: Countable variables (e.g. number of students in this class)\n\n\nOrdinal Variables: Ordered labels (e.g. letter grades, pollution levels)\nContinuous Variables: Measured variables (e.g. temperature, height)"
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#situated-knowledge-and-standpoint-theory",
+    "href": "slides/Day3-DataFundamentals.html#situated-knowledge-and-standpoint-theory",
+    "title": "Day Three: Data Fundamentals",
+    "section": "Situated Knowledge and Standpoint Theory",
+    "text": "Situated Knowledge and Standpoint Theory\n\nAll knowledge is produced in a particular time, place, context, and from a particular body with particular history\nOur standpoints frame the knowledge that we produce\nWe get closer to “strong objectivity” the more standpoints involved in knowledge production\nObjectivity is not about distancing humans but about diversifying knowledge production and making it more inclusive"
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#a-situated-view",
+    "href": "slides/Day3-DataFundamentals.html#a-situated-view",
+    "title": "Day Three: Data Fundamentals",
+    "section": "A Situated View",
+    "text": "A Situated View"
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#how-would-standpoint-theorists-critique-the-idea-that-data-collected-by-algorithms-produce-more-objectivity-than-data-collected-by-humans",
+    "href": "slides/Day3-DataFundamentals.html#how-would-standpoint-theorists-critique-the-idea-that-data-collected-by-algorithms-produce-more-objectivity-than-data-collected-by-humans",
+    "title": "Day Three: Data Fundamentals",
+    "section": "How would standpoint theorists critique the idea that data collected by algorithms produce more objectivity than data collected by humans?",
+    "text": "How would standpoint theorists critique the idea that data collected by algorithms produce more objectivity than data collected by humans?"
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#exercise",
+    "href": "slides/Day3-DataFundamentals.html#exercise",
+    "title": "Day Three: Data Fundamentals",
+    "section": "Exercise",
+    "text": "Exercise\n\nImagine you are tasked with designing a dataset that represents how students in our class have experienced the impacts of Covid-19.\nWrite down three questions that you would present to students in the class.\nWe want to be able to compare and draw summary statistics from responses, so be sure to write multiple choice questions and list the possible responses for those questions."
+  },
+  {
+    "objectID": "slides/Day3-DataFundamentals.html#reflect",
+    "href": "slides/Day3-DataFundamentals.html#reflect",
+    "title": "Day Three: Data Fundamentals",
+    "section": "Reflect",
+    "text": "Reflect\n\nWhat questions did you write down, and what were the possible options?\nConsider how your social identity (or your standpoint) might impact how you come up with the possible choices for that question."
   }
 ]
