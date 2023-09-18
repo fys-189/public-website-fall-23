@@ -1,0 +1,153 @@
+---
+title: "Day Four: Data Semiotics and Numero-Politics"
+subtitle: "SDS 189: Data and Social Justice"
+author: |
+  Lindsay Poirier<br/>
+  <span style = 'font-size: 70%;'>
+  [Statistical & Data Sciences](http://www.smith.edu/sds), Smith College<br/>
+  </span>
+date: |
+  Fall 2023<br/>
+  `r sds::img_logo(width = 64)`
+format: 
+  revealjs:
+    scrollable: true
+    df-print: paged
+    theme: [default]
+    incremental: true
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 5
+editor: source
+execute:
+  echo: true
+  messages: false
+  warnings: false
+---
+
+
+# What is numero-politics? What examples were described in today’s reading?
+
+--------
+
+## Semiotics
+
+- Study of meaning-making
+  - How do certain signs come to represent certain interpretations?
+- Why should we study the processes of meaning-making?
+  
+--------
+
+## Saussurian Semiotics: Semiosis as a *Structure*
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Ferdinand Saussure coined term semiotics in late 1800s
+- Extension of research into linguistics (history of languages)
+- Meaning is *relational* not *referential* - emerges from context of other signs
+- Signs are *immaterial* (composed of sounds and thought)
+- Signs are *arbitrary* 
+  - Nothing intrinsic determining relationship between signified and signifier
+  - Suggests autonomy of language in the context of "reality"
+  - Suggests that relation emerges from society and culture
+
+:::
+
+::: {.column width="50%"}
+```{dot}
+//| echo: false
+//| fig-width: 5
+graph G {
+  layout=neato
+  overlap=false
+  signifier -- signified [dir=both];
+}
+```
+:::
+::::
+--------
+
+## Peircian Semiotics: Semiosis as a *Process*
+
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Charles Sanders Peirce was a pragmatist philosopher and logician
+- Proposed a triadic model of semiotics
+- Interpretant is a sign inside the mind of the person interpreting
+- Emphasized the context of interpretation in ways that Saussure did not
+- Positioned thinking as *dialogic*
+:::
+
+::: {.column width="50%"}
+
+```{dot}
+//| echo: false
+//| fig-width: 5
+graph G {
+  layout=neato
+  overlap=false
+  object -- interpretant [dir=both];
+  interpretant -- representamen [dir=both];
+  representamen -- object [dir=both];
+}
+```
+
+
+:::
+::::
+::: notes
+
+object does not exist in Saussure's model
+representament similar to Saussure's signifier
+interpretent similar to Saussure's signified but is in in the mind of the observer
+:::
+
+------
+
+## Barthes Semiotics: Culture and Semiotics
+
+- Roland Barthes was a French 20th century theorist
+- Semiotic systems emerge within the context of particular cultures
+- Theorized the emergence of myth in language
+- Differentiated levels of meaning:
+  - Level 1: Sign (signifier/signified) (denotative system)
+  - Level 2: Second-Order meaning (connotative system)
+
+------
+
+## Derrida: Post-Structuralist Semiotics
+
+- Jacques Derrida was a 20th century French philosopher
+- Meaning never total or fixed; it is always postponed: *différance*
+- Rejected structuralism for presupposing a center that regulates the structure of meaning
+- Deconstruction assesses the underlying assumptions that position certain terms as hierarchical to others
+
+-----
+
+## Feminist and Post-colonial Semiotics
+
+- Advanced through theorists Julia Kristeva, Luce Irigaray, Gayatri Spivak
+- Acknowledges how language sustain power by centering certain terms as hierarchical to others
+- Language constitutes conceptions of Center/Periphery; Us/Other
+- Structuralism produces sub-alternity: oppressed must adopt language of colonizers to be heard
+
+--------
+
+## Data Semiotics
+
+- Data Definitions
+  - ...police the boundaries of what counts. 
+  - ... have a history. 
+  - ...center certain meanings while sidelining others. 
+
+--- 
+
+# How is numero-politics connected to data semiotics?
+
+--- 
+
+# Let's look at a data dictionary together!
+
