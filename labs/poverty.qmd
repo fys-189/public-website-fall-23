@@ -201,7 +201,7 @@ Create a new Worksheet called "SPM Poverty by Hispanic", and rename the workshee
 
 ## First Half Submission
 
-Create a New Dashboard in your workbook, and drag all four of your worksheets onto it in any order. Be sure to revisit checkpoint 1 if you can't remember how to create a dashboard. In the top menu bar, click on Dashboard \> Export Image, and then save an image of your dashboard as a .png file. Upload the image to Moodle under the Tableau Workshop assignment.
+Create a New Dashboard in your workbook, and drag all four of your worksheets onto it in any order. Be sure to revisit checkpoint 1 if you can't remember how to create a dashboard. In the top menu bar, click on Dashboard \> Export Image, and then save an image of your dashboard as a **.png** file. Upload the image to Moodle under [this assignment](https://moodle.smith.edu/mod/assign/view.php?id=1097564).
 
 ------------------------------------------------------------------------
 
