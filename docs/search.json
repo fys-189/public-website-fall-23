@@ -1649,7 +1649,7 @@
     "href": "schedule.html#october-03-2023",
     "title": "Schedule",
     "section": "October 03, 2023",
-    "text": "October 03, 2023\n\nHealth Equity\n\nDue TodayFurther Resources\n\n\n Krieger, Nancy (1992). “The Making of Public Health Data: Paradigms, Politics, and Policy”. In: Journal of Public Health Policy 13.4, pp. 412-427. (Visited on Dec. 17, 2020). Read in Perusall\n Sexton Joe, Robin Fields (2021). How Many American Women Die From Causes Related to Pregnancy or Childbirth? No One Knows. (Visited on Feb. 17, 2021). Read in Perusall\n Health, United States Department of, uman Services (US DHHS),, Centers for Disease Control, et al. (2020). Underlying Cause of Death 1999-2019 on CDC WONDER Online Database. (Visited on Apr. 05, 2021). Read in Perusall\n Continue working on Checkpoint 2"
+    "text": "October 03, 2023\n\nHealth Equity\n\nDue TodayFurther Resources\n\n\n Krieger, Nancy (1992). “The Making of Public Health Data: Paradigms, Politics, and Policy”. In: Journal of Public Health Policy 13.4, pp. 412-427. (Visited on Dec. 17, 2020). Read in Perusall\n Sexton Joe, Robin Fields (2021). How Many American Women Die From Causes Related to Pregnancy or Childbirth? No One Knows. (Visited on Feb. 17, 2021). Read in Perusall\n Health, United States Department of, uman Services (US DHHS),, Centers for Disease Control, et al. (2020). Underlying Cause of Death 1999-2019 on CDC WONDER Online Database. (Visited on Apr. 05, 2021). Read in Perusall\n Continue working on Checkpoint 2\n\n\n Course slides here\n CDC Underlying Cause of Death"
   },
   {
     "objectID": "schedule.html#october-05-2023",
@@ -2574,5 +2574,26 @@
     "title": "Day Four: Data Semiotics and Numero-Politics",
     "section": "Data Semiotics",
     "text": "Data Semiotics\n\nData Definitions\n\n…police the boundaries of what counts.\n… have a history.\n…center certain meanings while sidelining others."
+  },
+  {
+    "objectID": "slides/DayX-HealthEquity.html#vital-statistics",
+    "href": "slides/DayX-HealthEquity.html#vital-statistics",
+    "title": "Day X: Health Equity",
+    "section": "Vital Statistics",
+    "text": "Vital Statistics\n\n\n\nData about a population gathered from government documents\nIncludes birth records, adoption records, marriage records, divorce records, and death records"
+  },
+  {
+    "objectID": "slides/DayX-HealthEquity.html#cdc-underlying-cause-of-death-what-counts",
+    "href": "slides/DayX-HealthEquity.html#cdc-underlying-cause-of-death-what-counts",
+    "title": "Day X: Health Equity",
+    "section": "CDC Underlying Cause of Death: What counts?",
+    "text": "CDC Underlying Cause of Death: What counts?\n\nDenotative Reading\nConnotative Reading\nDeconstructive Reading"
+  },
+  {
+    "objectID": "slides/DayX-HealthEquity.html#filtering-vs.-grouping",
+    "href": "slides/DayX-HealthEquity.html#filtering-vs.-grouping",
+    "title": "Day X: Health Equity",
+    "section": "Filtering vs. Grouping",
+    "text": "Filtering vs. Grouping\n\nFiltering subsets data\n\nNarrows data down to only cases that meet a particular criteria\n\nGrouping data takes individual records and groups them according to common criteria\n\nWe often group by particular classifications (e.g. group data by sex, gender, race)\nWe can report totals, averages, differences etc. within each grouping"
   }
 ]

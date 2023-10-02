@@ -1,0 +1,103 @@
+---
+title: "Day X: Health Equity"
+subtitle: "SDS 189: Data and Social Justice"
+author: |
+  Lindsay Poirier<br/>
+  <span style = 'font-size: 70%;'>
+  [Statistical & Data Sciences](http://www.smith.edu/sds), Smith College<br/>
+  </span>
+date: |
+  Fall 2023<br/>
+  `r sds::img_logo(width = 64)`
+format: 
+  revealjs:
+    scrollable: true
+    df-print: paged
+    theme: [default]
+    incremental: true
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 5
+editor: source
+execute:
+  echo: true
+  messages: false
+  warnings: false
+---
+
+## Vital Statistics
+
+::: columns
+::: {.column width="40%"}
+
+- Data about a population gathered from government documents
+- Includes birth records, adoption records, marriage records, divorce records, and death records
+
+:::
+
+::: {.column width="60%"}
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Death_certificate_-_Sylvia_of_Hollywood.jpg/912px-Death_certificate_-_Sylvia_of_Hollywood.jpg?20100201160918)
+:::
+:::
+
+------------------------------------------------------------------------
+
+# What are some of the issues that Krieger points out with public health data?
+
+------------------------------------------------------------------------
+
+# What case does Krieger make for including socio-economic information in vital statistics?
+
+------------------------------------------------------------------------
+
+## CDC Underlying Cause of Death: What counts?
+
+- Denotative Reading
+- Connotative Reading
+- Deconstructive Reading
+
+------------------------------------------------------------------------
+
+# What’s the history behind how pregnancy deaths have been counted?
+
+------------------------------------------------------------------------
+
+# What is suppressed and why?
+
+------------------------------------------------------------------------
+
+# Review WONDER FORM
+
+------------------------------------------------------------------------
+
+# Individual vs. Aggregate Data
+
+::: panel-tabset
+### Individual
+
+::: nonincremental
+-   Every row refers to one case.
+  - Details about one student
+  - Reponses to one survey
+- Variables describe something about that individual case
+:::
+
+### Aggregate
+
+::: nonincremental
+-  Rows summarize something across a series of cases.
+  - Statistics about one county
+  - Summaries of survey responses
+- Variables summarize something across a series of cases (e.g. counts, averages, etc.)  
+:::
+
+------------------------------------------------------------------------
+
+## Filtering vs. Grouping
+
+- Filtering **subsets** data
+  - Narrows data down to only cases that meet a particular criteria
+- Grouping data takes individual records and groups them according to common criteria
+  - We often group by particular classifications (e.g. group data by sex, gender, race)
+  - We can report totals, averages, differences etc. within each grouping
+
