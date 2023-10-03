@@ -91,6 +91,8 @@ execute:
 - Variables summarize something across a series of cases (e.g. counts, averages, etc.)  
 :::
 
+:::
+
 ------------------------------------------------------------------------
 
 ## Filtering vs. Grouping
