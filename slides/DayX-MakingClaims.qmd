@@ -1,0 +1,91 @@
+---
+title: "Day X: Making Claims with Data"
+subtitle: "SDS 189: Data and Social Justice"
+author: |
+  Lindsay Poirier<br/>
+  <span style = 'font-size: 70%;'>
+  [Statistical & Data Sciences](http://www.smith.edu/sds), Smith College<br/>
+  </span>
+date: |
+  Fall 2023<br/>
+  `r sds::img_logo(width = 64)`
+format: 
+  revealjs:
+    scrollable: true
+    df-print: paged
+    theme: [default]
+    incremental: true
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 5
+editor: source
+execute:
+  echo: true
+  messages: false
+  warnings: false
+---
+
+## What is a claim?
+
+- An assertion that something is the case
+- Made in the context of potential contradiction or counter-claims
+- Often supported by evidence
+
+------------------------------------------------------------------------
+
+## What makes a good claim?
+
+- Debatable
+  - Be sure that you can imagine an counter-argument.
+- Provable
+  - Be sure that you can imagine evidence to support the claim.
+- Not overly general or vague
+  - Be sure that you don't need an overwhelming amount of evidence to support the claim.
+- Engaging or something that people care about
+  - Be sure your claim can answer the question "so what?"
+
+------------------------------------------------------------------------
+
+## Claims that could use some work
+
+- As of 2021, the global population was 7.888 billion.
+- Eating too much junk food is bad for your health.
+- I believe that dogs are the best creatures on the planet. 
+- Sarah Willie-LeBreton is the 12th president of Smith College.
+- Money makes the world go around. 
+- College students face many challenges today.
+- In 200 years, the human race will go extinct due to a catastrophic disaster.
+- There are differences in how data science is taught in colleges across the U.S.
+
+
+------------------------------------------------------------------------
+
+## Types of Claims
+
+- Claims of fact
+- Claims of definition
+- Claims of value
+- Claims of cause
+- Claims of comparison
+- Claims of policy
+
+See [here](https://lsa.umich.edu/content/dam/sweetland-assets/sweetland-documents/teachingresources/TeachingArgumentation/Supplement2_%20SixCommonTypesofClaim.pdf).
+
+
+------------------------------------------------------------------------
+
+## Evidence
+
+- Facts or data to support your claim
+- Quotes or statements from credible authorities/experts
+- Personal anecdotes
+
+------------------------------------------------------------------------
+
+## Warrant
+
+- Reasoning that explains how or why the evidence that supports the claim
+- Outlines what needs to be true in order for the evidence to support the claim
+- Follows logical reasoning and avoids fallacies
+- Is specific to the evidence provided
+

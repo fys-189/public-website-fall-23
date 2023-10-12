@@ -1663,7 +1663,7 @@
     "href": "schedule.html#october-10-2023",
     "title": "Schedule",
     "section": "October 10, 2023",
-    "text": "October 10, 2023\n\nData Rhetoric and Persuasion\n\nDue TodayFurther Resources\n\n\n Start working on Blog Post 1"
+    "text": "October 10, 2023\n\nData Rhetoric and Persuasion\n\nDue TodayFurther Resources\n\n\n Start working on Blog Post 1\n\n\n Course slides here"
   },
   {
     "objectID": "schedule.html#october-12-2023",
@@ -2595,5 +2595,47 @@
     "title": "Day X: Health Equity",
     "section": "Filtering vs. Grouping",
     "text": "Filtering vs. Grouping\n\nFiltering subsets data\n\nNarrows data down to only cases that meet a particular criteria\n\nGrouping data takes individual records and groups them according to common criteria\n\nWe often group by particular classifications (e.g. group data by sex, gender, race)\nWe can report totals, averages, differences etc. within each grouping"
+  },
+  {
+    "objectID": "slides/DayX-MakingClaims.html#what-is-a-claim",
+    "href": "slides/DayX-MakingClaims.html#what-is-a-claim",
+    "title": "Day X: Making Claims with Data",
+    "section": "What is a claim?",
+    "text": "What is a claim?\n\nAn assertion that something is the case\nMade in the context of potential contradiction or counter-claims\nOften supported by evidence"
+  },
+  {
+    "objectID": "slides/DayX-MakingClaims.html#what-makes-a-good-claim",
+    "href": "slides/DayX-MakingClaims.html#what-makes-a-good-claim",
+    "title": "Day X: Making Claims with Data",
+    "section": "What makes a good claim?",
+    "text": "What makes a good claim?\n\nDebatable\n\nBe sure that you can imagine an counter-argument.\n\nProvable\n\nBe sure that you can imagine evidence to support the claim.\n\nNot overly general or vague\n\nBe sure that you don’t need an overwhelming amount of evidence to support the claim.\n\nEngaging or something that people care about\n\nBe sure your claim can answer the question “so what?”"
+  },
+  {
+    "objectID": "slides/DayX-MakingClaims.html#claims-that-could-use-some-work",
+    "href": "slides/DayX-MakingClaims.html#claims-that-could-use-some-work",
+    "title": "Day X: Making Claims with Data",
+    "section": "Claims that could use some work",
+    "text": "Claims that could use some work\n\nAs of 2021, the global population was 7.888 billion.\nEating too much junk food is bad for your health.\nI believe that dogs are the best creatures on the planet.\nSarah Willie-LeBreton is the 12th president of Smith College.\nMoney makes the world go around.\nCollege students face many challenges today.\nIn 200 years, the human race will go extinct due to a catastrophic disaster.\nThere are differences in how data science is taught in colleges across the U.S."
+  },
+  {
+    "objectID": "slides/DayX-MakingClaims.html#types-of-claims",
+    "href": "slides/DayX-MakingClaims.html#types-of-claims",
+    "title": "Day X: Making Claims with Data",
+    "section": "Types of Claims",
+    "text": "Types of Claims\n\nClaims of fact\nClaims of definition\nClaims of value\nClaims of cause\nClaims of comparison\nClaims of policy\n\nSee here."
+  },
+  {
+    "objectID": "slides/DayX-MakingClaims.html#evidence",
+    "href": "slides/DayX-MakingClaims.html#evidence",
+    "title": "Day X: Making Claims with Data",
+    "section": "Evidence",
+    "text": "Evidence\n\nFacts or data to support your claim\nQuotes or statements from credible authorities/experts\nPersonal anecdotes"
+  },
+  {
+    "objectID": "slides/DayX-MakingClaims.html#warrant",
+    "href": "slides/DayX-MakingClaims.html#warrant",
+    "title": "Day X: Making Claims with Data",
+    "section": "Warrant",
+    "text": "Warrant\n\nReasoning that explains how or why the evidence that supports the claim\nOutlines what needs to be true in order for the evidence to support the claim\nFollows logical reasoning and avoids fallacies\nIs specific to the evidence provided"
   }
 ]
