@@ -1,0 +1,77 @@
+---
+title: "Day X: Data Distortion"
+subtitle: "SDS 189: Data and Social Justice"
+author: |
+  Lindsay Poirier<br/>
+  <span style = 'font-size: 70%;'>
+  [Statistical & Data Sciences](http://www.smith.edu/sds), Smith College<br/>
+  </span>
+date: |
+  Fall 2023<br/>
+  `r sds::img_logo(width = 64)`
+format: 
+  revealjs:
+    scrollable: true
+    df-print: paged
+    theme: [default]
+    incremental: true
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 5
+editor: source
+execute:
+  echo: true
+  messages: false
+  warnings: false
+---
+
+## Distortive Data Practices
+
+- Social actions that result in the under/over/misrepresentation of data
+- Not limited to just falsification or omission
+- Often not just the result of "bad actors" but social systems that incentivize bad actions
+
+------------------------------------------------------------------------
+
+# How is metric fixation an example of such an incentive?
+
+------------------------------------------------------------------------
+
+## False Reporting
+
+-   Lying or misreporting data
+-   Auditing can be challenging
+
+------------------------------------------------------------------------
+
+## Deceptive Accounting
+
+-   Not technically false but deliberately misleading
+-   Takes advantage of ambiguities in standards or laws
+-   Often involves "creative" approaches to measurement or classification
+
+------------------------------------------------------------------------
+
+## Discursive Risk 
+
+-   Scope of dataset determined by definitions and reporting thresholds
+-   Stakeholders have advocated for strengthening or loosening thresholds in line with certain political commitments
+
+------------------------------------------------------------------------
+
+## Questions for Analyzing Distortive Practices
+
+- How do social groups mobilize discourse to shape the contours of data infrastructures and delimit data production?
+- What legal, financial, and institutional configurations enable and incentivize institutions to develop and engage distortive data practices?
+- How is strategic accounting organized into ritualized practices?
+- How do data producers navigate time and resource constraints, infrastructural shortcomings, ethical dilemmas, and conflicting demands in moments of data collection and aggregation?
+
+------------------------------------------------------------------------
+
+# Stakeholder Analysis Example
+
+------------------------------------------------------------------------
+
+# Review of Misleading Data Visualizations
+
+

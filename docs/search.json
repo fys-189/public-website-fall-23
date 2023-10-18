@@ -1684,7 +1684,7 @@
     "href": "schedule.html#october-19-2023",
     "title": "Schedule",
     "section": "October 19, 2023",
-    "text": "October 19, 2023\n\nData Distortion\n\nDue TodayFurther Resources\n\n\n Chalabi, Mona (2017). 3 Ways to Spot a Bad Statistic. (Visited on Sep. 01, 2021). Read in Perusall\n list() Read in Perusall\n Start working on Checkpoint 3\n Continue working on Blog Post 1"
+    "text": "October 19, 2023\n\nData Distortion\n\nDue TodayFurther Resources\n\n\n Chalabi, Mona (2017). 3 Ways to Spot a Bad Statistic. (Visited on Sep. 01, 2021). Read in Perusall\n list() Read in Perusall\n Start working on Checkpoint 3\n Continue working on Blog Post 1\n\n\n Course slides here"
   },
   {
     "objectID": "schedule.html#october-24-2023",
@@ -2637,5 +2637,40 @@
     "title": "Day X: Making Claims with Data",
     "section": "Warrant",
     "text": "Warrant\n\nReasoning that explains how or why the evidence that supports the claim\nOutlines what needs to be true in order for the evidence to support the claim\nFollows logical reasoning and avoids fallacies\nIs specific to the evidence provided"
+  },
+  {
+    "objectID": "slides/DayX-DataDistortion.html#distortive-data-practices",
+    "href": "slides/DayX-DataDistortion.html#distortive-data-practices",
+    "title": "Day X: Data Distortion",
+    "section": "Distortive Data Practices",
+    "text": "Distortive Data Practices\n\nSocial actions that result in the under/over/misrepresentation of data\nNot limited to just falsification or omission\nOften not just the result of “bad actors” but social systems that incentivize bad actions"
+  },
+  {
+    "objectID": "slides/DayX-DataDistortion.html#false-reporting",
+    "href": "slides/DayX-DataDistortion.html#false-reporting",
+    "title": "Day X: Data Distortion",
+    "section": "False Reporting",
+    "text": "False Reporting\n\nLying or misreporting data\nAuditing can be challenging"
+  },
+  {
+    "objectID": "slides/DayX-DataDistortion.html#deceptive-accounting",
+    "href": "slides/DayX-DataDistortion.html#deceptive-accounting",
+    "title": "Day X: Data Distortion",
+    "section": "Deceptive Accounting",
+    "text": "Deceptive Accounting\n\nNot technically false but deliberately misleading\nTakes advantage of ambiguities in standards or laws\nOften involves “creative” approaches to measurement or classification"
+  },
+  {
+    "objectID": "slides/DayX-DataDistortion.html#discursive-risk",
+    "href": "slides/DayX-DataDistortion.html#discursive-risk",
+    "title": "Day X: Data Distortion",
+    "section": "Discursive Risk",
+    "text": "Discursive Risk\n\nScope of dataset determined by definitions and reporting thresholds\nStakeholders have advocated for strengthening or loosening thresholds in line with certain political commitments"
+  },
+  {
+    "objectID": "slides/DayX-DataDistortion.html#questions-for-analyzing-distortive-practices",
+    "href": "slides/DayX-DataDistortion.html#questions-for-analyzing-distortive-practices",
+    "title": "Day X: Data Distortion",
+    "section": "Questions for Analyzing Distortive Practices",
+    "text": "Questions for Analyzing Distortive Practices\n\nHow do social groups mobilize discourse to shape the contours of data infrastructures and delimit data production?\nWhat legal, financial, and institutional configurations enable and incentivize institutions to develop and engage distortive data practices?\nHow is strategic accounting organized into ritualized practices?\nHow do data producers navigate time and resource constraints, infrastructural shortcomings, ethical dilemmas, and conflicting demands in moments of data collection and aggregation?"
   }
 ]
