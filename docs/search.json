@@ -2672,5 +2672,26 @@
     "title": "Day X: Data Distortion",
     "section": "Questions for Analyzing Distortive Practices",
     "text": "Questions for Analyzing Distortive Practices\n\nHow do social groups mobilize discourse to shape the contours of data infrastructures and delimit data production?\nWhat legal, financial, and institutional configurations enable and incentivize institutions to develop and engage distortive data practices?\nHow is strategic accounting organized into ritualized practices?\nHow do data producers navigate time and resource constraints, infrastructural shortcomings, ethical dilemmas, and conflicting demands in moments of data collection and aggregation?"
+  },
+  {
+    "objectID": "slides/DayX-DataDistortion.html#examples-of-distortive-practices",
+    "href": "slides/DayX-DataDistortion.html#examples-of-distortive-practices",
+    "title": "Day X: Data Distortion",
+    "section": "Examples of Distortive Practices",
+    "text": "Examples of Distortive Practices\n\nLying or misreporting data\nTaking advantage of ambiguities in standards or laws to “creatively” measure or classify\nAdvocating for changes to standards or laws to reconfigure the scope and methods of data collection"
+  },
+  {
+    "objectID": "slides/DayX-DataDistortion.html#stakeholder-analysis-part-1",
+    "href": "slides/DayX-DataDistortion.html#stakeholder-analysis-part-1",
+    "title": "Day X: Data Distortion",
+    "section": "Stakeholder Analysis: Part 1",
+    "text": "Stakeholder Analysis: Part 1\n\nWhat interest does the stakeholder have in the dataset?\nWhat influence does the stakeholder have over the collection, organization, or publication of the dataset?\n\n\n\n\n\nLow Influence\nHigh Influence\n\n\n\n\nHigh Interest\n\n\n\n\nLow Interest"
+  },
+  {
+    "objectID": "slides/DayX-DataDistortion.html#stakeholder-analysis-part-2",
+    "href": "slides/DayX-DataDistortion.html#stakeholder-analysis-part-2",
+    "title": "Day X: Data Distortion",
+    "section": "Stakeholder Analysis: Part 2",
+    "text": "Stakeholder Analysis: Part 2\n\nSelect a high interest/high influence stakeholder\nWhat social forces enable/encourage this stakeholder to report data accurately?\nWhat social forces enable/incentivize this stakeholder to report data inaccurately?"
   }
 ]
