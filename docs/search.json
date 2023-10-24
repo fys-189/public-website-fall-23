@@ -1691,7 +1691,7 @@
     "href": "schedule.html#october-24-2023",
     "title": "Schedule",
     "section": "October 24, 2023",
-    "text": "October 24, 2023\n\nPolicing Injustice and NYPD’s Stop, Question, and Frisk Database\n\nDue TodayFurther Resources\n\n\n Smith, Chris (2018). The Crime-Fighting Program That Changed New York Forever. (Visited on Jul. 16, 2019). Read in Perusall\n Richardson, R., Jason Schultz, and K. Crawford (2019). “Dirty Data, Bad Predictions: How Civil Rights Violations Impact Police Data, Predictive Policing Systems, and Justice”. In: NYU Law Review 94.192, pp. 192-233. (Visited on Sep. 01, 2021). Read in Perusall\n list() Read in Perusall\n Continue working on Checkpoint 3\n Blog Post 1 Due"
+    "text": "October 24, 2023\n\nPolicing Injustice and NYPD’s Stop, Question, and Frisk Database\n\nDue TodayFurther Resources\n\n\n Smith, Chris (2018). The Crime-Fighting Program That Changed New York Forever. (Visited on Jul. 16, 2019). Read in Perusall\n Richardson, R., Jason Schultz, and K. Crawford (2019). “Dirty Data, Bad Predictions: How Civil Rights Violations Impact Police Data, Predictive Policing Systems, and Justice”. In: NYU Law Review 94.192, pp. 192-233. (Visited on Sep. 01, 2021). Read in Perusall\n list() Read in Perusall\n Continue working on Checkpoint 3\n Blog Post 1 Due\n\n\n Course slides here"
   },
   {
     "objectID": "schedule.html#october-26-2023",
@@ -2693,5 +2693,117 @@
     "title": "Day X: Data Distortion",
     "section": "Stakeholder Analysis: Part 2",
     "text": "Stakeholder Analysis: Part 2\n\nSelect a high interest/high influence stakeholder\nWhat social forces enable/encourage this stakeholder to report data accurately?\nWhat social forces enable/incentivize this stakeholder to report data inaccurately?"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#stop-question-and-frisk",
+    "href": "slides/DayX-JukingStats.html#stop-question-and-frisk",
+    "title": "Day X: Juking the Stats",
+    "section": "Stop, Question, and Frisk",
+    "text": "Stop, Question, and Frisk\n\n1968: Supreme Court Case Terry v. Ohio\nOfficers with “reasonable suspicion” that a suspect had:\n\ncommitted a crime could stop them without warrant\n\nbeen carrying a weapon could frisk them without warrant\n\nBecame standard practice in many cities and especially NYC"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#jack-maples-subway-crime-maps",
+    "href": "slides/DayX-JukingStats.html#jack-maples-subway-crime-maps",
+    "title": "Day X: Juking the Stats",
+    "section": "Jack Maple’s Subway Crime Maps",
+    "text": "Jack Maple’s Subway Crime Maps\n\n\n\nAs a lieutenant patrolling subways in the late 1980s, Jack Maple began using maps with pins to track the locations of crimes\nFigured that by following where crimes had been occurring, he could predict where crimes would likely occur next\n1994: Commissioner Bill Bratton promoted Maple to chief anti-crime strategist"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#the-birth-of-compstat",
+    "href": "slides/DayX-JukingStats.html#the-birth-of-compstat",
+    "title": "Day X: Juking the Stats",
+    "section": "The Birth of CompStat",
+    "text": "The Birth of CompStat\n\nMaple had been closely watching the restaurant manager at NYC restaurant Elaine’s monitor her staff\n1995: Maple listed four principles of a new anti-crime strategy on a napkin at Elaine’s:\n\nAccurate, timely intelligence,\nrapid deployment,\neffective tactics,\nrelentless follow-up and assessment"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#compstat-in-practice",
+    "href": "slides/DayX-JukingStats.html#compstat-in-practice",
+    "title": "Day X: Juking the Stats",
+    "section": "CompStat in Practice",
+    "text": "CompStat in Practice\n\nEach week, each of NYC’s 77 police precincts were required to report statistics on crimes in their neighborhoods\nAt the CompStat Unit, these numbers were compiled into city-wide database for analysis\nWeekly strategy meetings held at police headquarters to determine where officers would be deployed"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#early-stop-and-frisk-data",
+    "href": "slides/DayX-JukingStats.html#early-stop-and-frisk-data",
+    "title": "Day X: Juking the Stats",
+    "section": "Early Stop and Frisk Data",
+    "text": "Early Stop and Frisk Data\n\n\n\nStop and frisks were not collected or reported through CompStat\nOfficers instead filled out a UF-250 form, which was stored in a filing cabinet and not statistically aggregated\n\n\n\n\nDan Nguyen, 2019"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#shooting-of-amadou-diallo",
+    "href": "slides/DayX-JukingStats.html#shooting-of-amadou-diallo",
+    "title": "Day X: Juking the Stats",
+    "section": "Shooting of Amadou Diallo",
+    "text": "Shooting of Amadou Diallo\n\nFebruary 4, 1999: Amadou Diallo, a 23-year Guinean immigrant shot and killed by 4 non uniformed officers\nOfficers believed Diallo to have committed a rape and to be carrying a weapon\nShot at Diallo 41 times\nDiallo was later reported to be innocent and unarmed"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#new-stop-and-frisk-reporting-requirements",
+    "href": "slides/DayX-JukingStats.html#new-stop-and-frisk-reporting-requirements",
+    "title": "Day X: Juking the Stats",
+    "section": "New Stop and Frisk Reporting Requirements",
+    "text": "New Stop and Frisk Reporting Requirements\n\nFollowing this shooting NYC Council passed legislation requiring the NYPD to report all stops quarterly\nReports were to include a racial breakdown of the individuals stopped\nCivil rights groups began expressing concern that individuals of a certain race were being unfairly targeted"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#shooting-of-sean-bell",
+    "href": "slides/DayX-JukingStats.html#shooting-of-sean-bell",
+    "title": "Day X: Juking the Stats",
+    "section": "Shooting of Sean Bell",
+    "text": "Shooting of Sean Bell\n\n2006: Sean Bell, a 23-year African American man, was shot at 50 times the night before his wedding, killing him and wounding 2 of his friends\nAmerican Civil Liberties Union inquired City Council about Stop and Frisk reports and learned that the Council stopped collecting them in 2003"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#accessing-the-sqf-database",
+    "href": "slides/DayX-JukingStats.html#accessing-the-sqf-database",
+    "title": "Day X: Juking the Stats",
+    "section": "Accessing the SQF Database",
+    "text": "Accessing the SQF Database\n\nNovember 29, 2006: NYCLU sends letter to police commissioner Raymond Kelly calling on NYPD to comply with the law\nFebruary 2007: NYPD produces a report of stops conducted in 2006 and send this to City Council\n\nShowed that the practice had increased 500% between 2002 and 2006\nCity Council asked for the NYPD’s full database documenting all stops\nNYPD denied the request"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#accessing-the-sqf-database-cont.",
+    "href": "slides/DayX-JukingStats.html#accessing-the-sqf-database-cont.",
+    "title": "Day X: Juking the Stats",
+    "section": "Accessing the SQF Database, cont.",
+    "text": "Accessing the SQF Database, cont.\n\nJuly 25, 2007: NYCLU exercised their legal right to obtain the database by submitting a FOIL request:\n\n\nWe therefore request that the Department produce the following: in electronic form, the complete NYPD database of information entered from stop-and-frisk worksheets for 2006, for the first two quarters of 2007; and for any calendar year prior to 2006 for which data exists in electronic form. We expressly exclude from this request individually identifiable information or other private individual information that may be in the database: the name of the person stopped, the street address of the person stopped, and the Tax ID number of the officer who completed the form. To the extent you have questions about this request, we are ready to discuss it with appropriate members of your staff. Otherwise, we ask that the Department produce the database as quickly as possible and by no later than August 31, 2007."
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#accessing-the-sqf-database-cont.-1",
+    "href": "slides/DayX-JukingStats.html#accessing-the-sqf-database-cont.-1",
+    "title": "Day X: Juking the Stats",
+    "section": "Accessing the SQF Database, cont.",
+    "text": "Accessing the SQF Database, cont.\n\nNYPD denied the FOIL request, along with a follow-up appeal, arguing that publicly disclosing the data would constitute an unwarranted invasion of privacy, interfere with judicial and law enforcement operations, and would pose a security risk to police information technology assets\nNovember 13, 2007: NYCLU files a lawsuit in State Supreme Court against the NYPD\nJanuary 2008: NYPD files a motion to dismiss the petition"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#accessing-the-sqf-database-cont.-2",
+    "href": "slides/DayX-JukingStats.html#accessing-the-sqf-database-cont.-2",
+    "title": "Day X: Juking the Stats",
+    "section": "Accessing the SQF Database, cont.",
+    "text": "Accessing the SQF Database, cont.\n\nMay 29, 2008: Hon. Marilyn Diamond rules that the NYPD had not demonstrated that the contents of the database qualified for a FOIL exemption\n\nThey had not considered the possibility of redacting officer’s personally identifiable information"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#the-growth-of-stop-and-frisk-in-the-2000s",
+    "href": "slides/DayX-JukingStats.html#the-growth-of-stop-and-frisk-in-the-2000s",
+    "title": "Day X: Juking the Stats",
+    "section": "The Growth of Stop and Frisk in the 2000s",
+    "text": "The Growth of Stop and Frisk in the 2000s\n\nRaymond Kelly (NYC Police Commissioner under Mayor Bloomberg) believed stop and frisks to be an effective crime strategy\nNumbers indicated that stops increased 700% between 2002 and 2011\nEven though the NYPD denied setting stop and frisk quotas, it has been widely reported that these became a tool for demonstrating effectiveness in CompStat meetings\nHow is this a component of metric fixation?"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#the-growth-of-stop-and-frisk-in-the-2000s-1",
+    "href": "slides/DayX-JukingStats.html#the-growth-of-stop-and-frisk-in-the-2000s-1",
+    "title": "Day X: Juking the Stats",
+    "section": "The Growth of Stop and Frisk in the 2000s",
+    "text": "The Growth of Stop and Frisk in the 2000s"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#whistleblowing-metric-fixation",
+    "href": "slides/DayX-JukingStats.html#whistleblowing-metric-fixation",
+    "title": "Day X: Juking the Stats",
+    "section": "Whistleblowing Metric Fixation",
+    "text": "Whistleblowing Metric Fixation"
+  },
+  {
+    "objectID": "slides/DayX-JukingStats.html#proving-stop-and-frisk-unconstitutional",
+    "href": "slides/DayX-JukingStats.html#proving-stop-and-frisk-unconstitutional",
+    "title": "Day X: Juking the Stats",
+    "section": "Proving Stop and Frisk Unconstitutional",
+    "text": "Proving Stop and Frisk Unconstitutional\n\n2013: Floyd v. City of New York\nFloyd argued before the New York District Court in 2013 that the NYPD had stop and frisked him without reasonable suspicion\nAudio recordings of supervisors demanding quotas submitted and several officers also testified\nSQF data leveraged to support the claims throughout the trial\nThe Court deemed the practice unconstitutional\n\nViolated the Fourth Amendment by conducting searches without reasonable suspicion\nViolated Fourteenth Amendment by performing stops in a discriminatory manner\n\nSince then, NYC has considerably scaled back on the policing tactic"
   }
 ]

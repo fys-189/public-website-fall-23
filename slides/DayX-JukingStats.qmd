@@ -1,0 +1,204 @@
+---
+title: "Day X: Juking the Stats"
+subtitle: "SDS 189: Data and Social Justice"
+author: |
+  Lindsay Poirier<br/>
+  <span style = 'font-size: 70%;'>
+  [Statistical & Data Sciences](http://www.smith.edu/sds), Smith College<br/>
+  </span>
+date: |
+  Fall 2023<br/>
+  `r sds::img_logo(width = 64)`
+format: 
+  revealjs:
+    scrollable: true
+    df-print: paged
+    theme: [default]
+    incremental: true
+    chalkboard:
+      theme: whiteboard
+      boardmarker-width: 5
+editor: source
+execute:
+  echo: true
+  messages: false
+  warnings: false
+---
+
+## Stop, Question, and Frisk
+
+
+- 1968: Supreme Court Case Terry v. Ohio 
+- Officers with "reasonable suspicion" that a suspect had:
+    - committed a crime could stop them without warrant      
+    - been carrying a weapon could frisk them without warrant
+- Became standard practice in many cities and especially NYC
+
+
+------------------------------------------------------------------------
+
+## Jack Maple’s Subway Crime Maps
+
+::: columns
+:::  {.column width="50%"}
+
+- As a lieutenant patrolling subways in the late 1980s, Jack Maple began using maps with pins to track the locations of crimes
+- Figured that by following where crimes had been occurring, he could predict where crimes would likely occur next
+- 1994: Commissioner Bill Bratton promoted Maple to chief anti-crime strategist
+
+:::
+:::  {.column width="50%"}
+![](https://upload.wikimedia.org/wikipedia/en/1/1f/Jack_Maple.jpg)
+:::
+:::
+
+------------------------------------------------------------------------
+
+## The Birth of CompStat
+
+- Maple had been closely watching the restaurant manager at NYC restaurant Elaine’s monitor her staff
+- 1995: Maple listed four principles of a new anti-crime strategy on a napkin at Elaine’s:
+  - Accurate, timely intelligence, 
+  - rapid deployment, 
+  - effective tactics, 
+  - relentless follow-up and assessment
+
+------------------------------------------------------------------------
+
+## CompStat in Practice
+
+-   Each week, each of NYC’s 77 police precincts were required to report statistics on crimes in their neighborhoods
+-   At the CompStat Unit, these numbers were compiled into city-wide database for analysis
+-   Weekly strategy meetings held at police headquarters to determine where officers would be deployed
+
+
+------------------------------------------------------------------------
+
+# What is broken windows theory, and why did it come to matter in this context?
+
+------------------------------------------------------------------------
+
+# In what ways did officers and commanders become fixated on the metrics? How did this transform policing in NYC?
+
+------------------------------------------------------------------------
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xH_6_8NOfwI?si=sSEb4YtdcGe-HN67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+------------------------------------------------------------------------
+
+## Early Stop and Frisk Data
+
+::: columns
+::: {.column width="50%"}
+- Stop and frisks were not collected or reported through CompStat
+- Officers instead filled out a UF-250 form, which was stored in a filing cabinet and not statistically aggregated
+
+:::
+
+::: {.column width="50%"}
+
+![](http://blog.danwin.com/files/images/uf250-2011-excerpt.png)
+
+> Dan Nguyen, 2019
+:::
+:::
+
+------------------------------------------------------------------------
+
+## Shooting of Amadou Diallo
+
+- February 4, 1999: Amadou Diallo, a 23-year Guinean immigrant shot and killed by 4 non uniformed officers
+- Officers believed Diallo to have committed a rape and to be carrying a weapon
+- Shot at Diallo 41 times
+- Diallo was later reported to be innocent and unarmed
+
+------------------------------------------------------------------------
+
+## New Stop and Frisk Reporting Requirements
+
+- Following this shooting NYC Council passed legislation requiring the NYPD to report all stops quarterly 
+- Reports were to include a racial breakdown of the individuals stopped
+- Civil rights groups began expressing concern that individuals of a certain race were being unfairly targeted
+
+------------------------------------------------------------------------
+
+## Shooting of Sean Bell
+
+- 2006: Sean Bell, a 23-year African American man, was shot at  50 times the night before his wedding, killing him and wounding 2 of his friends
+- American Civil Liberties Union inquired City Council about Stop and Frisk reports and learned that the Council stopped collecting them in 2003
+
+------------------------------------------------------------------------
+
+## Accessing the SQF Database
+
+- November 29, 2006: NYCLU sends letter to police commissioner Raymond Kelly calling on NYPD to comply with the law
+- February 2007: NYPD produces a report of stops conducted in 2006 and send this to City Council
+  - Showed that the practice had increased 500% between 2002 and 2006
+  - City Council asked for the NYPD’s full database documenting all stops
+  - NYPD denied the request
+
+------------------------------------------------------------------------
+
+
+## Accessing the SQF Database, cont.
+
+- July 25, 2007: NYCLU exercised their legal right to obtain the database by submitting a FOIL request:
+
+> We therefore request that the Department produce the following: in electronic form, the complete NYPD database of information entered from stop-and-frisk worksheets for 2006, for the first two quarters of 2007; and for any calendar year prior to 2006 for which data exists in electronic form. We expressly exclude from this request individually identifiable information or other private individual information that may be in the database: the name of the person stopped, the street address of the person stopped, and the Tax ID number of the officer who completed the form. To the extent you have questions about this request, we are ready to discuss it with appropriate members of your staff. Otherwise, we ask that the Department produce the database as quickly as possible and by no later than August 31, 2007.
+
+------------------------------------------------------------------------
+
+## Accessing the SQF Database, cont.
+
+- NYPD denied the FOIL request, along with a follow-up appeal, arguing that publicly disclosing the data would constitute an unwarranted invasion of privacy, interfere with judicial and law enforcement operations, and would pose a security risk to police information technology assets
+- November 13, 2007: NYCLU files a lawsuit in State Supreme Court against the NYPD
+- January 2008: NYPD files a motion to dismiss the petition
+
+------------------------------------------------------------------------
+
+## Accessing the SQF Database, cont.
+
+- May 29, 2008: Hon. Marilyn Diamond rules that the NYPD had not demonstrated that the contents of the database qualified for a FOIL exemption
+  - They had not considered the possibility of redacting officer’s personally identifiable information
+
+------------------------------------------------------------------------
+
+
+## The Growth of Stop and Frisk in the 2000s
+
+- Raymond Kelly (NYC Police Commissioner under Mayor Bloomberg) believed stop and frisks to be an effective crime strategy
+- Numbers indicated that stops increased 700% between 2002 and 2011
+- Even though the NYPD denied setting stop and frisk quotas, it has been widely reported that these  became a tool for demonstrating effectiveness in CompStat meetings
+- How is this a component of metric fixation?
+
+------------------------------------------------------------------------
+
+## The Growth of Stop and Frisk in the 2000s
+
+![](https://www.nyclu.org/sites/default/files/styles/featured_image_580x386/public/2013/05/21/2012_Gun_Increases.jpg?itok=DBi7IwiB)
+
+------------------------------------------------------------------------
+
+## Whistleblowing Metric Fixation
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rwAQX0SWlhY?si=g2DpdAwCkbhdS_dm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+------------------------------------------------------------------------
+
+## Proving Stop and Frisk Unconstitutional
+
+- 2013: Floyd v. City of New York
+- Floyd argued before the New York District Court in 2013 that the NYPD had stop and frisked him  without reasonable suspicion 
+- Audio recordings of supervisors demanding quotas submitted and several officers also testified
+- SQF data leveraged to support the claims throughout the trial
+- The Court deemed the practice unconstitutional
+  - Violated the Fourth Amendment by conducting searches without reasonable suspicion 
+  - Violated Fourteenth Amendment by performing stops in a discriminatory manner
+- Since then, NYC has considerably scaled back on the policing tactic
+
+------------------------------------------------------------------------
+
+> Because it is impossible to individually analyze each of those stops, plaintiffs’ case was based on the imperfect information contained in the NYPD’s database of forms (‘UF-250s’) that officers are required to prepare after each stop. The central flaws in this database all skew toward underestimating the number of unconstitutional stops that occur: the database is incomplete, in that officers do not prepare a UF-250 for every stop they make; it is one-sided, in that the UF250 only records the officer’s version of the story; the UF-250 permits the officer to merely check a series of boxes, rather than requiring the officer to explain the basis for her suspicion; and many of the boxes on the form are inherently subjective and vague (such as ‘furtive movements’). Nonetheless, the analysis of the UF-250 database reveals that at least 200,000 stops were made without reasonable suspicion. 
+
+
+
