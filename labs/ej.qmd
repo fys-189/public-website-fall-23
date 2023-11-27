@@ -1,0 +1,172 @@
+---
+title: "Environmental Justice"
+subtitle: "Responding to claims centered around..."
+editor: source
+---
+
+## Overview
+
+In this lab, you will work through a series of exercises to visualize data regarding the disproportionate environmental risks certain communities are exposed to. Specifically, we are going to produce a series of maps the visualize the proximity of minority racial groups to toxic releases in an area of Louisiana known as 'Cancer Alley'. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xFxY454NTYE?si=K6ZowZCYnDpbNB9k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## The Dataset
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fqjh6t6Hx6s?si=ZNmHBRMTTcM76akz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
+
+The EPA’s Emergency Planning and Community Right to Know Act (EPCRA) of 1986 established the Toxic Release Inventory as a mechanism to monitor and inform the public of toxic emissions released in their communities. Every year, certain U.S. industrial facilities are required to report to the EPA the amounts of certain chemical on-site and off-site releases in pounds. Facilities required to report include those that employ more than 10 individuals, release more than a certain threshold of a TRI-regulated chemical, and are classified by a specified set of Standard Industrial Codes, including mining, utilities, manufacturing, publishing, and hazardous waste.
+
+Notably, while the EPCRA mandates reporting of emissions, it does not mandate monitoring of emissions. While other environmental regulations do set certain monitoring standards for specific TRI chemicals and pollution activities, for all other chemicals and activities, facilities are required to report based on a “reasonable estimate” of releases and other waste management quantities. Studies into TRI data quality have uncovered considerable resulting issues - often attributing them to the self-reported nature of the
+data. Despite these concerns, advocacy groups regularly leverage the data to campaign for improvements to environmental policies and to support litigation against certain polluting facilities.
+
+We will also be analyzing data documenting the racial demographics of communities via the U.S. Census's American Community Survey. 
+
+## Instructions
+
+### Part 1: Review Key Definitions
+
+Definitions have long been a subject of contention when it comes to the TRI. The data has been shaped by a series of laws, political agendas, scientific advancements, and social movements implicating the data's definitions.
+
+To get started this this lab, explore the data documentation for the TRI.
+
+You should be able to determine the following:
+
+1.  What counts as a facility?
+2.  What counts as a chemical?
+3.  What counts as a release?
+4.  When and why have these definitions changed?
+5.  What gets left out of reporting due to the bounds of these definitions?
+
+### Part 2: Get to Know the Dataset Structure
+
+Note that this is the most complex dataset that we will examine in this course. The reason is that this dataset is multi-dimensional: there are two variables needed to uniquely identify each row in the dataset. Check out my summary of the dataset below.
+
++-----------+----------------+------------+------------+-------------+--------------------+--------------+
+| Cols 2-33 | Cols 34-44     | Cols 46-47 | Cols 48-62 | Cols 63-103 | Col 104 \_\_\_\_\_ | Cols 105-119 |
+|           |                |            |            |             |                    |              |
+| Facility  | \_\_\_\_\_\_\_ | Collection | \_\_\_\_\_ | \_\_\_\_\_  |                    | \_\_\_\_\_   |
++===========+================+============+============+=============+====================+==============+
+|           |                |            |            |             |                    |              |
++-----------+----------------+------------+------------+-------------+--------------------+--------------+
+|           |                |            |            |             |                    |              |
++-----------+----------------+------------+------------+-------------+--------------------+--------------+
+|           |                |            |            |             |                    |              |
++-----------+----------------+------------+------------+-------------+--------------------+--------------+
+
+Now open the [data dictionary](https://www.epa.gov/system/files/documents/2022-10/TRI_Basic_Data_File_Documentation_RY2021_102522.pdf) for this dataset. Note that columns 2-33 in this dataset all document information about the facility. Can you figure out what columns 34-44 document information about? What about the other blanks in my table above? What two columns are needed to uniquely identify each row?
+
+### Part 3: Avoid Common Mistakes with this Dataset
+
+###### Question
+
+::: question
+Activists want to know how much toxic air emissions dry cleaners have released in 2017. Why would this be a problem with this dataset?
+:::
+
+###### Question
+
+::: question
+
+Activists want to know the total amount of TRI-reported pollutants released in CA in 2016. They download the 2016 data, filter to 'CA', and sum across the `TOTAL RELEASES` column of the dataset to calculate the total. Can you catch their mistake?
+
+:::
+
+###### Question
+
+::: question
+Activists want to know how much Benzene communities in Hampshire County have been exposed to in 2016. They download the 2016 data, filter the TRI data to facilities in Hampshire County, and the `CHEMICAL` variable to Benzene. They then sum across the `TOTAL RELEASES` variable. They use the data to report how much Benzene the community has been exposed to. Can you catch their mistake?
+
+:::
+
+###### Question
+
+::: question
+Activists want to know how many facilities in Hampshire County reported to the TRI in 2016. They download the 2016 data, filter to Hampshire County, and count the number of rows in the dataset. Can you catch their mistake?
+:::
+
+### Part 4: Analyzing the data
+
+-   Download 2018 Toxic Release Inventory data for Louisiana [here](https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present).
+-   Download 2018 Racial Demographics data from the U.S. Census [here](../data/race_la_2018.geojson)
+
+Open Tableau, and create a new workbook called `tri_la_2021`. Click "Connect to Data" and the `race_la_2021.geojson` file as a Spatial File. In the top menu, click Data \> New Data Source. Add `2021_la.csv` as a Text file. Both of these datasets have already been cleaned to save time in class. 
+
+
+
+
+
+###### Question
+
+::: question
+Create a worksheet in Tableau called "Racial Demographics, Louisiana - 2018". Give the tab a descriptive name. Make sure that race_la_2021 is highlighted in the Data section. Drag `Geometry` onto the canvas. This will create a map of Louisiana broken down by Census block groups. Drag `Geoid` onto detail to see the unique ID of each block group. 
+
+In each of these block groups, there are 6 rows in the dataset. Each row reports the population of one of six racial groups (White, Black or African American, American Indian or Alaska Native, Asian, Native American or Pacific Islander, Multiple Races), along with `Pct` (the percent of the population for that racial group). 
+
+Drag `Pct` on to the Color field. Now each block group is colored according to the sum of the percent of the population across all six racial groups. Why do you think that most of the map is the same color?
+
+Drag `Variable` onto the filter field, and click OK. Show the filter. Click through different racial categories to show the percent of the population that is comprised of people of color in each block group. 
+
+Where do you see higher populations of people of color?
+:::
+
+#######
+
+The map that you just created used a quantitative color palette, filling the polygons according to a value in a numeric variable. Do you remember from the last lab what we call this kind of map?
+
+
+
+###### Question
+
+::: question
+Create a worksheet in Tableau called "Toxic Releases, Louisiana - 2018". Give the tab a descriptive name. 
+-   Drag the `2. Trifd` and `4. Facility Name` onto the Detail field, and drag `62. On-Site Release Total` onto the Color field. 
+-   Highlight both `12. Latitude` and `13. Longitude`, and drag them onto the canvas. 
+-   Filter to chemicals reported in pounds. 
+-   Add a filter for `43. Carcinogen`, and show the filter on the canvas. 
+-   Click on the color field. Click 'Edit Colors' and change the palette to 'Red-Gold'. Then, adjust the transparency of the points to 75%. 
+-   Adjust the Title of the Color Legend.
+
+Where do you see Chemical Alley on the map? Are there certain areas of the state where more carcinogenic chemical releases are reported?
+:::
+
+
+####### 
+
+Note that this map is a point map instead of a polygon map? How is geography represented differently on this map than on the previous map? Why do we use points here instead of polygons? Why do you think I had you change the palette? Why did I have you change the transparency?
+
+Oftentimes, we can use layering to visually represent certain spatial correlations across two datasets. Now we are going to layer these maps onto one another to see the 
+
+###### Question
+
+::: question
+Duplicate the first worksheet. Re-title it "Toxic Releases and Racial Demographics, Louisiana - 2018", and give the tab a descriptive name. Click on `2021_la` in the Data section. 
+
+Highlight both `12. Latitude` and `13. Longitude`, and drag them onto the upper left hand corner of the canvas. You should see a pop-up that says 'Add a Marks layer'. Release the drag over that pop-up.
+
+-   Drag the `2. Trifd` and `4. Facility Name` onto the Detail field, and drag `62. On-Site Release Total` onto the Color field. 
+-   Filter to chemicals reported in pounds. 
+-   Add a filter for `43. Carcinogen`, and show the filter on the canvas. 
+-   Click on the color field. Click 'Edit Colors' and change the palette to 'Red-Gold'. Then, adjust the transparency of the points to 75%. 
+-   Adjust the Title of the Color Legend.
+
+
+What do you notice when layering these two maps?
+:::
+
+###### Question
+
+::: question
+Duplicate the last worksheet, and give it a descriptive tab name.
+
+In the Marks card, click on the color icon next to `62. On-Site Release Total` and change it to Size. Drag `Carcinogen` to the Color field in the Marks card. Above all of the fields in the Marks card, change "Automatic" to "Pie". Then change the size icon next to `62. On-Site Release Total` to Angle. 
+
+What do you notice about the percentages of carcinogens released at each facility?
+:::
+
+### Part 5: Reflection
+
+The two layers we have added to this map tell a delimited story. We are only comparing racial demographics to releases. What other factors might impact the burdens certain communities experience in Cancer Alley? What other data might we find to layer onto this map to tell a fuller story?
+
+
