@@ -88,8 +88,8 @@ Activists want to know how many facilities in Hampshire County reported to the T
 
 ### Part 4: Analyzing the data
 
--   Download 2018 Toxic Release Inventory data for Louisiana [here](https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present).
--   Download 2018 Racial Demographics data from the U.S. Census [here](../data/race_la_2018.geojson)
+-   Download 2021 Toxic Release Inventory data for Louisiana [here](https://www.epa.gov/toxics-release-inventory-tri-program/tri-basic-data-files-calendar-years-1987-present).
+-   Download 2021 Racial Demographics data from the U.S. Census [here](../data/race_la_2021.geojson)
 
 Open Tableau, and create a new workbook called `tri_la_2021`. Click "Connect to Data" and the `race_la_2021.geojson` file as a Spatial File. In the top menu, click Data \> New Data Source. Add `2021_la.csv` as a Text file. Both of these datasets have already been cleaned to save time in class. 
 
